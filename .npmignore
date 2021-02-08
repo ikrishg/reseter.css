@@ -1,0 +1,8 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore Vscode's Settings
+.vscode
+
+# Ignore .github in npm to reduce size
+.github
