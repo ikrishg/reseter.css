@@ -1,0 +1,62 @@
+{
+    "name": "krishdevdb/reseter.css",
+    "description": "Reset All CSS By Browsers With Reseter.css. And Make Web Look Same Across All Browsers",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "Reset.css",
+        "Normalize.css",
+        "Sanitize.css",
+        "Reboot",
+        "Css",
+        "Sass",
+        "Scss",
+        "Stylus",
+        "less"
+    ],
+    "homepage": "https://krishdevdb.github.io/reseter.css/",
+    "readme": "./readme.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krish",
+            "email": "krishdevdb@gmail.com",
+            "homepage": "https://github.com/krishdevdb/",
+            "role": "owner"
+        }
+    ],
+    "support": {
+        "chat": "https://discord.gg/N87Apthjgu",
+        "forum": "https://github.com/krishdevdb/reseter.css/discussions",
+        "issues": "https://github.com/krishdevdb/reseter.css/issues",
+        "source": "https://github.com/krishdevdb",
+        "wiki": "https://github.com/krishdevdb/reseter.css/wiki",
+        "docs": "https://krishdevdb.github.io/reseter.css/",
+        "email": "krishdevdb@gmail.com"
+    },
+    "scripts": {
+        "reseter:yarn:init": "npm install yarn -g --save-dev",
+        "reseter:sass:build": "yarn sass:compile && yarn pcss && yarn lint && yarn minify",
+        "reseter:sass:compile": "sass src/sass/reseter.sass css/reseter.css --no-source-map",
+        "reseter:scss:build": "yarn scss:compile && yarn pcss && yarn lint && yarn minify",
+        "reseter:scss:compile": "sass src/scss/reseter.scss css/reseter.css --no-source-map",
+        "reseter:less:build": "yarn less:compile && yarn pcss && yarn lint && yarn minify",
+        "reseter:less:compile": "lessc src/less/reseter.less css/reseter.css",
+        "reseter:stylus:build": "yarn stylus:compile && yarn pcss && yarn lint && yarn minify",
+        "reseter:stylus:compile": "stylus src/stylus/reseter.styl -o css/reseter.css",
+        "reseter:lint": "stylelint css/reseter.css --fix",
+        "reseter:pcss": "postcss css/reseter.css -r --no-map -u autoprefixer",
+        "reseter:minify": "cleancss css/reseter.css -o css/reseter.min.css && bundlewatch --config .bundlewatch.config.json"
+    },
+    "files": [
+        "dist",
+        "src",
+        "LICENSE",
+        "changelog.md",
+        "readme.md",
+        ".browserslistrc",
+        ".stylelintrc",
+        ".bundlewatch.config.json"
+    ],
+    "minimum-stability": "stable"
+}
