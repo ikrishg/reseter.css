@@ -21,3 +21,30 @@ All notable changes to this project will are being listed in this file.
 *   :memo: Docs
 *   :pencil2: Update Links
 *   :package: Publish To Meteor
+
+## 1.0.1
+
+* Code Cleanup
+* Bug Fixes
+
+## 1.0.2
+
+* Code Cleanup
+* Bug Fixes
+
+## 1.0.3
+
+* Code Cleanup
+* Bug Fixes
+
+## 1.0.4
+
+* Code Cleanup
+* Bug Fixes
+
+## 1.0.5
+
+* Publish To Distributors
+* Code Cleanup
+* Bug Fixes
+* Code Style Change
