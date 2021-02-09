@@ -6,8 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-@media ( prefers-reduced-motion: reduce ) {
-
+@media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
@@ -118,7 +117,9 @@ video {
 }
 
 html {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -174,8 +175,7 @@ h6 {
 h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
-@media ( min-width: 1200px ) {
-
+@media (min-width: 1200px) {
   h1 {
     font-size: 2.5rem;
   }
@@ -184,8 +184,7 @@ h1 {
 h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
-@media ( min-width: 1200px ) {
-
+@media (min-width: 1200px) {
   h2 {
     font-size: 2rem;
   }
@@ -194,8 +193,7 @@ h2 {
 h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
-@media ( min-width: 1200px ) {
-
+@media (min-width: 1200px) {
   h3 {
     font-size: 1.75rem;
   }
@@ -204,8 +202,7 @@ h3 {
 h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
-@media ( min-width: 1200px ) {
-
+@media (min-width: 1200px) {
   h4 {
     font-size: 1.5rem;
   }
@@ -312,13 +309,13 @@ sup {
 
 a {
   cursor: pointer;
-  color: #3333E1;
+  color: rgb(51, 51, 225);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3434E0;
+  color: #3434e0;
   text-decoration: underline;
 }
 
@@ -326,7 +323,8 @@ a:focus {
   outline: thin dotted;
 }
 
-a:not([href]):not(class), a:not([href]):not([class]):hover {
+a:not([href]):not(class),
+a:not([href]):not([class]):hover {
   cursor: default;
   color: inherit;
   text-decoration: none;
@@ -348,7 +346,9 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Consolas, "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Menlo, Consolas, "Roboto Mono", "Ubuntu Monospace", "Noto Mono",
+    "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1em;
 }
 
@@ -502,7 +502,7 @@ select {
   text-transform: none;
 }
 
-[role=button] {
+[role="button"] {
   cursor: pointer;
 }
 
@@ -526,16 +526,16 @@ select:not([multiple]):not([size]) {
 }
 
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
 button:not(disabled),
-[type=button]:not(disabled),
-[type=reset]:not(disabled),
-[type=submit]:not(disabled) {
+[type="button"]:not(disabled),
+[type="reset"]:not(disabled),
+[type="submit"]:not(disabled) {
   cursor: pointer;
 }
 
@@ -568,8 +568,7 @@ legend {
   max-width: 100%;
   white-space: normal;
 }
-@media ( max-width: 1200px ) {
-
+@media (max-width: 1200px) {
   legend {
     font-size: 1.5rem;
   }
@@ -621,25 +620,25 @@ dialog:not([open]) {
   opacity: 0.54;
 }
 
-[type=search] {
+[type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
   -moz-appearance: none;
   box-sizing: content-box;
 }
 
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration,
-input[type=search]::-webkit-search-results-button,
-input[type=search]::-webkit-search-results-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
-[type=tel],
-[type=url],
-[type=email],
-[type=number] {
+[type="tel"],
+[type="url"],
+[type="email"],
+[type="number"] {
   direction: ltr;
 }
 
@@ -700,7 +699,7 @@ template {
   display: none;
 }
 
-[aria-busy=true] {
+[aria-busy="true"] {
   cursor: progress;
 }
 
@@ -708,16 +707,16 @@ template {
   cursor: pointer;
 }
 
-[aria-disabled=true],
+[aria-disabled="true"],
 [disabled] {
   cursor: not-allowed;
 }
 
-[aria-hidden=false][hidden=false] {
+[aria-hidden="false"][hidden="false"] {
   display: initial;
 }
 
-[aria-hidden=false][hidden=false]:not(:focus) {
+[aria-hidden="false"][hidden="false"]:not(:focus) {
   clip: rect(0, 0, 0, 0);
   position: absolute;
 }
