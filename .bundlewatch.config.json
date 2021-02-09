@@ -1,0 +1,13 @@
+{
+    "files": [
+        {
+            "path": "css/reseter.css",
+            "maxSize": "3kb"
+        },
+        {
+            "path": "css/reseter.min.css",
+            "maxSize": "3kb"
+        }
+    ],
+    "defaultCompression": "gzip"
+}
