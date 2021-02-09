@@ -1,9 +1,12 @@
+@charset "UTF-8"
+
 *,
 *::before,
 *::after
   box-sizing: border-box
   scroll-behavior: smooth
-  @media (prefers-reduced-motion: reduce)
+
+  @media ( prefers-reduced-motion: reduce )
     animation-delay: -1ms
     animation-duration: 1ms
     animation-iteration-count: 1
@@ -98,12 +101,12 @@ video
   margin: 0
   padding: 0
   border: none
-  font-size: 100%
   font: inherit
+  font-size: 100%
   vertical-align: baseline
 
 html
-  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
   font-size: 1rem
   font-weight: 400
   line-height: 1.5
@@ -135,6 +138,7 @@ hr
   border: 0
   opacity: 0.25
   overflow: visible
+
   &:not([size])
     height: 1px
 
@@ -151,22 +155,26 @@ h6
 
 h1
   font-size: calc(1.375rem + 1.5vw)
-  @media (min-width: 1200px)
+
+  @media ( min-width: 1200px )
     font-size: 2.5rem
 
 h2
   font-size: calc(1.325rem + 0.9vw)
-  @media (min-width: 1200px)
+
+  @media ( min-width: 1200px )
     font-size: 2rem
 
 h3
   font-size: calc(1.3rem + 0.6vw)
-  @media (min-width: 1200px)
+  
+  @media ( min-width: 1200px )
     font-size: 1.75rem
 
 h4
   font-size: calc(1.275rem + 0.3vw)
-  @media (min-width: 1200px)
+
+  @media ( min-width: 1200px )
     font-size: 1.5rem
 
 h5
@@ -181,7 +189,6 @@ p
 
 abbr[title],
 abbr[data-bs-original-title]
-  text-decoration: underline
   -webkit-text-decoration: underline dotted
   text-decoration: underline dotted
   cursor: help
@@ -213,8 +220,8 @@ nav li
   list-style: none
   padding: 0
 
-nav li::before
-  content: "\200B"
+  &::before
+    content: "​"
 
 dt
   font-weight: 700
@@ -252,14 +259,17 @@ sup
 
 a
   cursor: pointer
-  color: #3434e0
+  color: rgb(51, 51, 225)
   background-color: transparent
   text-decoration: none
+
   &:hover
-    color: #3434e0
+    color: rgb(52, 52, 224)
     text-decoration: underline
+
   &:focus
     outline: thin dotted
+
   &:not([href]):not(class),
   &:not([href]):not([class]):hover
     cursor: default
@@ -281,29 +291,28 @@ pre,
 code,
 kbd,
 samp
-  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+  font-family: Menlo, Consolas, "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
   font-size: 1em
 
 pre
   display: block
   margin-top: 0
   margin-bottom: 1rem
-  overflow: auto
   font-size: 0.875em
   overflow: auto
   -ms-overflow-style: scrollbar
 
-pre code
-  font-size: inherit
-  color: inherit
-  word-break: normal
+  code
+    font-size: inherit
+    color: inherit
+    word-break: normal
 
 code
   font-size: 0.875em
   color: inherit
   word-wrap: break-word
 
-a > code
+a > *
   color: inherit
 
 kbd
@@ -312,6 +321,7 @@ kbd
   color: inherit
   background-color: inherit
   border-radius: 0.2rem
+
   kbd
     padding: 0
     font-size: 1em
@@ -337,8 +347,10 @@ video
   vertical-align: middle
 
 svg
+
   &:not([fill])
     fill: currentColor
+
   &:not(:root)
     overflow: hidden
 
@@ -377,6 +389,7 @@ label
 button
   border-radius: 0
   text-transform: none
+
   &:focus
     outline: dotted 1px
     outline: -webkit-focus-ring-color auto 5px
@@ -410,7 +423,7 @@ button,
 select
   text-transform: none
 
-[role=button]
+[role="button"]
   cursor: pointer
 
 select
@@ -418,6 +431,7 @@ select
   -webkit-appearance: none
   text-transform: none
   word-wrap: normal
+
   &:not([multiple]):not([size])
     background-image: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E"
 
@@ -428,26 +442,17 @@ select
   display: none
 
 button,
-[type=button],
-[type=reset],
-[type=submit]
+[type="button"],
+[type="reset"],
+[type="submit"]
   -webkit-appearance: button
 
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled)
-  cursor: pointer
+  &:not(disabled)
+    cursor: pointer
 
-::-moz-focus-inner
-  padding: 0
-  border-style: none
-
-:-moz-focusring
-  outline: 1px dotted ButtonText
-
-:-moz-ui-invalid
-  box-shadow: none
+::-webkit-file-upload-button
+  font: inherit
+  -webkit-appearance: button
 
 textarea
   overflow: auto
@@ -470,8 +475,10 @@ legend
   line-height: inherit
   max-width: 100%
   white-space: normal
-  @media (max-width: 1200px )
+
+  @media ( max-width: 1200px )
     font-size: 1.5rem
+
   & + *
     clear: left
 
@@ -480,13 +487,18 @@ dialog
   border: solid
   color: inherit
   display: block
+  height: -webkit-fit-content
+  height: -moz-fit-content
   height: fit-content
   left: 0
   margin: auto
   padding: 1em
   position: absolute
   right: 0
+  width: -webkit-fit-content
+  width: -moz-fit-content
   width: fit-content
+
   &:not([open])
     display: none
 
@@ -507,16 +519,16 @@ dialog
   color: inherit
   opacity: 0.54
 
-[type=search]
+[type="search"]
   outline-offset: -2px
   -webkit-appearance: none
   -moz-appearance: none
   box-sizing: content-box
 
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration,
-input[type=search]::-webkit-search-results-button,
-input[type=search]::-webkit-search-results-decoration
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration
   -webkit-appearance: none
   -moz-appearance: none
 
@@ -529,12 +541,15 @@ input[type=search]::-webkit-search-results-decoration
 ::-webkit-color-swatch-wrapper
   padding: 0
 
-::file-selector-button
-  font: inherit
+::-moz-focus-inner
+  padding: 0
+  border-style: none
 
-::-webkit-file-upload-button
-  font: inherit
-  -webkit-appearance: button
+:-moz-ui-invalid
+  box-shadow: none
+
+:-moz-focusring
+  outline: 1px dotted ButtonText
 
 output
   display: inline-block
@@ -578,8 +593,9 @@ template
 [disabled]
   cursor: not-allowed
 
-[aria-hidden="false"][hidden=false]
+[aria-hidden="false"][hidden="false"]
   display: initial
+
   &:not(:focus)
     clip: rect(0, 0, 0, 0)
     position: absolute
