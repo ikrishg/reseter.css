@@ -24,27 +24,27 @@ All notable changes to this project will are being listed in this file.
 
 ## 1.0.1
 
-* Code Cleanup
-* Bug Fixes
+* :zap: Code Cleanup
+* :bug: Bug Fixes
 
 ## 1.0.2
 
-* Code Cleanup
-* Bug Fixes
+* :zap: Code Cleanup
+* :bug: Bug Fixes
 
 ## 1.0.3
 
-* Code Cleanup
-* Bug Fixes
+* :zap: Code Cleanup
+* :bug: Bug Fixes
 
 ## 1.0.4
 
-* Code Cleanup
-* Bug Fixes
+* :zap: Code Cleanup
+* :bug: Bug Fixes
 
 ## 1.0.5
 
-* Publish To Distributors
-* Code Cleanup
-* Bug Fixes
-* Code Style Change
+* :package: Publish To Distribution Channels
+* :zap: Code Cleanup
+* :bug: Bug Fixes
+* :art: Code Style Change
