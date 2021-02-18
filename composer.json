@@ -1,7 +1,7 @@
 {
     "name": "krishdevdb/reseter.css",
     "description": "Reset All CSS By Browsers With Reseter.css. And Make Web Look Same Across All Browsers",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "type": "library",
     "keywords": [
         "Reset.css",
