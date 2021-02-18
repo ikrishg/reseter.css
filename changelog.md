@@ -18,7 +18,6 @@ All notable changes to this project will are being listed in this file.
 *   :art: Make The Code More Cleaner
 *   :sparkles: CDN Installation
 *   :sparkles: Bower Installation
-*   :memo: Docs
 *   :pencil2: Update Links
 *   :package: Publish To Meteor
 
@@ -48,3 +47,11 @@ All notable changes to this project will are being listed in this file.
 * :zap: Code Cleanup
 * :bug: Bug Fixes
 * :art: Code Style Change
+
+## 1.0.6
+
+* :art: Prettify
+* :bug: Bug Fixes
+* :truck: Directory CHanges
+* :zap: Code Cleanup
+* :fire: Remove Stylelint
