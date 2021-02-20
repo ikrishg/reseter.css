@@ -151,7 +151,7 @@ bower install krishdevdb/reseter.css
 *   JsDelivir
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css/">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
 ```
 
 <a href="#resetercss">Back To Top</a>
@@ -174,7 +174,7 @@ bower install krishdevdb/reseter.css
 
 ### Downloads
 
-*   Reseter.min.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css
+*   Reseter.min.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css
 *   Reseter.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.css
 *   Full Repository - https://github.com/krishdevdb/reseter.css/archive/master.zip
 
