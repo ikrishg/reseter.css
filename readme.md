@@ -476,7 +476,9 @@ Hi! 👋 We’re excited that you’re using **Reseter.css** and we’d love to 
 <a href="https://github.com/krishdevdb/reseter.css/stargazers">
 <img src="https://reporoster.com/stars/krishdevdb/reseter.css">
 </a>
+
 ### Forks
+
 <a href="https://github.com/krishdevdb/reseter.css/fork">
 <img src="https://reporoster.com/forks/krishdevdb/reseter.css">
 </a>
