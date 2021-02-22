@@ -3,7 +3,8 @@
 <img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.svg"><br><h1>Reseter.css</h1>
 <h5>A CSS Reset/Normalizer</h5>
 <p><b>Reseter.css</b> is a css <b>reset</b> and <b>normalizer</b>. <b>Reseter.css</b> resets all the premade styles by the browser. Normalizes the browser's stylesheet. Removes most browser inconsistencies. Makes 90% styles be inherited by the parent. And much more...</p>
-<img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&label=Tweet&logo=twitter&style=flat-square&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css">
+   <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&label=Tweet&logo=twitter&style=flat-square&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a>
+<a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=github&style=flat-square"></a>
 </div><br>
 
 ## Table Of Contents
