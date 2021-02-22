@@ -26,6 +26,7 @@
 *   [Support](#support)
 *   [Roadmap](#roadmap)
 *   [Authors](#authors)
+*   [Supporters](#supporters)
 *   [License](#license)
 *   [Status](#status)
 
@@ -469,6 +470,16 @@ Hi! 👋 We’re excited that you’re using **Reseter.css** and we’d love to 
 |                            Krish                             |
 |           [Github](https://github.com/krishdevdb)            |
 |             [Email](mailto:krishdevdb@gmail.com)             |
+
+## Supporter
+### Stargazers
+<a href="https://github.com/krishdevdb/reseter.css/stargazers">
+[![Stargazers repo roster for @krishdevdb/reseter.css](https://reporoster.com/stars/krishdevdb/reseter.css)](https://github.com/krishdevdb/reseter.css/stargazers)
+</a>
+### Forks
+<a href="https://github.com/krishdevdb/reseter.css/fork">
+[![Forkers repo roster for @krishdevdb/reseter.css](https://reporoster.com/forks/krishdevdb/reseter.css)](https://github.com/krishdevdb/reseter.css/network/members)
+</a>
 
 ## License
 
