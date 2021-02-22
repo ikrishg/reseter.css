@@ -3,7 +3,7 @@
 <img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.svg"><br><h1>Reseter.css</h1>
 <h5>A CSS Reset/Normalizer</h5>
 <p><b>Reseter.css</b> is a css <b>reset</b> and <b>normalizer</b>. <b>Reseter.css</b> resets all the premade styles by the browser. Normalizes the browser's stylesheet. Removes most browser inconsistencies. Makes 90% styles be inherited by the parent. And much more...</p>
-<button style="background-color: #5E8CF4; border-color: #5E8CF4; color: #ffffff;">Read Docs >></button>
+<img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&label=Tweet&logo=twitter&style=flat-square&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css">
 </div><br>
 
 ## Table Of Contents
