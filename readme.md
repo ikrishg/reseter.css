@@ -471,14 +471,14 @@ Hi! 👋 We’re excited that you’re using **Reseter.css** and we’d love to 
 |           [Github](https://github.com/krishdevdb)            |
 |             [Email](mailto:krishdevdb@gmail.com)             |
 
-## Supporter
+## Supporters
 ### Stargazers
 <a href="https://github.com/krishdevdb/reseter.css/stargazers">
-[![Stargazers repo roster for @krishdevdb/reseter.css](https://reporoster.com/stars/krishdevdb/reseter.css)](https://github.com/krishdevdb/reseter.css/stargazers)
+<img src="https://reporoster.com/stars/krishdevdb/reseter.css)](https://github.com/krishdevdb/reseter.css/stargazers">
 </a>
 ### Forks
 <a href="https://github.com/krishdevdb/reseter.css/fork">
-[![Forkers repo roster for @krishdevdb/reseter.css](https://reporoster.com/forks/krishdevdb/reseter.css)](https://github.com/krishdevdb/reseter.css/network/members)
+<img src="https://reporoster.com/forks/krishdevdb/reseter.css)](https://github.com/krishdevdb/reseter.css/network/members">
 </a>
 
 ## License
