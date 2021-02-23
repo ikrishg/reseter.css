@@ -1,9 +1,12 @@
 <div align="center">
-<p><a href="https://github.com/krishdevdb/reseter.css/releases"><img src="https://img.shields.io/github/v/release/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://www.npmjs.com/package/reseter.css"><img src="https://img.shields.io/npm/v/reseter.css?style=flat-square"></a> <a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a><a href="https://github.com/krishdevdb/reseter.css/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square"></a></p>
+<p><a href="https://github.com/krishdevdb/reseter.css/releases"><img src="https://img.shields.io/github/v/release/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://www.npmjs.com/package/reseter.css"><img src="https://img.shields.io/npm/v/reseter.css?style=flat-square"></a> <a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a><a href="https://github.com/krishdevdb/reseter.css/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square"></a> <img src="https://img.shields.io/badge/Price-Free-brightgreen"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<img src="https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square">
+<!-- ALL-CONTRIBUTORS-BADGE:END --> </p>
 <img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.svg"><br><h1>Reseter.css</h1>
 <h5>A CSS Reset/Normalizer</h5>
 <p><b>Reseter.css</b> is a css <b>reset</b> and <b>normalizer</b>. <b>Reseter.css</b> resets all the premade styles by the browser. Normalizes the browser's stylesheet. Removes most browser inconsistencies. Makes 90% styles be inherited by the parent. And much more...</p>
-<button style="background-color: #5E8CF4; border-color: #5E8CF4; color: #ffffff;">Read Docs >></button>
+   <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&label=Tweet&logo=twitter&style=flat-square&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a>
+<a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=github&style=flat-square"></a>
 </div><br>
 
 ## Table Of Contents
@@ -25,6 +28,7 @@
 *   [Support](#support)
 *   [Roadmap](#roadmap)
 *   [Authors](#authors)
+*   [Supporters](#supporters)
 *   [License](#license)
 *   [Status](#status)
 
@@ -151,7 +155,7 @@ bower install krishdevdb/reseter.css
 *   JsDelivir
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css/">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
 ```
 
 <a href="#resetercss">Back To Top</a>
@@ -174,7 +178,7 @@ bower install krishdevdb/reseter.css
 
 ### Downloads
 
-*   Reseter.min.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css
+*   Reseter.min.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css
 *   Reseter.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.css
 *   Full Repository - https://github.com/krishdevdb/reseter.css/archive/master.zip
 
@@ -468,6 +472,18 @@ Hi! 👋 We’re excited that you’re using **Reseter.css** and we’d love to 
 |                            Krish                             |
 |           [Github](https://github.com/krishdevdb)            |
 |             [Email](mailto:krishdevdb@gmail.com)             |
+
+## Supporters
+### Stargazers
+<a href="https://github.com/krishdevdb/reseter.css/stargazers">
+<img src="https://reporoster.com/stars/krishdevdb/reseter.css">
+</a>
+
+### Forks
+
+<a href="https://github.com/krishdevdb/reseter.css/fork">
+<img src="https://reporoster.com/forks/krishdevdb/reseter.css">
+</a>
 
 ## License
 
