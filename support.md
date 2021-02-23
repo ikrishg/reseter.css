@@ -1,6 +1,6 @@
 # Support
 
-> This project has a \[code of conduct]\[https://github.com/krishdevdb/reseter.css/blob/master/.github/contributing.md].
+> This project has a [code of conduct](https://github.com/krishdevdb/reseter.css/blob/master/.github/contributing.md).
 > By interacting with this repository, or community you agree to
 > abide by its terms.
 
