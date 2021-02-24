@@ -1,7 +1,5 @@
 <div align="center">
-<p><a href="https://github.com/krishdevdb/reseter.css/releases"><img src="https://img.shields.io/github/v/release/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://www.npmjs.com/package/reseter.css"><img src="https://img.shields.io/npm/v/reseter.css?style=flat-square"></a> <a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a><a href="https://github.com/krishdevdb/reseter.css/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square"></a> <img src="https://img.shields.io/badge/Price-Free-brightgreen"><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img src="https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square">
-<!-- ALL-CONTRIBUTORS-BADGE:END --> </p>
+<p><a href="https://github.com/krishdevdb/reseter.css/releases"><img src="https://img.shields.io/github/v/release/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://www.npmjs.com/package/reseter.css"><img src="https://img.shields.io/npm/v/reseter.css?style=flat-square"></a> <a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a><a href="https://github.com/krishdevdb/reseter.css/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square"></a> <img src="https://img.shields.io/badge/Price-Free-brightgreen?style=flat-square">
 <img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.svg"><br><h1>Reseter.css</h1>
 <h5>A CSS Reset/Normalizer</h5>
 <p><b>Reseter.css</b> is a css <b>reset</b> and <b>normalizer</b>. <b>Reseter.css</b> resets all the premade styles by the browser. Normalizes the browser's stylesheet. Removes most browser inconsistencies. Makes 90% styles be inherited by the parent. And much more...</p>
@@ -29,6 +27,9 @@
 *   [Roadmap](#roadmap)
 *   [Authors](#authors)
 *   [Supporters](#supporters)
+    * [Stargazers](#stargazers) 
+    * [Forkers](#stargazers)
+*   [Thanks](#thanks)
 *   [License](#license)
 *   [Status](#status)
 
@@ -484,6 +485,10 @@ Hi! 👋 We’re excited that you’re using **Reseter.css** and we’d love to 
 <a href="https://github.com/krishdevdb/reseter.css/fork">
 <img src="https://reporoster.com/forks/krishdevdb/reseter.css">
 </a>
+
+## Thanks
+### Stars
+[![Stargazers over time](https://starchart.cc/krishdevdb/reseter.css.svg)](https://starchart.cc/krishdevdb/reseter.css)
 
 ## License
 
