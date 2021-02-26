@@ -1,11 +1,12 @@
 <div align="center">
-<p><a href="https://github.com/krishdevdb/reseter.css/releases"><img src="https://img.shields.io/github/v/release/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://www.npmjs.com/package/reseter.css"><img src="https://img.shields.io/npm/v/reseter.css?style=flat-square"></a> <a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a><a href="https://github.com/krishdevdb/reseter.css/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square"></a> <img src="https://img.shields.io/badge/Price-Free-brightgreen?style=flat-square"></p>
+<p><a href="https://www.npmjs.com/package/reseter.css"><img src="https://img.shields.io/npm/v/reseter.css?style=flat-square"></a> <a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a><a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square"></a></p>
 <img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.svg"><br><h1>Reseter.css</h1>
 <h5>A CSS Reset/Normalizer</h5>
 <p><b>Reseter.css</b> is a css <b>reset</b> and <b>normalizer</b>. <b>Reseter.css</b> resets all the premade styles by the browser. Normalizes the browser's stylesheet. Removes most browser inconsistencies. Makes 90% styles be inherited by the parent. And much more...</p>
-   <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&label=Tweet&logo=twitter&style=flat-square&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a>
-<a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=github&style=flat-square"></a>
+   <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a>
+<a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=Github&style=for-the-badge"></a>
 </div><br>
+
 
 ## Table Of Contents
 
@@ -23,7 +24,8 @@
     *   [React](#react)
     *   [Vue](#vue)
     *   [Next.js](#nextjs)
-*   [Support](#support)
+*   [Get Support](#get-support)
+*   [Support Us](#support-us)
 *   [Roadmap](#roadmap)
 *   [Authors](#authors)
 *   [Supporters](#supporters)
@@ -448,13 +450,69 @@ export default function Page(){
 >
 > Please Add A Issue In Github With The Label Feature Request.
 
-## Support
+## Get Support
 
-Hi! 👋 We’re excited that you’re using **Reseter.css** and we’d love to help.
+> This project has a [code of conduct](https://github.com/krishdevdb/reseter.css/blob/master/.github/contributing.md).
+> By interacting with this repository, or community you agree to
+> abide by its terms.
 
-*   [Chat Us On Discord](https://discord.gg/N87Apthjgu)
+Hi! 👋
+We’re excited that you’re using **reseter.css** and we’d love to help.
+
+*   [Chat Us On Discord](https://discord.gg/xqh38kb6sv)
 *   [Start A Discussion On Github](https://github.com/krishdevdb/reseter.css/discussions)
 *   [Add A Issue On Github](https://github.com/krishdevdb/reseter.css/issues)
+
+## Support Us
+
+### Review
+
+* <a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+### Spread
+
+* Twitter:  <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/badge/Share-Twitter-%231DA1F2?style=flat-square"></a>
+* Facebook: <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Facebook-%233b5998?style=flat-square"></a>
+* Linkedin: <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Linkedin-%230e76a8?style=flat-square"></img></a>
+* Pinterest:  <a href="https://pinterest.com/pin/create/button/?url=https://github.com/krishdevdb/reseter.css&media=https://i.ibb.co/3vbFKfD/Reseter-css.png&description=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Pinterest-%23c8232c?style=flat-square"></img></a>
+* Email: <a href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://github.com/krishdevdb/reseter.css%0AReseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Email-green?style=flat-square"></img></a>
+
+### Sponsor
+
+<ul>
+        <li>
+          <span>
+            <img width="32" height="32" alt="patreon" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/patreon.svg">
+          </span>
+          <span>
+            <a href="https://patreon.com/krishdevdb"><span>patreon.com/<strong>krishdevdb</strong></span></a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <img width="32" height="32" alt="opencollective" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/open_collective.svg">
+          </span>
+          <span>
+            <a href="https://opencollective.com/resetercss"><span>opencollective.com/<strong>resetercss</strong></span></a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <img width="32" height="32" alt="ko_fi" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/ko_fi.svg">
+          </span>
+          <span>
+            <a href="https://ko-fi.com/krishdevdb"><span>ko-fi.com/<strong>krishdevdb</strong></span></a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <img width="32" height="32" alt="liberapay" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/liberapay.svg">
+          </span>
+          <span>
+            <a href="https://liberapay.com/krishdevdb"><span>liberapay.com/<strong>krishdevdb</strong></span></a>
+          </span>
+        </li>
+  </ul>
 
 ## Roadmap
 
@@ -493,19 +551,19 @@ Hi! 👋 We’re excited that you’re using **Reseter.css** and we’d love to 
 ## License
 
     MIT License
-
+    
     Copyright (c) 2021 Krish Dev DB
-
+    
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-
+    
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-
+    
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
