@@ -2,7 +2,7 @@
 node_modules/
 
 # Ignore Vscode's Settings
-.vscode
+.vscode/
 
 # Ignore .github in npm to reduce size
-.github
+.github/
