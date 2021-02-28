@@ -44,7 +44,7 @@
     "sass:minify": "cleancss css/reseter.css -o css/reseter.min.css",
     "sass:compress": "bundlewatch --config .bundlewatch.config.json",
     "scss:build": "yarn scss:compile && yarn scss:prefix && yarn scss:minify && yarn scss:compress",
-    "scss:compile": "sass src/scss/reseter.sass css/reseter.css --no-source-map",
+    "scss:compile": "sass src/scss/reseter.scss css/reseter.css --no-source-map",
     "scss:prefix": "postcss css/reseter.css -r --no-map -u autoprefixer",
     "scss:minify": "cleancss css/reseter.css -o css/reseter.min.css",
     "scss:compress": "bundlewatch --config .bundlewatch.config.json",
