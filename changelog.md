@@ -55,3 +55,8 @@ All notable changes to this project will are being listed in this file.
 * :truck: Directory CHanges
 * :zap: Code Cleanup
 * :fire: Remove Stylelint
+
+## 1.0.7
+* :bug: Fixes
+* :zap: Code Cleanup
+* :zap: Meta Data (readme....)
