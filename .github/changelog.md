@@ -1,4 +1,4 @@
-# [Changelog](https://github.com/krishdevdb/reseter.css/blob/master/changelog.md)
+# Changelog
 
 All notable changes to this project will are being listed in this file.
 
