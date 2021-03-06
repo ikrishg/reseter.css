@@ -10,40 +10,47 @@
 
 ## Table Of Contents
 
-*   [Features](#features)
-*   [Why Use Reseter.css (Must Read)](#why-use-resetercss-must-read)
-*   [Ouick Start](#quick-start)
-*   [Installation](#installation)
-    *   [Package Managers](#package-managers)
-    *   [CDN](#cdn)
-    *   [Downloads](#downloads)
-    *   [Clone Repository](#clone-repository)
-*   [Usage](#usage)
-    *   [Import In A CSS File](#import-in-css)
-    *   [Link Tag In HTML's Head](#link-tag)
-    *   [React](#react)
-    *   [Vue](#vue)
-    *   [Next.js](#nextjs)
-*   [Get Support](#get-support)
-*   [Support Us](#support-us)
-*   [Roadmap](#roadmap)
-*   [Authors](#authors)
-*   [Supporters](#supporters)
-    * [Stargazers](#stargazers) 
-    * [Forkers](#stargazers)
-*   [Thanks](#thanks)
-*   [License](#license)
-*   [Status](#status)
+- [Table Of Contents](#table-of-contents)
+- [Features](#features)
+- [Why Use Reseter.css (Must Read)](#why-use-resetercss-must-read)
+- [Quick Start](#quick-start)
+- [Installation](#installation)
+  - [Package Managers](#package-managers)
+  - [CDN](#cdn)
+  - [Downloads](#downloads)
+  - [Clone Repository](#clone-repository)
+- [Usage](#usage)
+  - [Import In CSS](#import-in-css)
+  - [Link Tag](#link-tag)
+  - [React](#react)
+  - [Styled-Components](#styled-components)
+  - [Vue](#vue)
+  - [Next.js](#nextjs)
+- [Get Support](#get-support)
+- [Support Us](#support-us)
+  - [Review](#review)
+  - [Spread](#spread)
+  - [Sponsor](#sponsor)
+- [Roadmap](#roadmap)
+- [Authors](#authors)
+- [Supporters](#supporters)
+  - [Stargazers](#stargazers)
+  - [Forks](#forks)
+- [Thanks](#thanks)
+  - [Stars](#stars)
+- [License](#license)
+- [Status](#status)
 
 ## Features
 
 *   Adds New Better Styles For Elements
-
+*   Source In 4 Different Formats
 *   Reboots styles for a wide range of elements.
-
 *   Corrects bugs and browser inconsistencies.
-
 *   Sized 2.6<small>kb</small>
+*   Includes all normalizations
+*   Sets `box-sizing: border-box
+*   Fully tested
 
 <a href="#resetercss">Back To Top</a>
 
@@ -59,41 +66,44 @@ Down is the result of a same html file of 3 browsers, all of chrome's headings a
 
 ## Quick Start
 
-1.  Create A HTML File
+#### Step 1
+Create A HTML File
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Testing Reseter.css</title>
-    </head>
-    <body>
-        <h1>This Is The Biggest Heading</h1>
-        <h2>This Is A Slightly Smaller Heading</h2>
-        <h3>This Is A Slightly Smaller Heading</h3>
-        <h4>This Is A Slightly Smaller Heading</h4>
-        <h5>This Is A Slightly Smaller Heading</h5>
-        <h6>This Is The Smallest Heading</h6>
-        <p>A Paragraph</p>
-        <a href="">A Link</a>
-        <button>A Button</button>
-        <ol>
-            <li>An List Item Of A Orderd List</li>
-        </ol>
-        <ul>
-            <li>An List Item Of A Unordered List</li>
-        </ul>
-    </body>
-    </html>
-    ```
+```html
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Testing Reseter.css</title>
+	</head>
+<body>
+		<h1>This Is The Biggest Heading</h1>
+		<h2>This Is A Slightly Smaller Heading</h2>
+		<h3>This Is A Slightly Smaller Heading</h3>
+		<h4>This Is A Slightly Smaller Heading</h4>
+		<h5>This Is A Slightly Smaller Heading</h5>
+		<h6>This Is The Smallest Heading</h6>
+		<p>A Paragraph</p>
+		<a href="">A Link</a>
+		<button>A Button</button>
+		<ol>
+			<li>An List Item Of A Orderd List</li>
+		</ol>
+		<ul>
+			<li>An List Item Of A Unordered List</li>
+		</ul>
+	</body>
+</html>
+```
 
-2.  To the head tag add this code
+#### Step 2
 
-    ```html
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css">
-    ```
+To the head tag add this code
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css">
+```
 
 3.  Now you are all set and you can view the page
 
@@ -105,7 +115,7 @@ There are various ways to install reseter.css. Like Package Managers, CDNs, Loca
 
 ### Package Managers
 
-*   **NPM** - A NodeJs Based Package Manager.
+#### **NPM** - A NodeJs Based Package Manager.
 
 ```bash
 npm install reseter.css
@@ -113,7 +123,7 @@ npm install reseter.css
 
 <a href="#resetercss">Back To Top</a>
 
-*   **Yarn** - A Better Equivalent To NPM.
+#### **Yarn** - A Better Equivalent To NPM.
 
 ```bash
 yarn add reseter.css
@@ -121,7 +131,7 @@ yarn add reseter.css
 
 <a href="#resetercss">Back To Top</a>
 
-*   **PNPM** - A Faster NodeJS Based Package Manager
+#### **PNPM** - A Faster NodeJS Based Package Manager
 
 ```bash
 pnpm install reseter.css
@@ -129,7 +139,7 @@ pnpm install reseter.css
 
 <a href="#resetercss">Back To Top</a>
 
-*   **Meteor** - Another NodeJs Based Package Manager
+#### **Meteor** - Another NodeJs Based Package Manager
 
 ```bash
 meteor add krishdevdb:resetercss
@@ -137,7 +147,7 @@ meteor add krishdevdb:resetercss
 
 <a href="#resetercss">Back To Top</a>
 
-*   **Composer** - The PHP Package Manager
+#### **Composer** - The PHP Package Manager
 
 ```bash
 composer require krishdevdb/reseter.css
@@ -145,7 +155,7 @@ composer require krishdevdb/reseter.css
 
 <a href="#resetercss">Back To Top</a>
 
-*   **Bower** - A Package Manager For The Web
+#### **Bower** - A Package Manager For The Web
 
 ```bash
 bower install krishdevdb/reseter.css
@@ -155,7 +165,7 @@ bower install krishdevdb/reseter.css
 
 ### CDN
 
-*   JsDelivir
+#### JsDelivir
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
@@ -163,7 +173,7 @@ bower install krishdevdb/reseter.css
 
 <a href="#resetercss">Back To Top</a>
 
-*   Unpkg
+#### Unpkg
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/reseter.css">
@@ -171,7 +181,7 @@ bower install krishdevdb/reseter.css
 
 <a href="#resetercss">Back To Top</a>
 
-*   Github
+#### Github
 
 ```html
 <link rel="stylesheet" href="https://github.com/krishdevdb/reseter.css/raw/master/css/reseter.min.css">
@@ -189,19 +199,19 @@ bower install krishdevdb/reseter.css
 
 ### Clone Repository
 
-*   Using Git
+#### Using Git
 
-    ```bash
-    git clone https://github.com/krishdevdb/reseter.css.git
-    ```
+```bash
+git clone https://github.com/krishdevdb/reseter.css.git
+```
 
-    <a href="#resetercss">Back To Top</a>
+<a href="#resetercss">Back To Top</a>
 
-*   Github Cli
+#### Github Cli
 
-    ```bash
-    gh repo clone krishdevdb/reseter.css
-    ```
+```bash
+gh repo clone krishdevdb/reseter.css
+```
 
     <a href="#resetercss">Back To Top</a>
 
@@ -231,8 +241,8 @@ Using It With A Browser Is Really Simple. First Link To Reseter.css Then Your Cu
 
 ```html
 <head>
-<link rel="stylesheet" type="text/css" href="path/to/reseter.min.css">
-<link rel="stylesheet" type="text/css" href="path/to/your-custom-stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="path/to/reseter.min.css">
+	<link rel="stylesheet" type="text/css" href="path/to/your-custom-stylesheet.css">
 </head>
 ```
 
@@ -243,18 +253,17 @@ Using It With A Browser Is Really Simple. First Link To Reseter.css Then Your Cu
 > Make Sure To Link Your Custom Stylesheet After Reseter.css Else Your Custom Styles Might Not Be Implemented
 
 ### React
+####  Apply It Globaly
 
-1.  Apply It Globaly
+In your js file
 
-    In your js file
-
-    ```jsx
-    import "path/to/reseter.min.css";
-    ```
+```jsx
+import "path/to/reseter.min.css";
+```
 
 <a href="#resetercss">Back To Top</a>
 
-   <p align="center"><b>Or</b></p>
+<p align="center"><b>Or</b></p>
 
 In your global css file
 
@@ -278,30 +287,29 @@ ReactDOM.render(
   <React.StrictMode>
   <App />
   </React.StrictMode>,
-  document.getElementById('root')
 );
 ```
 
 <a href="#resetercss">Back To Top</a>
 
-2.  In A Single Page Using React Helmet
-    ```jsx
-    import React from "react";
-    import { Helmet } from "react-helmet";
-                               
-    export default function Page() {
-      return (
-        <div>
-          <Helmet>
+####  In A Single Page Using React Helmet
+```jsx
+import React from "react";
+import { Helmet } from "react-helmet";
+
+export default function Page() {
+    return (
+       <div>
+        <Helmet>
             <link rel="stylesheet" href="path/to/reseter.css" />
             <link rel="stylesheet" href="path/to/custom/style-sheet.css" />
-          </Helmet>
-          <h1>Login</h1>
-          <p>This is the login page</p>
+        </Helmet>
+        <h1>Login</h1>
+        <p>This is the login page</p>
         </div>
-      );
-    }
-    ```
+    );
+}
+```
 
 <a href="#resetercss">Back To Top</a>
 
@@ -338,6 +346,68 @@ export default function Page() {
 
 <a href="#resetercss">Back To Top</a>
 
+### Styled-Components
+#### Globaly
+
+```js
+// styles/index.js
+import { createGlobalStyle } from 'styled-components'
+import resetercss from 'reseter.css/src/styled-components/js/reseter.js'
+/** We also have ts and mjs available
+import resetercss from 'reseter.css/src/styled-components/ts/reseter.ts'
+import resetercss from 'reseter.css/src/styled-components/js/reseter.mjs'
+*/
+
+export const GlobalStyle = createGlobalStyle`
+  ${resetercss}
+
+  // You can continue writing global styles here
+  body {
+    padding: 0;
+    background-color: black;
+  }
+`
+```
+
+#### On A Specific Page
+```jsx
+// index.js
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import { GlobalStyle } from './styles'
+import { App } from './app'
+
+const Root = () => (
+  <React.Fragment>
+    <GlobalStyle />
+    <App />
+  </React.Fragment>
+)
+
+ReactDOM.render(<Root />, document.querySelector('#root'))
+```
+
+```jsx
+// index.js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Normalize } from 'styled-normalize'
+
+import { App } from './app'
+
+const Root = () => (
+  <React.Fragment>
+    <Normalize />
+    <App />
+  </React.Fragment>
+)
+
+ReactDOM.render(<Root />, document.querySelector('#root'))
+```
+
+
+
 ### Vue
 
 In Your Vue File Add This Code
@@ -365,56 +435,56 @@ require('@/path/to/reseter.min.css')
 
 ### Next.js
 
-1.  Apply It Globaly
+###  Apply It Globaly
 
-    In **\_app.js** inside your **pages** directory
+In **\_app.js** inside your **pages** directory
 
-    ```jsx
-    import "path/to/reseter.min.css";
-    ```
+```jsx
+import "path/to/reseter.min.css";
+```
 
-    <p align="center"><b>Or</b></p>
+<p align="center"><b>Or</b></p>
 
-    In your global css file
+In your global css file
 
-    ```css
-    @import "path/to/reseter.min.css";
-    .element{
-        /** Custom Styles **/
-    }
-    ```
+```css
+@import "path/to/reseter.min.css";
+.element{
+/** Custom Styles **/
+}
+```
 
-    Then In Your **\_app.js**
+Then In Your **\_app.js**
 
-    ```jsx
-    import "path/to/global-styles.css";
-                                           
-    export default function App({ Component, pageProps }){
-       return <Component {...pageProps} />
-    }
-    ```
+```jsx
+import "path/to/global-styles.css";
+                                         
+export default function App({ Component, pageProps }){
+    return <Component {...pageProps} />
+}
+```
 
-    <a href="#resetercss">Back To Top</a>
+<a href="#resetercss">Back To Top</a>
 
-2.  Apply It To A Specific Page
+####  Apply It To A Specific Page
 
-    ```jsx
-    import * from "react";
-    import Head from "next/head";
-                                          
-    export default function Page(){
-        return(
+```jsx
+import * from "react";
+import Head from "next/head";
+                                        
+export default function Page(){
+    return(
         <div>
               <Head>
                   <link rel="stylesheet" href="path/to/reseter.min.css">
                   <link rel="stylesheet" href="path/to/custom/style-sheet.css" />
               </Head>  
          </div>
-        )
-    }
-    ```
+    )
+}
+```
 
-    <a href="#resetercss">Back To Top</a>
+<a href="#resetercss">Back To Top</a>
 
 <p align="center"><b>Or</b></p>
 
