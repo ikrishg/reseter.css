@@ -60,7 +60,7 @@ Down is the result of a same html file of 3 browsers, all of chrome's headings a
 
 |                   Chrome                   |                      Internet Explorer                       |                       With Reseter.css                       |
 | :----------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src=".github/assets/chrome.screenshot.png" /> | <img src=".github/assets/ie.screenshot.png" alt="Result" zoom="67%"> | <img src=".github/assets/reseter.screenshot.png" alt="Result" style="zoom: 80%;" /> |
+| <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/chrome.screenshot.png" /> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/ie.screenshot.png" alt="Result" zoom="67%"> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/reseter.screenshot.png" alt="Result" style="zoom: 80%;" /> |
 
 <a href="#resetercss">Back To Top</a>
 
