@@ -3,7 +3,7 @@
 Package.describe({
     name: "krishdevdb:resetercss",
     summary: "Reset All CSS By Browsers With Reseter.css. And Make Web Look Same Across All Browsers",
-    version: "1.0.7",
+    version: "1.0.8",
     git: "https://github.com/krishdevdb/reseter.css.git"
 });
 
