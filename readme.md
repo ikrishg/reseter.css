@@ -33,6 +33,7 @@
   - [Sponsor](#sponsor)
 - [Roadmap](#roadmap)
 - [Authors](#authors)
+- [Contributors](#contributors)
 - [Supporters](#supporters)
   - [Stargazers](#stargazers)
   - [Forks](#forks)
@@ -601,6 +602,8 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 |                            Krish                             |
 |           [Github](https://github.com/krishdevdb)            |
 |             [Email](mailto:krishdevdb@gmail.com)             |
+
+## Contributors
 
 ## Supporters
 ### Stargazers
