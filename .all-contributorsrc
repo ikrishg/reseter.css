@@ -1,0 +1,15 @@
+{
+  "projectName": "reseter.css",
+  "projectOwner": "krishdevdb",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "readme.md"
+  ],
+  "bagdeTemplate": "<a href="#contributors"><img src="https://img.shields.io/badge/All_Contributors-<%= contributors.length %>-orange.svg?style=flat-square" alt=""></a>",
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributors": [],
+  "contributorsPerLine": 7
+}
