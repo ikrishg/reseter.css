@@ -607,6 +607,8 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 ## Contributors
 
 ## Supporters
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 ### Stargazers
 <a href="https://github.com/krishdevdb/reseter.css/stargazers">
 <img src="https://reporoster.com/stars/krishdevdb/reseter.css">
