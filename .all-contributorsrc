@@ -10,6 +10,17 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "gitmoji",
-  "contributors": [],
-  "contributorsPerLine": 7
+  "contributors": [
+    {
+      "login": "tracker1",
+      "name": "Michael J. Ryan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/444316?v=4",
+      "profile": "https://tracker1.dev/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
