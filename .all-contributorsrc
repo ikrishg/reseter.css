@@ -38,6 +38,15 @@
       "contributions": [
         "blog"
       ]
+    },
+    {
+      "login": "phuoc-ng",
+      "name": "phuoc-ng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57786711?v=4",
+      "profile": "https://twitter.com/nghuuphuoc",
+      "contributions": [
+        "tool"
+      ]
     }
   ],
   "contributorsPerLine": 7,
