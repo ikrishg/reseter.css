@@ -1,9 +1,5 @@
 #!/bin/sh
 
-echo "⏳ Installing Depedencies"
-npm i -g yarn
-yarn add sass postcss autoprefixer postcss-cli clean-css-cli bundlewatch
-echo "✅ Installed Dependencies"
 echo "⏳ Compiling SCSS..."
 sass ../src/scss/reseter.scss build/scss/reseter.css --sourcemap=none
 echo "✅ Compiled SCSS"
