@@ -1,0 +1,17 @@
+matrix:
+  include:
+    - language: node_js
+      script:
+        - test/sass.sh
+  include:
+    - language: node_js
+      script:
+        - test/scss.sh
+  include:
+    - language: node_js
+      script:
+        - test/less.sh
+  include:
+    - language: node_js
+      script:
+        - test/stylus.sh
