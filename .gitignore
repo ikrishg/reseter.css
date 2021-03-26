@@ -3,3 +3,9 @@ node_modules/
 
 # Ignore Vscode's Settings
 .vscode
+
+# Ignore All Cache
+*-cache/
+
+# Ignore Test build
+test/build
