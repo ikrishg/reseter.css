@@ -2,7 +2,6 @@ language: node_js
 node_js: 15.5.1
 os:
   - linux
-  - windows
 before_script:
   - npm install
   - chmod +x ./test/sass.sh
