@@ -5,11 +5,15 @@ os:
   - windows
 before_script:
   - npm install
+  - chmod +x ./test/sass.sh
+  - chmod +x ./test/scss.sh
+  - chmod +x ./test/less.sh
+  - chmod +x ./test/stylus.sh
 script:
-  - test/sass.sh
-  - test/scss.sh
-  - test/less.sh
-  - test/stylus.sh
+  - ./test/sass.sh
+  - ./test/scss.sh
+  - ./test/less.sh
+  - ./test/stylus.sh
 branches:
   only:
   - master
