@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "⏳ Compiling SASS..."
-sass ../src/sass/reseter.sass build/sass/reseter.css --sourcemap=none
+sass src/sass/reseter.sass build/sass/reseter.css --no-source-map
 echo "✅ Compiled SASS"
 echo "⏳ Adding Vendor Prefixes..."
 postcss build/sass/reseter.css -r --no-map -u autoprefixer

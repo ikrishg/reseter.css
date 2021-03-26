@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "⏳ Compiling LESS..."
-lessc ../src/less/reseter.less build/less/reseter.css
+lessc src/less/reseter.less build/less/reseter.css
 echo "✅ Compiled LESS"
 echo "⏳ Adding Vendor Prefixes..."
 postcss build/less/reseter.css -r --no-map -u autoprefixer
