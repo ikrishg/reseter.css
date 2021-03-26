@@ -1,17 +1,10 @@
-matrix:
-  include:
-    - language: node_js
-      script:
-        - test/sass.sh
-  include:
-    - language: node_js
-      script:
-        - test/scss.sh
-  include:
-    - language: node_js
-      script:
-        - test/less.sh
-  include:
-    - language: node_js
-      script:
-        - test/stylus.sh
+language: node_js
+os:
+  - linux
+  - windows
+  - osx
+script:
+  - test/sass.sh
+  - test/scss.sh
+  - test/less.sh
+  - test/stylus.sh
