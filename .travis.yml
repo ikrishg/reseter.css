@@ -4,6 +4,8 @@ os:
   - linux
   - windows
   - osx
+before_script:
+  - npm install
 script:
   - test/sass.sh
   - test/scss.sh
