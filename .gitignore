@@ -6,6 +6,3 @@ node_modules/
 
 # Ignore All Cache
 *-cache/
-
-# Ignore Test build
-test/build
