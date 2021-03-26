@@ -615,6 +615,7 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
     <td align="center"><a href="https://github.com/joejenett"><img src="https://avatars.githubusercontent.com/u/52048847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>joejenett</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ajoejenett" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=joejenett" title="Documentation">📖</a></td>
     <td align="center"><a href="https://vincentwill.com/"><img src="https://avatars.githubusercontent.com/u/43953403?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vincent Will</b></sub></a><br /><a href="#blog-vincenius" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://twitter.com/nghuuphuoc"><img src="https://avatars.githubusercontent.com/u/57786711?v=4?s=100" width="100px;" alt=""/><br /><sub><b>phuoc-ng</b></sub></a><br /><a href="#tool-phuoc-ng" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://github.com/krishdevdb"><img src="https://avatars.githubusercontent.com/u/76587897?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krish Dev DB</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Code">💻</a></td>
   </tr>
 </table>
 
