@@ -1,7 +1,6 @@
 language: node_js
 node_js: 15.5.1
-os:
-  - linux
+os: linux
 before_script:
   - npm install
   - chmod +x ./test/sass.sh
@@ -13,6 +12,4 @@ script:
   - ./test/scss.sh
   - ./test/less.sh
   - ./test/stylus.sh
-branches:
-  only:
-  - master
+branches: master
