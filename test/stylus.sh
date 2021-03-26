@@ -1,9 +1,5 @@
 #!/bin/sh
 
-echo "⏳ Installing Depedencies"
-npm i -g yarn
-yarn add stylus postcss autoprefixer postcss-cli clean-css-cli bundlewatch
-echo "✅ Installed Dependencies"
 echo "⏳ Compiling LESS..."
 stylus ../src/stylus/reseter.styl -o build/stylus/reseter.css
 echo "✅ Compiled LESS"

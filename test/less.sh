@@ -1,9 +1,5 @@
 #!/bin/sh
 
-echo "⏳ Installing Depedencies"
-npm i -g yarn
-yarn add less postcss autoprefixer postcss-cli clean-css-cli bundlewatch
-echo "✅ Installed Dependencies"
 echo "⏳ Compiling LESS..."
 lessc ../src/less/reseter.less build/less/reseter.css
 echo "✅ Compiled LESS"
