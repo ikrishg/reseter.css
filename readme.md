@@ -1,12 +1,11 @@
 <div align="center">
-<p><a href="https://www.npmjs.com/package/reseter.css"><img src="https://img.shields.io/npm/v/reseter.css?style=flat-square"></a> <a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square"></a> <a href="#status"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a> <a href="#contributors"><img src="https://img.shields.io/github/all-contributors/krishdevdb/reseter.css?style=flat-square"></a> <a href="https://travis-ci.com/github/krishdevdb/reseter.css"><img src="https://img.shields.io/travis/com/krishdevdb/reseter.css?style=flat-square"></a></p>
+<p><a href="https://www.npmjs.com/package/reseter.css"><img src="https://img.shields.io/npm/v/reseter.css?style=flat-square&logo=npm"></a> <a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square&logo=codefactor"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square&logo=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Ffeather-icons%404.28.0%2Fdist%2Ficons%2Ffile.svg"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square&logo=git"></a> <a href="#contributors"><img src="https://img.shields.io/github/all-contributors/krishdevdb/reseter.css?style=flat-square&logo=github"></a> <a href="https://travis-ci.com/github/krishdevdb/reseter.css"><img src="https://img.shields.io/travis/com/krishdevdb/reseter.css?style=flat-square&logo=travis-ci"></a><a href="https://discord.gg/xqh38kb6sv"><img src="https://img.shields.io/discord/814701786920910909?style=flat-square&logo=discord"></a></p>
 <img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.png"><br><h1>Reseter.css</h1>
 <h5>A CSS Reset/Normalizer</h5>
    <p><b>Reseter.css</b> is an awesome CSS reset for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.</p>
    <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a>
 <a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=Github&style=for-the-badge"></a>
 </div><br>
-
 
 ## Table Of Contents
 
@@ -54,6 +53,26 @@
 *   Fully tested
 
 <a href="#resetercss">Back To Top</a>
+
+## __Reseter.css__ vs __Normalize.css__ vs __Sanitize.css__ vs __Reset.css__
+
+|                      Feature                       |                         Reseter.css                          |                        Normalize.css                         |                         Sanitize.css                         |                          Reset.css                           |
+| :------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                   Normalizations                   |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                             :x:                              |
+|               Basic Elemental Styles               |                      :heavy_check_mark:                      |                             :o:                              |                      :heavy_check_mark:                      |                             :x:                              |
+| Size (By [Bundlephobia](http://bundlephobia.com/)) | ![GitHub file size in bytes](https://img.shields.io/github/size/krishdevdb/reseter.css/css/reseter.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
+|                  Minified Version                  | ![npm bundle size](https://img.shields.io/bundlephobia/min/reseter.css?style=flat-square) |                    :x: (Minify Yourself)                     |                     :x:(Minify Yourself)                     |                     :x:(Minify Yourself)                     |
+|                    GZIP Version                    | ![npm bundle size](https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square) |                    :x: (CompressYourself)                    |                    :x: (CompressYourself)                    |                    :x: (CompressYourself)                    |
+|                     Box Sizing                     |                      :heavy_check_mark:                      |                             :x:                              |                      :heavy_check_mark:                      |                             :x:                              |
+|                  Browser Support                   | Last 5 Versions<br />All Not Dead Browsers<br />**Customisable** | IE 10+<br />Safari 8+<br />Chrome<br />Firefox ESR+<br />Opera<br />Edge | Last 3 Versions<br />Exception: Safari Last 2<br />Also Firefox ESR, IE 9+ |                            Unkown                            |
+
+### Legend
+
+:heavy_check_mark: - Yes
+
+:x: - No
+
+:o: - Partial
 
 ## Why Use Reseter.css (Must Read)
 
@@ -214,7 +233,7 @@ git clone https://github.com/krishdevdb/reseter.css.git
 gh repo clone krishdevdb/reseter.css
 ```
 
-    <a href="#resetercss">Back To Top</a>
+<a href="#resetercss">Back To Top</a>
 
 ## Usage
 
