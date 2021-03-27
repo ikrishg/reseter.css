@@ -11,6 +11,7 @@
 
 - [Table Of Contents](#table-of-contents)
 - [Features](#features)
+- [_Reseter.css_ vs _Normalize.css_ vs _Sanitize.css_ vs _Reset.css_](#resetercss-vs-normalizecss-vs-sanitizecss-vs-resetcss)
 - [Why Use Reseter.css (Must Read)](#why-use-resetercss-must-read)
 - [Quick Start](#quick-start)
 - [Installation](#installation)
@@ -54,7 +55,7 @@
 
 <a href="#resetercss">Back To Top</a>
 
-## __Reseter.css__ vs __Normalize.css__ vs __Sanitize.css__ vs __Reset.css__
+## _Reseter.css_ vs _Normalize.css_ vs _Sanitize.css_ vs _Reset.css_
 
 |                      Feature                       |                         Reseter.css                          |                        Normalize.css                         |                         Sanitize.css                         |                          Reset.css                           |
 | :------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
