@@ -25,6 +25,24 @@
     "url": "https://github.com/krishdevdb/"
   },
   "contributors": [],
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/krishdevdb"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/resetercss"
+    },
+    {
+      "type": "kofi",
+      "url": "https://ko-fi.com/krishdevdb"
+    },
+    {
+      "type": "liberapay",
+      "url": "https://ko-fi.com/krishdevdb"
+    }
+  ],
   "main": "css/reseter.min.css",
   "bin": {},
   "man": [],
