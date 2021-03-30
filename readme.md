@@ -8,7 +8,8 @@
 </div><br>
 
 <a href="#quick-start">
-<h5>Join 6785 People Already Using Reseter.css</h5>
+<h3 align="center">Join 6785 People Already Using Reseter.css</h5>
+
 </a>
 
 <details>
@@ -252,6 +253,17 @@ bower install krishdevdb/reseter.css
 ```
 
 <a href="#resetercss">Back To Top</a>
+
+#### Statically
+
+> Please Note Statically CDN Works Well For Development Practices. Consider Using Other CDNs For Production
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.statically.io/gh/krishdevdb/reseter.css/master/css/reseter.min.css"
+/>
+```
 
 ### Downloads
 
