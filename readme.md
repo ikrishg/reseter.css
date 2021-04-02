@@ -18,7 +18,10 @@
 <li><p><a href="#features">Features</a></p></li>
 <li><p><a href="#resetercss-vs-normalizecss-vs-sanitizecss-vs-resetcss"><em>Reseter.css</em> vs <em>Normalize.css</em> vs <em>Sanitize.css</em> vs <em>Reset.css</em></a></p></li>
 <li><p><a href="#why-use-resetercss-must-read">Why Use Reseter.css (Must Read)</a></p></li>
-<li><p><a href="#quick-start">Quick Start</a></p></li>
+<ul>
+<li><p><a href="#manual">Manual</a></p></li>
+<li><p><a href="#codepen">CodePen</a></p></li>
+</ul>
 <li><p><a href="#installation">Installation</a></p>
 <ul>
 <li><a href="#package-managers">Package Managers</a></li>
@@ -58,6 +61,7 @@
 <li><p><a href="#status">Status</a></p></li>
 </ul>
 </details>
+
 ## Features
 
 - Adds New Better Styles For Elements
@@ -103,6 +107,8 @@ Down is the result of a same html file of 3 browsers, all of chrome's headings a
 
 ## Quick Start
 
+### Manual
+
 #### Step 1
 
 Create A HTML File
@@ -146,7 +152,15 @@ To the head tag add this code
 />
 ```
 
-3.  Now you are all set and you can view the page
+#### Step 3
+
+Now you are all set and you can view the page
+
+### CodePen
+
+| ![](https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codepen.png) |
+| :----------------------------------------------------------------------------------: |
+|            [Use This Template](https://codepen.io/krishdevdb/pen/XWppdvK)            |
 
 <a href="#resetercss">Back To Top</a>
 
