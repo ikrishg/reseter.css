@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.token }}
+        issue-message: 'Thanks For Contributing To Reseter.css. Make sure you follow our contributing guidelines. Our Maintainers Will Review Your Issue Soon! Happy Hacking!'
+        pr-message: 'Thanks For Contributing To Reseter.css. Make sure you follow our contributing guidelines. Our Maintainers Will Review Your Pull Request Soon! Happy Hacking!'
