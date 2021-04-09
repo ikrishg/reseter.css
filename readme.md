@@ -195,12 +195,6 @@ yarn add reseter.css
 pnpm install reseter.css
 ```
 
-#### **Meteor** - Another NodeJs Based Package Manager
-
-```bash
-meteor add krishdevdb:resetercss
-```
-
 #### **Composer** - The PHP Package Manager
 
 ```bash
