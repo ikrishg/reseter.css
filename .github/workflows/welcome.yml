@@ -1,4 +1,4 @@
-name: Greetings
+name: Welcome
 
 on: [pull_request, issues]
 
@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.token }}
+        repo-token: ${{ secrets.repo_token }}
         issue-message: 'Thanks For Contributing To Reseter.css. Make sure you follow our contributing guidelines. Our Maintainers Will Review Your Issue Soon! Happy Hacking!'
         pr-message: 'Thanks For Contributing To Reseter.css. Make sure you follow our contributing guidelines. Our Maintainers Will Review Your Pull Request Soon! Happy Hacking!'
