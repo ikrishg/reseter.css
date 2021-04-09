@@ -10,6 +10,15 @@
   "commit": true,
   "commitConvention": "gitmoji",
   "contributors": [
+      {
+      "login": "krishdevdb",
+      "name": "Krish Dev DB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76587897?v=4",
+      "profile": "https://github.com/krishdevdb",
+      "contributions": [
+        "code"
+      ]
+    },
     {
       "login": "tracker1",
       "name": "Michael J. Ryan",
@@ -45,15 +54,6 @@
       "profile": "https://twitter.com/nghuuphuoc",
       "contributions": [
         "tool"
-      ]
-    },
-    {
-      "login": "krishdevdb",
-      "name": "Krish Dev DB",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76587897?v=4",
-      "profile": "https://github.com/krishdevdb",
-      "contributions": [
-        "code"
       ]
     },
     {
