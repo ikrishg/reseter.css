@@ -22,7 +22,6 @@
   }
 }
 
-input::placeholder { opacity: 1; }
 html,
 body,
 div,
@@ -600,6 +599,10 @@ dialog:not([open]) {
 ::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.54;
+}
+
+input::placeholder {
+  opacity: 1;
 }
 
 [type=search] {
