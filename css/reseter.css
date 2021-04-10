@@ -361,7 +361,7 @@ code {
   word-wrap: break-word;
 }
 
-a > * {
+a > code {
   color: inherit;
 }
 
