@@ -88,6 +88,16 @@
         "ideas",
         "code"
       ]
+    },
+    {
+      "login": "starkana",
+      "name": "aco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7329623?v=4",
+      "profile": "http://miza.org",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
