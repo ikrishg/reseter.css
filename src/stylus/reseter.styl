@@ -106,18 +106,7 @@ video
   vertical-align: baseline
 
 html
-  font-family: system-ui,
-    -apple-system,
-    "Segoe UI",
-    Roboto,
-    Ubuntu,
-    Cantarell,
-    "Noto Sans",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji"
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
   font-size: 1rem
   font-weight: 400
   line-height: 1.5
@@ -297,12 +286,12 @@ summary,
 textarea,
 [tabindex]
   touch-action: manipulation
- 
+
 pre,
 code,
 kbd,
 samp
-  font-family: "Fira Code", "Cascadia Code", Consolas, "Inconsolata", Monaco, Menlo, "Noto Mono", "Roboto Mono", "Droid Sans Mono", "Ubuntu Mono", "Ubuntu Monospace", "Source Code Pro", "Oxygen Mono", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Fira Code", "Cascadia Code", Consolas, "Inconsolata", Monaco, Menlo, "Noto Mono", "Roboto Mono", "Droid Sans Mono", "Ubuntu Mono", "Ubuntu Monospace", "Source Code Pro", "Oxygen Mono", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
   font-size: 1.05em
 
 pre
@@ -444,7 +433,7 @@ select
   word-wrap: normal
 
   &:not([multiple]):not([size])
-    background-image: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E";
+    background-image: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E"
 
 ::-ms-expand
   display: none
@@ -530,6 +519,9 @@ dialog
   color: inherit
   opacity: 0.54
 
+input::placeholder
+  opacity: 1
+  
 [type="search"]
   outline-offset: -2px
   -webkit-appearance: none
@@ -556,10 +548,10 @@ input[type="search"]::-webkit-search-results-decoration
   padding: 0
   border-style: none
 
-:-moz-ui-invalid
+::-moz-ui-invalid
   box-shadow: none
 
-:-moz-focusring
+::-moz-focusring
   outline: 1px dotted ButtonText
 
 output
