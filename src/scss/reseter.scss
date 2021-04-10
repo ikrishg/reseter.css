@@ -559,10 +559,10 @@ input[type="search"]::-webkit-search-results-decoration {
   padding: 0;
   border-style: none;
 }
-:-moz-ui-invalid {
+::-moz-ui-invalid {
   box-shadow: none;
 }
-:-moz-focusring {
+::-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 output {
