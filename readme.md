@@ -8,7 +8,7 @@
 </div><br>
 
 <a href="#quick-start">
-<h3 align="center">Join 6785 People Already Using Reseter.css</h5>
+<h3 align="center">Join 15k People Already Using Reseter.css</h5>
 
 </a>
 
