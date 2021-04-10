@@ -211,6 +211,12 @@ bower install krishdevdb/reseter.css
 
 ### CDN
 
+#### CDNJS
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.1.0/reseter.min.css"/>
+```
+
 #### JsDelivir
 
 ##### Production Ready
