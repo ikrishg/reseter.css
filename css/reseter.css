@@ -601,6 +601,22 @@ dialog:not([open]) {
   opacity: 0.54;
 }
 
+input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input::-moz-placeholder {
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  opacity: 1;
+}
+
+input::placeholder {
+  opacity: 1;
+}
+
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: none;
