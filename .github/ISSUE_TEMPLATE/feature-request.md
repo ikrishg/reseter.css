@@ -1,10 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: 'Request: '
-labels: 'feature request'
+title: "Request: "
+labels: "feature request"
 assignees: krishdevdb'
-
 ---
 
 **Is your feature request related to a problem? Please describe.**
