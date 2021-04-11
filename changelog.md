@@ -4,77 +4,87 @@ All notable changes to this project will are being listed in this file.
 
 ## 1.0.0
 
-* ✨ Source In 4 Different Formats.
-* 🔧 Browserslist Config File For Autoprefixer.
-* 📦 Package.json.
-* 🏗️ Compile The Files.
-* 🙈 .gitignore for github.
-* 🙈 .npmignore for npm.
-* 📄 Mit License File.
-* ✨ Publish To Github.
-* ✨ Add A Changelog.
-* ✨ Publish To NPM.
-* 🎨 Stylelint for code style.
-* 🎨 Make The Code More Cleaner
-* ✨ CDN Installation
-* ✨ Bower Installation
-* 📝 Docs
-* ✏️ Update Links
-* 📦 Publish To Meteor
+- ✨ Source In 4 Different Formats.
+- 🔧 Browserslist Config File For Autoprefixer.
+- 📦 Package.json.
+- 🏗️ Compile The Files.
+- 🙈 .gitignore for github.
+- 🙈 .npmignore for npm.
+- 📄 Mit License File.
+- ✨ Publish To Github.
+- ✨ Add A Changelog.
+- ✨ Publish To NPM.
+- 🎨 Stylelint for code style.
+- 🎨 Make The Code More Cleaner
+- ✨ CDN Installation
+- ✨ Bower Installation
+- 📝 Docs
+- ✏️ Update Links
+- 📦 Publish To Meteor
 
 ## 1.0.1
 
-* ⚡ Code Cleanup
-* 🐛 Bug Fixes
+- ⚡ Code Cleanup
+- 🐛 Bug Fixes
 
 ## 1.0.2
 
-* ⚡ Code Cleanup
-* 🐛 Bug Fixes
+- ⚡ Code Cleanup
+- 🐛 Bug Fixes
 
 ## 1.0.3
 
-* ⚡ Code Cleanup
-* 🐛 Bug Fixes
+- ⚡ Code Cleanup
+- 🐛 Bug Fixes
 
 ## 1.0.4
 
-* ⚡ Code Cleanup
-* 🐛 Bug Fixes
+- ⚡ Code Cleanup
+- 🐛 Bug Fixes
 
 ## 1.0.5
 
-* 📦 Publish To Distribution Channels
-* ⚡ Code Cleanup
-* 🐛 Bug Fixes
-* 🎨 Code Style Change
+- 📦 Publish To Distribution Channels
+- ⚡ Code Cleanup
+- 🐛 Bug Fixes
+- 🎨 Code Style Change
 
 ## 1.0.6
 
-* 🎨 Prettify
-* 🐛 Bug Fixes
-* 🚚 Directory CHanges
-* ⚡ Code Cleanup
-* 🔥 Remove Stylelint
+- 🎨 Prettify
+- 🐛 Bug Fixes
+- 🚚 Directory CHanges
+- ⚡ Code Cleanup
+- 🔥 Remove Stylelint
 
 ## 1.0.7
-* 🐛 Fixes
-* ⚡ Code Cleanup
-* ⚡ Meta Data (readme....)
+
+- 🐛 Fixes
+- ⚡ Code Cleanup
+- ⚡ Meta Data (readme....)
 
 ## 1.0.8
-* 🐛 Fixes
-* ⚡ Code Cleanup
-* ⚡ Meta Data (readme....)
-* ✨ All Contributors
+
+- 🐛 Fixes
+- ⚡ Code Cleanup
+- ⚡ Meta Data (readme....)
+- ✨ All Contributors
 
 ## 1.0.9
-* 🐛 Fixes
-* ✨ All Contributors
-* 📝 Readme
-* 📄 Other Files
-* ➕ More Changes Made
+
+- 🐛 Fixes
+- ✨ All Contributors
+- 📝 Readme
+- 📄 Other Files
+- ➕ More Changes Made
 
 ## 1.1.0
-* 🐛 Fixes Issue #13
-* ✨ Update With Browsers
+
+- 🐛 Fixes Issue #13
+- ✨ Update With Browsers
+
+## 1.1.1
+
+- 🔥 Make Code Shorter
+- ✨ Update With Browsers
+- 🐛 Fix Bugs Of Related Projects
