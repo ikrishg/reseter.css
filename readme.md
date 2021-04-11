@@ -109,6 +109,7 @@ Down is the result of a same html file of 3 browsers, all of chrome's headings a
 ## Quick Start
 
 ### Manual
+
 > [Don't Want To The Manual Method Click Here](#codesandbox)
 
 #### Step 1
@@ -159,15 +160,14 @@ You All Set Now!
 ### CodeSandBox
 
 | [![](https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codesandbox.PNG)](https://codesandbox.io/s/resetercss-26kzw) |
-| :----------------------------------------------------------: |
-| [Use This Template](https://codesandbox.io/s/resetercss-26kzw) |
-
+| :-----------------------------------------------------------------------------------------------------------------------------------: |
+|                                    [Use This Template](https://codesandbox.io/s/resetercss-26kzw)                                     |
 
 ### CodePen
 
 | [![](https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codepen.png)](https://codepen.io/krishdevdb/pen/XWppdvK) |
-| :----------------------------------------------------------------------------------: |
-|            [Use This Template](https://codepen.io/krishdevdb/pen/XWppdvK)            |
+| :-------------------------------------------------------------------------------------------------------------------------------: |
+|                                  [Use This Template](https://codepen.io/krishdevdb/pen/XWppdvK)                                   |
 
 <a href="#resetercss">Back To Top</a>
 
@@ -227,7 +227,10 @@ bower install krishdevdb/reseter.css
 #### CDNJS
 
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.1.0/reseter.min.css"/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.1.0/reseter.min.css"
+/>
 ```
 
 #### Unpkg
@@ -722,19 +725,19 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 ## License
 
     MIT License
-    
+
     Copyright (c) 2021 Krish Dev DB
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
