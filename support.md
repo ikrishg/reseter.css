@@ -7,6 +7,6 @@
 Hi! 👋
 We’re excited that you’re using **reseter.css** and we’d love to help.
 
-*   [Chat Us On Discord](https://discord.gg/xqh38kb6sv)
-*   [Start A Discussion On Github](https://github.com/krishdevdb/reseter.css/discussions)
-*   [Add A Issue On Github](https://github.com/krishdevdb/reseter.css/issues)
+- [Chat Us On Discord](https://discord.gg/xqh38kb6sv)
+- [Start A Discussion On Github](https://github.com/krishdevdb/reseter.css/discussions)
+- [Add A Issue On Github](https://github.com/krishdevdb/reseter.css/issues)
