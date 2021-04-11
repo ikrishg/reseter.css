@@ -229,7 +229,7 @@ bower install krishdevdb/reseter.css
 ```html
 <link
   rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.1.0/reseter.min.css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.1.1/reseter.min.css"
 />
 ```
 
