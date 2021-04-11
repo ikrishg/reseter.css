@@ -195,13 +195,9 @@ yarn add reseter.css
 pnpm install reseter.css
 ```
 
-#### **Composer** - The PHP Package Manager
-
-```bash
-composer require krishdevdb/reseter.css
-```
-
 #### **Bower** - A Package Manager For The Web
+
+> Works Well For Development Purposes. Use Others For Production Use
 
 ```bash
 bower install krishdevdb/reseter.css
@@ -210,12 +206,6 @@ bower install krishdevdb/reseter.css
 <a href="#resetercss">Back To Top</a>
 
 ### CDN
-
-#### CDNJS
-
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.1.0/reseter.min.css"/>
-```
 
 #### JsDelivir
 
@@ -232,6 +222,12 @@ bower install krishdevdb/reseter.css
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css"
 />
+```
+
+#### CDNJS
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.1.0/reseter.min.css"/>
 ```
 
 #### Unpkg
