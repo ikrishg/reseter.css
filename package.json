@@ -117,10 +117,10 @@
     "bundlewatch": "^0.3.2",
     "clean-css-cli": "^5.2.2",
     "less": "^4.1.1",
-    "postcss": "^8.2.8",
+    "postcss": "^8.2.9",
     "postcss-cli": "^8.3.1",
     "sass": "^1.32.8",
-    "styled-components": "^5.2.1",
+    "styled-components": "^5.2.3",
     "stylus": "^0.54.8"
   },
   "peerDependencies": {},
