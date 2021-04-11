@@ -690,6 +690,10 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
     <td align="center"><a href="https://github.com/leandrooriente"><img src="https://avatars.githubusercontent.com/u/1781007?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leandro Oriente</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Aleandrooriente" title="Bug reports">🐛</a></td>
     <td align="center"><a href="http://linkedin.com/in/himanshu-here/"><img src="https://avatars.githubusercontent.com/u/65963997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Himanshu</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=himanshu007-creator" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/VixieTSQ"><img src="https://avatars.githubusercontent.com/u/62594135?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vixie</b></sub></a><br /><a href="#ideas-VixieTSQ" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=VixieTSQ" title="Code">💻</a></td>
+    <td align="center"><a href="http://miza.org"><img src="https://avatars.githubusercontent.com/u/7329623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>aco</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Astarkana" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=starkana" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
