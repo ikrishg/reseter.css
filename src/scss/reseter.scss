@@ -15,106 +15,16 @@
     transition-duration: 0s;
   }
 }
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  cursor: default;
-  tab-size: 4;
-  margin: 0;
-  padding: 0;
-  border: none;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
 html {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell,
-    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  font: 400 1rem/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu,
+    Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+  background: inherit;
+  vertical-align: baseline;
   word-break: normal;
   color: inherit;
-  background-color: inherit;
+  margin: 0;
+  padding: 0;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -151,10 +61,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2;
+  margin: 0 initial 0.5rem;
+  font: inherit inherit 500 unset/1.2 inherit;
 }
 h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -191,21 +99,17 @@ h6 {
   font-size: 1rem;
 }
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
 }
 abbr[title],
 abbr[data-bs-original-title] {
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
-  -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
 address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit;
+  font: normal inherit inherit/inherit inherit;
+  margin: 0 0 1rem;
 }
 ol,
 ul {
@@ -214,14 +118,13 @@ ul {
 ol,
 ul,
 dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
 }
 ol ol,
 ul ul,
 ol ul,
 ul ol {
-  margin-bottom: 0;
+  margin: 0;
 }
 nav li {
   list-style: none;
@@ -242,7 +145,7 @@ blockquote {
 }
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 700;
 }
 small {
   font-size: 0.875em;
@@ -298,12 +201,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: "Fira Code", "Cascadia Code", Consolas, "Inconsolata", Monaco,
-    Menlo, "Noto Mono", "Roboto Mono", "Droid Sans Mono", "Ubuntu Mono",
-    "Ubuntu Monospace", "Source Code Pro", "Oxygen Mono", "Liberation Mono",
-    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.05em;
+  font: 1.05em "Fira Code", "Cascadia Code", Consolas, "Inconsolata", Monaco, Menlo, "Noto Mono", "Roboto Mono", "Droid Sans Mono", "Ubuntu Mono", "Ubuntu Monospace", "Source Code Pro", "Oxygen Mono", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 pre {
   display: block;
