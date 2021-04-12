@@ -54,7 +54,7 @@
 <li><a href="#stargazers">Stargazers</a></li>
 <li><a href="#forks">Forks</a></li>
 </ul></li>
-<li><p><a href="#thanks">Thanks</a></p>
+<li><p><a href="#special-mentions">Special Mentions</a></p>
 <ul>
 <li><a href="#stars">Stars</a></li>
 </ul></li>
@@ -683,9 +683,10 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/krishdevdb"><img src="https://avatars.githubusercontent.com/u/76587897?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krish Dev DB</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Code">💻</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Documentation">📖</a> <a href="#design-krishdevdb" title="Design">🎨</a> <a href="#ideas-krishdevdb" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-krishdevdb" title="Maintenance">🚧</a> <a href="#infra-krishdevdb" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/krishdevdb"><img src="https://avatars.githubusercontent.com/u/76587897?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krish Dev DB</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Code">💻</a> <a href="#design-krishdevdb" title="Design">🎨</a> <a href="#maintenance-krishdevdb" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://tracker1.dev/"><img src="https://avatars.githubusercontent.com/u/444316?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=tracker1" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/joejenett"><img src="https://avatars.githubusercontent.com/u/52048847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>joejenett</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ajoejenett" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=joejenett" title="Documentation">📖</a></td>
     <td align="center"><a href="https://vincentwill.com/"><img src="https://avatars.githubusercontent.com/u/43953403?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vincent Will</b></sub></a><br /><a href="#blog-vincenius" title="Blogposts">📝</a></td>
@@ -698,7 +699,6 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
     <td align="center"><a href="http://miza.org"><img src="https://avatars.githubusercontent.com/u/7329623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>aco</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Astarkana" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=starkana" title="Code">💻</a></td>
   </tr>
 </table>
-
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
@@ -716,9 +716,21 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 <a href="https://github.com/krishdevdb/reseter.css/fork">
 <img src="https://reporoster.com/forks/krishdevdb/reseter.css"></a>
 
-## Thanks
+## Special Mentions
 
-### Stars
+### Spreaders
+
+[Frontend Focus](https://frontendfoc.us/) - A Weekly Newsletter That Published **Reseter.css** in it's [Issue #485](https://frontendfoc.us/issues/485)
+
+[Frontend Daily](https://twitter.com/FrontendDaily) - A Twitter Account, That Shared **Reseter.css** in [This Tweet](https://twitter.com/FrontendDaily/status/1380622045193584645)
+
+[JavaScript Feed](https://twitter.com/JavaScriptFeed) - A Twitter Account, That Shared **Reseter.css** in [This Tweet](https://twitter.com/JavaScriptFeed/status/1379412211567714305)
+
+[Collis.com](https://coliss.com) - For A Japanese [Post Regarding Reseter.css](https://coliss.com/articles/build-websites/operation/css/reset-and-normalizer-reseter-css.html)
+
+And All Other's Who Shared Or Posted About Reseter.css (Keeping A Record Of All Is Impossible If You Want Your Name Fork The Repo And Add Your Name!)
+
+### GitHub Stargazers
 
 [![Stargazers over time](https://starchart.cc/krishdevdb/reseter.css.svg)](https://starchart.cc/krishdevdb/reseter.css)
 
