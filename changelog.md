@@ -88,3 +88,8 @@ All notable changes to this project will are being listed in this file.
 - 🔥 Make Code Shorter
 - ✨ Update With Browsers
 - 🐛 Fix Bugs Of Related Projects
+
+## 1.1.2
+
+- 🐛 Fix Margin Issue Created In v1.1.1
+- ➕ Update Dependencies
