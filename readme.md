@@ -683,10 +683,9 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/krishdevdb"><img src="https://avatars.githubusercontent.com/u/76587897?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krish Dev DB</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Code">💻</a> <a href="#design-krishdevdb" title="Design">🎨</a> <a href="#maintenance-krishdevdb" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/krishdevdb"><img src="https://avatars.githubusercontent.com/u/76587897?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krish Dev DB</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Code">💻</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Documentation">📖</a> <a href="#design-krishdevdb" title="Design">🎨</a> <a href="#ideas-krishdevdb" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-krishdevdb" title="Maintenance">🚧</a> <a href="#infra-krishdevdb" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://tracker1.dev/"><img src="https://avatars.githubusercontent.com/u/444316?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=tracker1" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/joejenett"><img src="https://avatars.githubusercontent.com/u/52048847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>joejenett</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ajoejenett" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=joejenett" title="Documentation">📖</a></td>
     <td align="center"><a href="https://vincentwill.com/"><img src="https://avatars.githubusercontent.com/u/43953403?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vincent Will</b></sub></a><br /><a href="#blog-vincenius" title="Blogposts">📝</a></td>
@@ -697,8 +696,10 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
   <tr>
     <td align="center"><a href="https://github.com/VixieTSQ"><img src="https://avatars.githubusercontent.com/u/62594135?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vixie</b></sub></a><br /><a href="#ideas-VixieTSQ" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=VixieTSQ" title="Code">💻</a></td>
     <td align="center"><a href="http://miza.org"><img src="https://avatars.githubusercontent.com/u/7329623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>aco</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Astarkana" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=starkana" title="Code">💻</a></td>
+    <td align="center"><a href="https://yamanoku.net"><img src="https://avatars.githubusercontent.com/u/1996642?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Okuto Oyama</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=yamanoku" title="Documentation">📖</a></td>
   </tr>
 </table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
