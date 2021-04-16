@@ -697,6 +697,7 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
     <td align="center"><a href="https://github.com/VixieTSQ"><img src="https://avatars.githubusercontent.com/u/62594135?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vixie</b></sub></a><br /><a href="#ideas-VixieTSQ" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=VixieTSQ" title="Code">💻</a></td>
     <td align="center"><a href="http://miza.org"><img src="https://avatars.githubusercontent.com/u/7329623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>aco</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Astarkana" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=starkana" title="Code">💻</a></td>
     <td align="center"><a href="https://yamanoku.net"><img src="https://avatars.githubusercontent.com/u/1996642?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Okuto Oyama</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=yamanoku" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://coliss.com/"><img src="https://avatars.githubusercontent.com/u/450701?v=4?s=100" width="100px;" alt=""/><br /><sub><b>coliss</b></sub></a><br /><a href="#blog-coliss" title="Blogposts">📝</a></td>
   </tr>
 </table>
 
