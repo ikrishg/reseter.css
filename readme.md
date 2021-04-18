@@ -1,13 +1,14 @@
 <div align="center">
-<p><a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square&logo=codefactor"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square&logo=git"></a> <a href="#contributors"><img src="https://img.shields.io/github/all-contributors/krishdevdb/reseter.css?style=flat-square&logo=github"></a> <a href="https://travis-ci.com/github/krishdevdb/reseter.css"><img src="https://img.shields.io/travis/com/krishdevdb/reseter.css?style=flat-square&logo=travis-ci"></a> <a href="https://discord.gg/xqh38kb6sv"><img src="https://img.shields.io/discord/814701786920910909?style=flat-square&logo=discord"></a></p>
 <img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.png"><br><h1>Reseter.css</h1>
 <h5>A CSS Reset/Normalizer</h5>
    <p><b>Reseter.css</b> is an awesome CSS reset for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.</p>
    <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a>
-<a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=Github&style=for-the-badge"></a>
+<a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=Github&style=for-the-badge"></a><br><p>
+<img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/showcase.png"></p><br><p><a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square&logo=codefactor"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square&logo=git"></a> <a href="#contributors"><img src="https://img.shields.io/github/all-contributors/krishdevdb/reseter.css?style=flat-square&logo=github"></a> <a href="https://travis-ci.com/github/krishdevdb/reseter.css"><img src="https://img.shields.io/travis/com/krishdevdb/reseter.css?style=flat-square&logo=travis-ci"></a> <a href="https://discord.gg/xqh38kb6sv"><img src="https://img.shields.io/discord/814701786920910909?style=flat-square&logo=discord"></a></p>
 </div><br>
 
 <a href="#quick-start">
+
 <h3 align="center">Join 25k People Already Using Reseter.css</h5>
 
 </a>
@@ -739,19 +740,19 @@ And All Other's Who Shared Or Posted About Reseter.css (Keeping A Record Of All 
 ## License
 
     MIT License
-
+    
     Copyright (c) 2021 Krish Dev DB
-
+    
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-
+    
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-
+    
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
