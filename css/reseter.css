@@ -212,6 +212,7 @@ a {
   color: #3333e1;
   background-color: transparent;
   text-decoration: none;
+  word-break: break-word;
 }
 a:hover {
   color: #3434e0;
