@@ -8,7 +8,7 @@
 
 <a href="#quick-start">
 
-<h3 align="center">Already Used And Trusted By 25k Developers</h5>
+<h3 align="center">Already Used And Trusted By 45k Developers</h5>
 
 </a>
 
