@@ -1,17 +1,15 @@
 {
   "name": "reseter.css",
-  "version": "1.1.2",
-  "description": "Reset All CSS By Browsers With Reseter.css. And Make Web Look Same Across All Browsers",
+  "version": "1.1.3",
+  "description": "Reset Browser Default Styles, Without the need to work with a blankslate. Improve Cross Browser Compatibility. Get All Benifits From Normalize.css As Well ",
   "keywords": [
-    "Reset.css",
-    "Normalize.css",
-    "Sanitize.css",
-    "Reboot",
-    "Css",
-    "Sass",
-    "Scss",
-    "Stylus",
-    "less"
+    "css",
+    "css-reset",
+    "reset-css",
+    "normalize-css",
+    "reset",
+    "browser",
+    "style"
   ],
   "homepage": "https://krishdevdb.github.io/reseter.css/",
   "bugs": {
