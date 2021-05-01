@@ -1,8 +1,12 @@
-# Ignore node_modules
-node_modules/
+# Ignore Settings
+.vscode
+.github
+.all-contributorsrc
+.travis.yml
+.gitignore
 
-# Ignore Vscode's Settings
-.vscode/
+# Build Tests
+test/
 
-# Ignore .github in npm to reduce size
-.github/
+# Meta
+logo.png
