@@ -93,3 +93,10 @@ All notable changes to this project will are being listed in this file.
 
 - 🐛 Fix Margin Issue Created In v1.1.1
 - ➕ Update Dependencies
+
+## 1.1.3
+
+- 🌟 Fix Scroll Asked On Twitter
+- 🐛 Fix #19 (#30)
+- 📝 Meta Stuff (Readme, And More)
+- 😃 Fix Emoji
