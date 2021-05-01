@@ -3,27 +3,28 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 @media (prefers-reduced-motion: reduce) {
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     -webkit-animation-delay: -1ms;
-            animation-delay: -1ms;
+    animation-delay: -1ms;
     -webkit-animation-duration: 1ms;
-            animation-duration: 1ms;
+    animation-duration: 1ms;
     -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
+    animation-iteration-count: 1;
     background-attachment: initial;
-    scroll-behavior: auto;
     transition-delay: 0s;
     transition-duration: 0s;
   }
 }
 
 html {
-  font: 400 1rem/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font: 400 1rem/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu,
+    Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   background: inherit;
   vertical-align: baseline;
   word-break: normal;
@@ -127,10 +128,10 @@ p {
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   cursor: help;
   -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
 }
 
 address {
@@ -221,7 +222,8 @@ a:hover {
 a:focus {
   outline: thin dotted;
 }
-a:not([href]):not(class), a:not([href]):not([class]):hover {
+a:not([href]):not(class),
+a:not([href]):not([class]):hover {
   cursor: default;
   color: inherit;
   text-decoration: none;
@@ -243,7 +245,11 @@ pre,
 code,
 kbd,
 samp {
-  font: 1.05em "Fira Code", "Cascadia Code", Consolas, "Inconsolata", Monaco, Menlo, "Noto Mono", "Roboto Mono", "Droid Sans Mono", "Ubuntu Mono", "Ubuntu Monospace", "Source Code Pro", "Oxygen Mono", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font: 1.05em "Fira Code", "Cascadia Code", Consolas, "Inconsolata", Monaco,
+    Menlo, "Noto Mono", "Roboto Mono", "Droid Sans Mono", "Ubuntu Mono",
+    "Ubuntu Monospace", "Source Code Pro", "Oxygen Mono", "Liberation Mono",
+    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 pre {
@@ -393,7 +399,7 @@ select {
   text-transform: none;
 }
 
-[role=button] {
+[role="button"] {
   cursor: pointer;
 }
 
@@ -416,15 +422,15 @@ select:not([multiple]):not([size]) {
 }
 
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 button:not(disabled),
-[type=button]:not(disabled),
-[type=reset]:not(disabled),
-[type=submit]:not(disabled) {
+[type="button"]:not(disabled),
+[type="reset"]:not(disabled),
+[type="submit"]:not(disabled) {
   cursor: pointer;
 }
 
@@ -523,25 +529,25 @@ input::placeholder {
   opacity: 1;
 }
 
-[type=search] {
+[type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
   -moz-appearance: none;
   box-sizing: content-box;
 }
 
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration,
-input[type=search]::-webkit-search-results-button,
-input[type=search]::-webkit-search-results-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
-[type=tel],
-[type=url],
-[type=email],
-[type=number] {
+[type="tel"],
+[type="url"],
+[type="email"],
+[type="number"] {
   direction: ltr;
 }
 
@@ -602,7 +608,7 @@ template {
   display: none;
 }
 
-[aria-busy=true] {
+[aria-busy="true"] {
   cursor: progress;
 }
 
@@ -610,15 +616,15 @@ template {
   cursor: pointer;
 }
 
-[aria-disabled=true],
+[aria-disabled="true"],
 [disabled] {
   cursor: not-allowed;
 }
 
-[aria-hidden=false][hidden=false] {
+[aria-hidden="false"][hidden="false"] {
   display: initial;
 }
-[aria-hidden=false][hidden=false]:not(:focus) {
+[aria-hidden="false"][hidden="false"]:not(:focus) {
   clip: rect(0, 0, 0, 0);
   position: absolute;
 }
