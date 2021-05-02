@@ -30,8 +30,6 @@ Down is the result of the same HTML file of 3 browsers. All of the chrome's head
 |                     Box Sizing                     |                                                            ✅                                                             |                                                           ❌                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |                  Browser Support                   |                             Last 5 Versions<br />All Not Dead Browsers<br />**Customisable**                              |                        IE 10+<br />Safari 8+<br />Chrome<br />Firefox ESR+<br />Opera<br />Edge                        |                      Last 3 Versions<br />Exception: Safari Last 2<br />Also Firefox ESR, IE 9+                       |                                                        Unkown                                                         |
 
-##### 📑 Legend
-
 ✅- Yes
 
 ❌ - No
