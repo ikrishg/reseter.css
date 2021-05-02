@@ -1,82 +1,24 @@
-<div align="center">
-<p><a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square&logo=codefactor"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square&logo=git"></a> <a href="#contributors"><img src="https://img.shields.io/github/all-contributors/krishdevdb/reseter.css?style=flat-square&logo=github"></a> <a href="https://travis-ci.com/github/krishdevdb/reseter.css"><img src="https://img.shields.io/travis/com/krishdevdb/reseter.css?style=flat-square&logo=travis-ci"></a> <a href="https://discord.gg/xqh38kb6sv"><img src="https://img.shields.io/discord/814701786920910909?style=flat-square&logo=discord"></a></p>
-<img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.png"><br><h1>Reseter.css</h1>
-<h5>A Futuristic Alternative To Normalize.css And CSS Resets</h5>
-<a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a>
-<a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=Github&style=for-the-badge"></a><br><p><br><img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/showcase.png" height="400"></p><p><a href="https://krishdevdb.github.io/reseter.css">Website</a> · <a href="https://github.com/krishdevdb/reseter.css/issues/new?assignees=krishdevdb%27&labels=feature+request&template=feature-request.md&title=Request%3A+">Request A Feature</a> · <a href="https://github.com/krishdevdb/reseter.css/issues/new?assignees=krishdevdb&labels=bug&template=bug-report.md&title=Bug%3A+">Report A Bug</a></p>
-</div><br>
+<div align="center"><p><a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square&logo=codefactor"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a> <a href="https://github.com/krishdevdb/reseter.css/commits/master"><img src="https://img.shields.io/github/last-commit/krishdevdb/reseter.css?style=flat-square&logo=git"></a> <a href="#contributors"><img src="https://img.shields.io/github/all-contributors/krishdevdb/reseter.css?style=flat-square&logo=github"></a> <a href="https://travis-ci.com/github/krishdevdb/reseter.css"><img src="https://img.shields.io/travis/com/krishdevdb/reseter.css?style=flat-square&logo=travis-ci"></a> <a href="https://discord.gg/xqh38kb6sv"><img src="https://img.shields.io/discord/814701786920910909?style=flat-square&logo=discord"></a></p><img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/master/logo.png"><br><h1>Reseter.css</h1><h5>A Futuristic Alternative To Normalize.css And CSS Resets</h5><a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a><a href="https://github.com/krishdevdb/reseter.css/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/krishdevdb/reseter.css?logo=Github&style=for-the-badge"></a><br><p><br><img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/showcase.png" height="400"></p><p><a href="https://krishdevdb.github.io/reseter.css">Website</a> · <a href="https://github.com/krishdevdb/reseter.css/issues/new?assignees=krishdevdb%27&labels=feature+request&template=feature-request.md&title=Request%3A+">Request A Feature</a> · <a href="https://github.com/krishdevdb/reseter.css/issues/new?assignees=krishdevdb&labels=bug&template=bug-report.md&title=Bug%3A+">Report A Bug</a></p></div><br><a href="#quick-start"><h3 align="center">Already Used And Trusted By 150k Developers</h3></a>
 
-<a href="#quick-start">
+## 😃 Benefits
 
-<h3 align="center">Already Used And Trusted By 150k Developers</h5>
+- [x] No Need To Start From Scratch. It redifines styles and adds the system font stack.
+- [x] Never Switch Preprocessers/Technologies. Sass, Less, Scss, Stylus and Styled Components (js, mjs and ts) support available.
+- [x] Never Find Yourself Fixing Browser Issues. Includes bug fixes and browser inconsistency fixes for wide browsers.
+- [x] No Need Your Debugging Load Time For Reseter.css. It's sized ~2.5kb
+- [x] Get All The Benifits Of Normalize.css. It includes all normalizations!
+- [x] Get A Better Box Sizing For A Better Experience. `box-sing: border-box` set
+- [x] No Need To Tangle With Any Testing Issues. Tested Source Code Builds (Travis CI). Tested Cross-Browsers (Browserstack)
 
-</a>
+## ❓ Why do I use a CSS Reset
 
-<details>
-<summary>Table Of Contents</summary>
-<ul>
-<li><p><a href="#features">Features</a></p></li>
-<li><p><a href="#resetercss-vs-normalizecss-vs-sanitizecss-vs-resetcss"><em>Reseter.css</em> vs <em>Normalize.css</em> vs <em>Sanitize.css</em> vs <em>Reset.css</em></a></p></li>
-<li><p><a href="#why-use-resetercss-must-read">Why Use Reseter.css (Must Read)</a></p></li>
-<ul>
-<li><p><a href="#manual">Manual</a></p></li>
-<li><p><a href="#codepen">CodePen</a></p></li>
-<li><p><a href="#codesandbox">CodeSandBox</a></p></li>
-</ul>
-<li><p><a href="#installation">Installation</a></p>
-<ul>
-<li><a href="#package-managers">Package Managers</a></li>
-<li><a href="#cdn">CDN</a></li>
-<li><a href="#downloads">Downloads</a></li>
-<li><a href="#clone-repository">Clone Repository</a></li>
-</ul></li>
-<li><p><a href="#usage">Usage</a></p>
-<ul>
-<li><a href="#import-in-css">Import In CSS</a></li>
-<li><a href="#link-tag">Link Tag</a></li>
-<li><a href="#react">React</a></li>
-<li><a href="#styled-components">Styled-Components</a></li>
-<li><a href="#vue">Vue</a></li>
-<li><a href="#nextjs">Next.js</a></li>
-</ul></li>
-<li><p><a href="#get-support">Get Support</a></p></li>
-<li><p><a href="#support-us">Support Us</a></p>
-<ul>
-<li><a href="#review">Review</a></li>
-<li><a href="#spread">Spread</a></li>
-<li><a href="#sponsor">Sponsor</a></li>
-</ul></li>
-<li><p><a href="#roadmap">Roadmap</a></p></li>
-<li><p><a href="#authors">Authors</a></p></li>
-<li><p><a href="#contributors">Contributors</a></p></li>
-<li><p><a href="#supporters">Supporters</a></p>
-<ul>
-<li><a href="#stargazers">Stargazers</a></li>
-<li><a href="#forks">Forks</a></li>
-</ul></li>
-<li><p><a href="#special-mentions">Special Mentions</a></p>
-<ul>
-<li><a href="#stars">Stars</a></li>
-</ul></li>
-<li><p><a href="#license">License</a></p></li>
-<li><p><a href="#status">Status</a></p></li>
-</ul>
-</details>
+Down is the result of the same HTML file of 3 browsers. All of the chrome's headings are bolded nicely. Firefox ones are also bolded, but IE ones are bolded too much. The font on paragraphs is also bolded in IE. The border of the button is blue in IE. There's A little thinner border on buttons in Firefox. Below are only three browsers and 5 HTML tags. There are more than 100 browsers available to the public. There are plenty of tags there too. No one knows how many of them are not public. 1000s of versions of these 100s of browsers are available. How to keep us with these browsers? The answer is **Reseter.css**.
 
-## Features
+|                                                 Chrome                                                  |                                                     Internet Explorer                                                     |                                                             With Reseter.css                                                             |
+| :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/chrome.screenshot.png" /> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/ie.screenshot.png" alt="Result" zoom="67%"> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/reseter.screenshot.png" alt="Result" style="zoom: 80%;" /> |
 
-- Adds New Better Styles For Elements
-- Source In 4 Different Formats
-- Reboots styles for a wide range of elements.
-- Corrects bugs and browser inconsistencies.
-- Sized 2.6kb
-- Includes all normalizations
-- Sets `box-sizing: border-box
-- Fully tested
-
-<a href="#resetercss">Back To Top</a>
-
-## _Reseter.css_ vs _Normalize.css_ vs _Sanitize.css_ vs _Reset.css_
+##  🆚 There Are Other Resets, Why Reseter.css?
 
 |                      Feature                       |                                                        Reseter.css                                                        |                                                     Normalize.css                                                      |                                                     Sanitize.css                                                      |                                                       Reset.css                                                       |
 | :------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
@@ -88,7 +30,7 @@
 |                     Box Sizing                     |                                                            ✅                                                             |                                                           ❌                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |                  Browser Support                   |                             Last 5 Versions<br />All Not Dead Browsers<br />**Customisable**                              |                        IE 10+<br />Safari 8+<br />Chrome<br />Firefox ESR+<br />Opera<br />Edge                        |                      Last 3 Versions<br />Exception: Safari Last 2<br />Also Firefox ESR, IE 9+                       |                                                        Unkown                                                         |
 
-### Legend
+##### 📑 Legend
 
 ✅- Yes
 
@@ -96,23 +38,11 @@
 
 ⭕ - Partial
 
-## Why Use Reseter.css (Must Read)
+## 🚀 Get It Running Quick
 
-Down is the result of the same HTML file of 3 browsers. All of the chrome's headings are bolded nicely. Firefox ones are also bolded, but IE ones are bolded too much. The font on paragraphs is also bolded in IE. The border of the button is blue in IE. There's A little thinner border on buttons in Firefox. Below are only three browsers and 5 HTML tags. There are more than 100 browsers available to the public. There are plenty of tags there too. No one knows how many of them are not public. 1000s of versions of these 100s of browsers are available. How to keep us with these browsers? The answer is **Reseter.css**.
+> [🚀 Alternatively Boost Everything Up With Templates](#quick-templates)
 
-|                                                 Chrome                                                  |                                                     Internet Explorer                                                     |                                                             With Reseter.css                                                             |
-| :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/chrome.screenshot.png" /> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/ie.screenshot.png" alt="Result" zoom="67%"> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/reseter.screenshot.png" alt="Result" style="zoom: 80%;" /> |
-
-<a href="#resetercss">Back To Top</a>
-
-## Quick Start
-
-### Manual
-
-> [Don't Want To The Manual Method Click Here](#codesandbox)
-
-#### Step 1
+#### Step 1: Create A HTML File
 
 Create A HTML File
 
@@ -144,58 +74,59 @@ Create A HTML File
 </html>
 ```
 
-#### Step 2
-
-To the head tag add this code
+#### Step 2: Call Reseter.css
 
 ```html
+<!-- To Be Placed In The Head Tag -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css"
+  href="https://cdn.jsdelivr.net/npm/reseter.css/"
 />
 ```
 
-You All Set Now!
 
-### CodeSandBox
 
-| [![](https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codesandbox.PNG)](https://codesandbox.io/s/resetercss-26kzw) |
-| :-----------------------------------------------------------------------------------------------------------------------------------: |
-|                                    [Use This Template](https://codesandbox.io/s/resetercss-26kzw)                                     |
+#### 🥳 All Set Now
 
-### CodePen
+## 📚 Quick Templates
 
-| [![](https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codepen.png)](https://codepen.io/krishdevdb/pen/XWppdvK) |
-| :-------------------------------------------------------------------------------------------------------------------------------: |
-|                                  [Use This Template](https://codepen.io/krishdevdb/pen/XWppdvK)                                   |
+### CodeSandBox Template
 
-<a href="#resetercss">Back To Top</a>
+| [<img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codesandbox.PNG" height="300" />](https://codesandbox.io/s/resetercss-26kzw) |
+| :----------------------------------------------------------: |
+| [Use This Template](https://codesandbox.io/s/resetercss-26kzw) |
 
-## Installation
+### CodePen Template
+
+| [<img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codepen.png" height="300" />](https://codepen.io/krishdevdb/pen/XWppdvK) |
+| :----------------------------------------------------------: |
+| [Use This Template](https://codepen.io/krishdevdb/pen/XWppdvK) |
+
+## 🌟 Installation
 
 There are various ways to install reseter.css. Like Package Managers, CDNs, Local Copies And Stuff.
 
-### Package Managers
+### 📦 Package Managers
 
-#### **NPM** - A NodeJs Based Package Manager.
+#### **NPM**  ![](https://img.shields.io/npm/dm/reseter.css?style=flat-square)
 
 ```bash
 npm install reseter.css
 ```
 
-#### **Yarn** - A Better Equivalent To NPM.
+#### **Yarn**  ![](https://img.shields.io/npm/dm/reseter.css?style=flat-square)
 
 ```bash
 yarn add reseter.css
 ```
 
-#### **PNPM** - A Faster NodeJS Based Package Manager
+#### **PNPM** ![](https://img.shields.io/npm/dm/reseter.css?style=flat-square)
 
 ```bash
 pnpm install reseter.css
 ```
 
-#### **Bower** - A Package Manager For The Web
+#### **Bower** ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
 > Works Well For Development Purposes. Use Others For Production Use
 
@@ -203,19 +134,17 @@ pnpm install reseter.css
 bower install krishdevdb/reseter.css
 ```
 
-<a href="#resetercss">Back To Top</a>
+### ⚡ CDN
 
-### CDN
+#### JsDelivir - The Recommended CDN
 
-#### JsDelivir
-
-##### Production Ready
+##### Production Ready ![](https://img.shields.io/jsdelivr/npm/hm/reseter.css?style=flat-square)
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
 ```
 
-##### Development Version
+##### Development Version ![](https://img.shields.io/jsdelivr/gh/hm/krishdevdb/reseter.css?style=flat-square)
 
 ```html
 <link
@@ -224,7 +153,7 @@ bower install krishdevdb/reseter.css
 />
 ```
 
-#### CDNJS
+#### CDNJS ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
 
 ```html
 <link
@@ -233,13 +162,13 @@ bower install krishdevdb/reseter.css
 />
 ```
 
-#### Unpkg
+#### Unpkg ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/reseter.css" />
 ```
 
-#### Github
+#### Github ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
 
 > Please Note GitHub CDN Works Well For Development Practices. Consider Using Other CDNs For Production
 
@@ -250,7 +179,7 @@ bower install krishdevdb/reseter.css
 />
 ```
 
-#### RawGit
+#### RawGit ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
 
 > Please Note RawGit CDN Works Well For Development Practices. Consider Using Other CDNs For Production
 
@@ -261,7 +190,7 @@ bower install krishdevdb/reseter.css
 />
 ```
 
-#### Raw GitHack
+#### Raw GitHack ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
 
 > Please Note Raw GitHack CDN Works Well For Development Practices. Consider Using Other CDNs For Production
 
@@ -272,9 +201,7 @@ bower install krishdevdb/reseter.css
 />
 ```
 
-<a href="#resetercss">Back To Top</a>
-
-#### Statically
+#### Statically ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
 
 > Please Note Statically CDN Works Well For Development Practices. Consider Using Other CDNs For Production
 
@@ -285,63 +212,36 @@ bower install krishdevdb/reseter.css
 />
 ```
 
-### Downloads
+### ⬇ Downloads ![](https://img.shields.io/github/downloads/krishdevdb/reseter.css/total?style=flat-square)
 
 - Reseter.min.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css
 - Reseter.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.css
-- Full Repository - https://github.com/krishdevdb/reseter.css/archive/master.zip
+- Full Repository - https://github.com/krishdevdb/reseter.css/archive/master.zip ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
-<a href="#resetercss">Back To Top</a>
+### ⬇ Clone Repository ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
-### Clone Repository
-
-#### Using Git
+#### Using Git ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
 ```bash
 git clone https://github.com/krishdevdb/reseter.css.git
 ```
 
-<a href="#resetercss">Back To Top</a>
-
-#### Github Cli
+#### Github Cli ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
 ```bash
 gh repo clone krishdevdb/reseter.css
 ```
 
-#### Hub
+#### Hub ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
 ```bash
 hub clone krishdevdb/reseter.css
 ```
 
-<a href="#resetercss">Back To Top</a>
 
-## Usage
+## ✨ Get Using It
 
-### Import In CSS
-
-This Is The Best Way To Use Reseter.css. First Import Reseter.css then add your custom styles
-
-```css
-@import "path/to/reseter.min.css";
-
-.element {
-  /** Your Custom Style's Here **/
-}
-```
-
-```html
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="path/to/your-custom-stylesheet.css"
-/>
-```
-
-<a href="#resetercss">Back To Top</a>
-
-### Link Tag
+### Link Tag - The Recommended Way
 
 Using It With A Browser Is Really Simple. First Link To Reseter.css Then Your Custom Stylesheet
 
@@ -356,286 +256,84 @@ Using It With A Browser Is Really Simple. First Link To Reseter.css Then Your Cu
 </head>
 ```
 
-<a href="#resetercss">Back To Top</a>
-
 > **Warning!**
 >
 > Make Sure To Link Your Custom Stylesheet After Reseter.css Else Your Custom Styles Might Not Be Implemented
 
+### Import - The Easy Way
+
+First Import Reseter.css then add your custom styles
+
+```css
+// In Your CSS File
+
+@import "path/to/reseter.min.css";
+
+.element {
+  /** Your Custom Style's Here **/
+}
+```
+
+
+```html
+<!-- In The Head Of Your HTML -->
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="path/to/your-custom-stylesheet.css"
+/>
+
+<!-- Must Be Used Whereever You Want Reseter.css To Work -->
+```
+
 ### React
 
-#### Apply It Globaly
-
-In your js file
-
 ```jsx
-import "path/to/reseter.min.css";
+// In Your Main JS File With Other Imports
+
+import "./path/to/reseter.css";
 ```
-
-<a href="#resetercss">Back To Top</a>
-
-<p align="center"><b>Or</b></p>
-
-In your global css file
-
-```css
-@import "path/to/reseter.min.css";
-
-.element {
-  /** Custom Styles **/
-}
-```
-
-Then in your js file
-
-```jsx
-import React from "react";
-import ReactDOM from "react-dom";
-import "./path/to/global.css";
-import App from "./App";
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-```
-
-<a href="#resetercss">Back To Top</a>
-
-#### In A Single Page Using React Helmet
-
-```jsx
-import React from "react";
-import { Helmet } from "react-helmet";
-
-export default function Page() {
-  return (
-    <div>
-      <Helmet>
-        <link rel="stylesheet" href="path/to/reseter.css" />
-        <link rel="stylesheet" href="path/to/custom/style-sheet.css" />
-      </Helmet>
-      <h1>Login</h1>
-      <p>This is the login page</p>
-    </div>
-  );
-}
-```
-
-<a href="#resetercss">Back To Top</a>
-
-<p align="center"><b>Or</b></p>
-
-In Your Custom Stylesheet
-
-```css
-@import "path/to/reseter.min.css";
-
-.element {
-  /**Custom Styles Here**/
-}
-```
-
-In Your JS File
-
-```jsx
-import React from "react";
-import { Helmet } from "react-helmet";
-
-export default function Page() {
-  return (
-    <div>
-      <Helmet>
-        <link rel="stylesheet" href="path/to/custom/style-sheet.css" />
-      </Helmet>
-      <h1>Login</h1>
-      <p>This is the login page</p>
-    </div>
-  );
-}
-```
-
-<a href="#resetercss">Back To Top</a>
 
 ### Styled-Components
 
-#### Globaly
-
 ```js
 // styles/index.js
+
 import { createGlobalStyle } from "styled-components";
-import resetercss from "reseter.css/src/styled-components/js/reseter.js";
+import resetercss from "node_modules/reseter.css/src/styled-components/js/reseter.js";
+
 /** We also have ts and mjs available
-import resetercss from 'reseter.css/src/styled-components/ts/reseter.ts'
-import resetercss from 'reseter.css/src/styled-components/js/reseter.mjs'
+import resetercss from 'node_modules/reseter.css/src/styled-components/ts/reseter.ts'
+import resetercss from 'node_modules/reseter.css/src/styled-components/js/reseter.mjs'
 */
 
 export const GlobalStyle = createGlobalStyle`
   ${resetercss}
 
-  // You can continue writing global styles here
-  body {
-    padding: 0;
-    background-color: black;
-  }
+  // You can continue writing global styles here if you want.
 `;
-```
-
-#### On A Specific Page
-
-```jsx
-// index.js
-import React from "react";
-import ReactDOM from "react-dom";
-
-import { GlobalStyle } from "./styles";
-import { App } from "./app";
-
-const Root = () => (
-  <React.Fragment>
-    <GlobalStyle />
-    <App />
-  </React.Fragment>
-);
-
-ReactDOM.render(<Root />, document.querySelector("#root"));
-```
-
-```jsx
-// index.js
-import React from "react";
-import ReactDOM from "react-dom";
-import { Normalize } from "styled-normalize";
-
-import { App } from "./app";
-
-const Root = () => (
-  <React.Fragment>
-    <Normalize />
-    <App />
-  </React.Fragment>
-);
-
-ReactDOM.render(<Root />, document.querySelector("#root"));
 ```
 
 ### Vue
 
-In Your Vue File Add This Code
-
-```vue
-<style>
-@import "path/to/reseter.min.css";
-</style>
-```
-
-<p align="center"><b>Or</b></p>
-
-```vue
-<style scoped src="@/path/to/reseter.min.css"></style>
-```
-
-<p align="center"><b>Or</b></p>
-
 ```js
-import Vue from "vue";
-
-require("@/path/to/reseter.min.css");
+// In Your Main.js File With Other Imports
+import 'path/to/reseter.css';
 ```
 
 ### Next.js
 
-### Apply It Globaly
-
-In **\_app.js** inside your **pages** directory
-
 ```jsx
-import "path/to/reseter.min.css";
+// In Your pages/_app.js File With Other Imports
+
+import "path/to/reseter.css";
 ```
 
-<p align="center"><b>Or</b></p>
-
-In your global css file
-
-```css
-@import "path/to/reseter.min.css";
-.element {
-  /** Custom Styles **/
-}
-```
-
-Then In Your **\_app.js**
-
-```jsx
-import "path/to/global-styles.css";
-
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
-```
-
-<a href="#resetercss">Back To Top</a>
-
-#### Apply It To A Specific Page
-
-```jsx
-import * from "react";
-import Head from "next/head";
-
-export default function Page(){
-    return(
-        <div>
-              <Head>
-                  <link rel="stylesheet" href="path/to/reseter.min.css">
-                  <link rel="stylesheet" href="path/to/custom/style-sheet.css" />
-              </Head>
-         </div>
-    )
-}
-```
-
-<a href="#resetercss">Back To Top</a>
-
-<p align="center"><b>Or</b></p>
-
-In your css file
-
-```css
-@import "path/to/reseter.min.css";
-.element {
-  /** Custom Styles **/
-}
-```
-
-Then In Your **\_app.js**
-
-```jsx
-import * from "react";
-import Head from "next/head";
-
-export default function Page(){
- return(
- <div>
-       <Head>
-           <link rel="stylesheet" href="path/to/your-custom.css">
-       </Head>
-  </div>
- )
-}
-```
-
-<a href="#resetercss">Back To Top</a>
-
-> Know/Want Any Other Usage Option/Platform
->
-> Please Add A Issue In Github With The Label Feature Request.
-
-## Get Support
+## 📞 We're Ready To Support
 
 > This project has a [code of conduct](https://github.com/krishdevdb/reseter.css/blob/master/.github/contributing.md).
-> By interacting with this repository, or community you agree to
-> abide by its terms.
+By interacting with this repository, or community you agree to
+abide by its terms.
 
 Hi! 👋
 We’re excited that you’re using **reseter.css** and we’d love to help.
@@ -644,13 +342,13 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 - [Start A Discussion On Github](https://github.com/krishdevdb/reseter.css/discussions)
 - [Add A Issue On Github](https://github.com/krishdevdb/reseter.css/issues)
 
-## Support Us
+## ❤ Show Your Love To The Community
 
-### Review
+### ✏ Review
 
-- <a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+- <a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" width="250" height="54" /></a>
 
-### Spread
+### 📤 Spread
 
 - Twitter: <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/badge/Share-Twitter-%231DA1F2?style=flat-square"></a>
 - Facebook: <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Facebook-%233b5998?style=flat-square"></a>
@@ -658,19 +356,17 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 - Pinterest: <a href="https://pinterest.com/pin/create/button/?url=https://github.com/krishdevdb/reseter.css&media=https://i.ibb.co/3vbFKfD/Reseter-css.png&description=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Pinterest-%23c8232c?style=flat-square"></img></a>
 - Email: <a href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://github.com/krishdevdb/reseter.css%0AReseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Email-green?style=flat-square"></img></a>
 
-### Sponsor
+## ⌚ Roadmap
 
-## Roadmap
+- [ ] Comment Blocks In The Sources
 
-- Comment Blocks In The Sources
+- [ ] Long Documentation
 
-- Long Documentation
+- [ ] Guide
 
-- Guide
+> Go Check Our Project Board [Here](https://github.com/krishdevdb/reseter.css/projects/1)
 
-- And Whatever You Put On The Github Issues WIth The Label Of Feature Request
-
-## Authors
+## 🧑 Authors
 
 | ![krishdevdb](https://avatars.githubusercontent.com/u/76587897?s=100) |
 | :-------------------------------------------------------------------: |
@@ -678,14 +374,13 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 |                [Github](https://github.com/krishdevdb)                |
 |                 [Email](mailto:krishdevdb@gmail.com)                  |
 
-## Contributors
+## ❤ Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/krishdevdb"><img src="https://avatars.githubusercontent.com/u/76587897?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krish Dev DB</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Code">💻</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=krishdevdb" title="Documentation">📖</a> <a href="#design-krishdevdb" title="Design">🎨</a> <a href="#ideas-krishdevdb" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-krishdevdb" title="Maintenance">🚧</a> <a href="#infra-krishdevdb" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://tracker1.dev/"><img src="https://avatars.githubusercontent.com/u/444316?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=tracker1" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/joejenett"><img src="https://avatars.githubusercontent.com/u/52048847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>joejenett</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ajoejenett" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=joejenett" title="Documentation">📖</a></td>
     <td align="center"><a href="https://vincentwill.com/"><img src="https://avatars.githubusercontent.com/u/43953403?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vincent Will</b></sub></a><br /><a href="#blog-vincenius" title="Blogposts">📝</a></td>
@@ -707,60 +402,60 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## Supporters
+## ❤ Supporters
 
-### Stargazers
+### ⭐ Stargazers
 
 <a href="https://github.com/krishdevdb/reseter.css/stargazers">
 <img src="https://reporoster.com/stars/krishdevdb/reseter.css"></a>
 
-### Forks
+### 🍴 Forks
 
 <a href="https://github.com/krishdevdb/reseter.css/fork">
 <img src="https://reporoster.com/forks/krishdevdb/reseter.css"></a>
 
-## Special Mentions
+## 🌟 Special Mentions
 
-### Spreaders
+### 📤 Spreaders
 
 [Frontend Focus](https://frontendfoc.us/) - A Weekly Newsletter That Published **Reseter.css** in it's [Issue #485](https://frontendfoc.us/issues/485)
 
-[Frontend Daily](https://twitter.com/FrontendDaily) - A Twitter Account, That Shared **Reseter.css** in [This Tweet](https://twitter.com/FrontendDaily/status/1380622045193584645)
-
 [JavaScript Feed](https://twitter.com/JavaScriptFeed) - A Twitter Account, That Shared **Reseter.css** in [This Tweet](https://twitter.com/JavaScriptFeed/status/1379412211567714305)
 
-[Collis.com](https://coliss.com) - For A Japanese [Post Regarding Reseter.css](https://coliss.com/articles/build-websites/operation/css/reset-and-normalizer-reseter-css.html)
+[Collis.com](https://coliss.com) - For A Japanese [Post Regarding **Reseter.css**](https://coliss.com/articles/build-websites/operation/css/reset-and-normalizer-reseter-css.html)
 
 And All Other's Who Shared Or Posted About Reseter.css (Keeping A Record Of All Is Impossible If You Want Your Name Fork The Repo And Add Your Name!)
 
-### GitHub Stargazers
+### 🌟 GitHub Stargazers
 
 [![Stargazers over time](https://starchart.cc/krishdevdb/reseter.css.svg)](https://starchart.cc/krishdevdb/reseter.css)
 
-## License
+## 📄 License
 
-    MIT License
+```
+MIT License
 
-    Copyright (c) 2021 Krish Dev DB
+Copyright (c) 2021 Krish Dev DB
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
-## Status
+## ⌚ Status
 
-This project is currently being maintained. And Will Be Maintained. If You Like This Project And Want This Project To Never Exhaust. Please Consider Donating.
+This project is currently being maintained. And Will Be Maintained. If You Like This Project And Want This Project To Never Exhaust. Please Consider [Donating](https://opencollective.com/resetercss/).
