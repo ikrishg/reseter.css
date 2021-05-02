@@ -2,13 +2,13 @@
 
 ## 😃 Benefits
 
-- [x] No Need To Start From Scratch. It redifines styles and adds the system font stack.
-- [x] Never Switch Preprocessers/Technologies. Sass, Less, Scss, Stylus and Styled Components (js, mjs and ts) support available.
-- [x] Never Find Yourself Fixing Browser Issues. Includes bug fixes and browser inconsistency fixes for wide browsers.
-- [x] No Need Your Debugging Load Time For Reseter.css. It's sized ~2.5kb
-- [x] Get All The Benifits Of Normalize.css. It includes all normalizations!
-- [x] Get A Better Box Sizing For A Better Experience. `box-sing: border-box` set
-- [x] No Need To Tangle With Any Testing Issues. Tested Source Code Builds (Travis CI). Tested Cross-Browsers (Browserstack)
+*   [x] No Need To Start From Scratch. It redifines styles and adds the system font stack.
+*   [x] Never Switch Preprocessers/Technologies. Sass, Less, Scss, Stylus and Styled Components (js, mjs and ts) support available.
+*   [x] Never Find Yourself Fixing Browser Issues. Includes bug fixes and browser inconsistency fixes for wide browsers.
+*   [x] No Need Your Debugging Load Time For Reseter.css. It's sized ~2.5kb
+*   [x] Get All The Benifits Of Normalize.css. It includes all normalizations!
+*   [x] Get A Better Box Sizing For A Better Experience. `box-sing: border-box` set
+*   [x] No Need To Tangle With Any Testing Issues. Tested Source Code Builds (Travis CI). Tested Cross-Browsers (Browserstack)
 
 ## ❓ Why do I use a CSS Reset
 
@@ -18,7 +18,7 @@ Down is the result of the same HTML file of 3 browsers. All of the chrome's head
 | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
 | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/chrome.screenshot.png" /> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/ie.screenshot.png" alt="Result" zoom="67%"> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/reseter.screenshot.png" alt="Result" style="zoom: 80%;" /> |
 
-##  🆚 There Are Other Resets, Why Reseter.css?
+## 🆚 There Are Other Resets, Why Reseter.css?
 
 |                      Feature                       |                                                        Reseter.css                                                        |                                                     Normalize.css                                                      |                                                     Sanitize.css                                                      |                                                       Reset.css                                                       |
 | :------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
@@ -78,13 +78,8 @@ Create A HTML File
 
 ```html
 <!-- To Be Placed In The Head Tag -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/reseter.css/"
-/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css/" />
 ```
-
-
 
 #### 🥳 All Set Now
 
@@ -93,14 +88,14 @@ Create A HTML File
 ### CodeSandBox Template
 
 | [<img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codesandbox.PNG" height="300" />](https://codesandbox.io/s/resetercss-26kzw) |
-| :----------------------------------------------------------: |
-| [Use This Template](https://codesandbox.io/s/resetercss-26kzw) |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                               [Use This Template](https://codesandbox.io/s/resetercss-26kzw)                                                |
 
 ### CodePen Template
 
 | [<img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/codepen.png" height="300" />](https://codepen.io/krishdevdb/pen/XWppdvK) |
-| :----------------------------------------------------------: |
-| [Use This Template](https://codepen.io/krishdevdb/pen/XWppdvK) |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                             [Use This Template](https://codepen.io/krishdevdb/pen/XWppdvK)                                              |
 
 ## 🌟 Installation
 
@@ -108,13 +103,13 @@ There are various ways to install reseter.css. Like Package Managers, CDNs, Loca
 
 ### 📦 Package Managers
 
-#### **NPM**  ![](https://img.shields.io/npm/dm/reseter.css?style=flat-square)
+#### **NPM** ![](https://img.shields.io/npm/dm/reseter.css?style=flat-square)
 
 ```bash
 npm install reseter.css
 ```
 
-#### **Yarn**  ![](https://img.shields.io/npm/dm/reseter.css?style=flat-square)
+#### **Yarn** ![](https://img.shields.io/npm/dm/reseter.css?style=flat-square)
 
 ```bash
 yarn add reseter.css
@@ -214,9 +209,9 @@ bower install krishdevdb/reseter.css
 
 ### ⬇ Downloads ![](https://img.shields.io/github/downloads/krishdevdb/reseter.css/total?style=flat-square)
 
-- Reseter.min.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css
-- Reseter.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.css
-- Full Repository - https://github.com/krishdevdb/reseter.css/archive/master.zip ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
+*   Reseter.min.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css
+*   Reseter.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.css
+*   Full Repository - https://github.com/krishdevdb/reseter.css/archive/master.zip ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
 ### ⬇ Clone Repository ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
@@ -237,7 +232,6 @@ gh repo clone krishdevdb/reseter.css
 ```bash
 hub clone krishdevdb/reseter.css
 ```
-
 
 ## ✨ Get Using It
 
@@ -273,7 +267,6 @@ First Import Reseter.css then add your custom styles
   /** Your Custom Style's Here **/
 }
 ```
-
 
 ```html
 <!-- In The Head Of Your HTML -->
@@ -318,7 +311,7 @@ export const GlobalStyle = createGlobalStyle`
 
 ```js
 // In Your Main.js File With Other Imports
-import 'path/to/reseter.css';
+import "path/to/reseter.css";
 ```
 
 ### Next.js
@@ -332,37 +325,37 @@ import "path/to/reseter.css";
 ## 📞 We're Ready To Support
 
 > This project has a [code of conduct](https://github.com/krishdevdb/reseter.css/blob/master/.github/contributing.md).
-By interacting with this repository, or community you agree to
-abide by its terms.
+> By interacting with this repository, or community you agree to
+> abide by its terms.
 
 Hi! 👋
 We’re excited that you’re using **reseter.css** and we’d love to help.
 
-- [Chat Us On Discord](https://discord.gg/xqh38kb6sv)
-- [Start A Discussion On Github](https://github.com/krishdevdb/reseter.css/discussions)
-- [Add A Issue On Github](https://github.com/krishdevdb/reseter.css/issues)
+*   [Chat Us On Discord](https://discord.gg/xqh38kb6sv)
+*   [Start A Discussion On Github](https://github.com/krishdevdb/reseter.css/discussions)
+*   [Add A Issue On Github](https://github.com/krishdevdb/reseter.css/issues)
 
 ## ❤ Show Your Love To The Community
 
 ### ✏ Review
 
-- <a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" width="250" height="54" /></a>
+*   <a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" width="250" height="54" /></a>
 
 ### 📤 Spread
 
-- Twitter: <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/badge/Share-Twitter-%231DA1F2?style=flat-square"></a>
-- Facebook: <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Facebook-%233b5998?style=flat-square"></a>
-- Linkedin: <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Linkedin-%230e76a8?style=flat-square"></img></a>
-- Pinterest: <a href="https://pinterest.com/pin/create/button/?url=https://github.com/krishdevdb/reseter.css&media=https://i.ibb.co/3vbFKfD/Reseter-css.png&description=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Pinterest-%23c8232c?style=flat-square"></img></a>
-- Email: <a href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://github.com/krishdevdb/reseter.css%0AReseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Email-green?style=flat-square"></img></a>
+*   Twitter: <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/badge/Share-Twitter-%231DA1F2?style=flat-square"></a>
+*   Facebook: <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Facebook-%233b5998?style=flat-square"></a>
+*   Linkedin: <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Linkedin-%230e76a8?style=flat-square"></img></a>
+*   Pinterest: <a href="https://pinterest.com/pin/create/button/?url=https://github.com/krishdevdb/reseter.css&media=https://i.ibb.co/3vbFKfD/Reseter-css.png&description=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Pinterest-%23c8232c?style=flat-square"></img></a>
+*   Email: <a href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://github.com/krishdevdb/reseter.css%0AReseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Email-green?style=flat-square"></img></a>
 
 ## ⌚ Roadmap
 
-- [ ] Comment Blocks In The Sources
+*   \[ ] Comment Blocks In The Sources
 
-- [ ] Long Documentation
+*   \[ ] Long Documentation
 
-- [ ] Guide
+*   \[ ] Guide
 
 > Go Check Our Project Board [Here](https://github.com/krishdevdb/reseter.css/projects/1)
 
@@ -377,8 +370,11 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 ## ❤ Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tr>
     <td align="center"><a href="https://tracker1.dev/"><img src="https://avatars.githubusercontent.com/u/444316?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=tracker1" title="Code">💻</a></td>
@@ -398,6 +394,7 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
@@ -432,29 +429,27 @@ And All Other's Who Shared Or Posted About Reseter.css (Keeping A Record Of All 
 
 ## 📄 License
 
-```
-MIT License
-
-Copyright (c) 2021 Krish Dev DB
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+    MIT License
+    
+    Copyright (c) 2021 Krish Dev DB
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
 ## ⌚ Status
 
