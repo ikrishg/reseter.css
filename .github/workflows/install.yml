@@ -4,8 +4,7 @@ on:
     types: [published, created]
 steps:
   - uses: actions/checkout@v2
-  - name: 'Install'
-  uses: actions/setup-node@v2
+  - uses: actions/setup-node@v2
   with:
     node-version: "14"
   -  run: npm install --global yarn pnpm bower
