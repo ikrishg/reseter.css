@@ -2,17 +2,14 @@ name: "Try Installing The Package On Every Release"
 on:
   release:
     types: [published, created]
-jobs:
-  install:
-    name: 'NPM, YARN, PNPM'
-    steps:
-      - uses: actions/checkout@v2
-      - name: 'Install'
-      uses: actions/setup-node@v2
-      with:
-        node-version: "14"
-        -  run: npm install --global yarn pnpm bower
-        -  run: npm install reseter.css
-        -  run: pnpm install reseter.css
-        -  run: yarn add reseter.css
-        -  run: bower install krishdevdb/reseter.css
+steps:
+  - uses: actions/checkout@v2
+  - name: 'Install'
+  uses: actions/setup-node@v2
+  with:
+    node-version: "14"
+  -  run: npm install --global yarn pnpm bower
+  -  run: npm install reseter.css
+  -  run: pnpm install reseter.css
+  -  run: yarn add reseter.css
+  -  run: bower install krishdevdb/reseter.css
