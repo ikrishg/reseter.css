@@ -9,8 +9,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14.x'
-      - run: chmod +x .github/scripts/build/sass.sh
-      - run: .github/scripts/build/sass.sh
+      - run: chmod +x .github/build/sass.sh
+      - run: .github/build/sass.sh
   scss:
     runs-on: ubuntu-latest
     steps:
@@ -19,8 +19,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14.x'
-      - run: chmod +x .github/scripts/build/scss.sh
-      - run: .github/scripts/build/scss.sh
+      - run: chmod +x .github/build/scss.sh
+      - run: .github/build/scss.sh
   less:
     runs-on: ubuntu-latest
     steps:
@@ -29,8 +29,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14.x'
-      - run: chmod +x .github/scripts/build/less.sh
-      - run: .github/scripts/build/less.sh
+      - run: chmod +x .github/build/less.sh
+      - run: .github/build/less.sh
   styl:
     runs-on: ubuntu-latest
     steps:
@@ -39,5 +39,5 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14.x'
-      - run: chmod +x .github/scripts/build/styl.sh
-      - run: .github/scripts/build/styl.sh
+      - run: chmod +x .github/build/styl.sh
+      - run: .github/build/styl.sh
