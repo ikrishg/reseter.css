@@ -2,11 +2,7 @@
 .vscode
 .github
 .all-contributorsrc
-.travis.yml
 .gitignore
-
-# Build Tests
-test/
 
 # Meta
 logo.png
