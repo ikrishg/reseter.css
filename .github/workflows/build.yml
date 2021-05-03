@@ -1,5 +1,5 @@
 name: Try Building Src
-on: [push, pull]
+on: [push, pull_request]
 jobs:
   sass:
     runs-on: ubuntu-latest
