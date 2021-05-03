@@ -4,5 +4,8 @@ node_modules/
 # Ignore Vscode's Settings
 .vscode
 
-# Ignore All Cache
-*-cache/
+# Ignore Test Build Cache
+cache/
+
+# Ignore Build Cache
+sass-cache/
