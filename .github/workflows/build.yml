@@ -1,0 +1,39 @@
+name: Try Building Src
+on: [push, pull]
+jobs:
+  sass:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Sass Src
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - run: .github/scripts/build/sass.sh
+  scss:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Scss Src
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - run: .github/scripts/build/scss.sh
+  less:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Less Src
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - run: .github/scripts/build/less.sh
+  styl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Stylus Src
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - run: .github/scripts/build/styl.sh
