@@ -11,20 +11,6 @@
   "commitConvention": "gitmoji",
   "contributors": [
     {
-      "login": "krishdevdb",
-      "name": "Krish Dev DB",
-      "avatar_url": "https://avatars.githubusercontent.com/u/76587897?v=4",
-      "profile": "https://github.com/krishdevdb",
-      "contributions": [
-        "code",
-        "doc",
-        "design",
-        "ideas",
-        "maintenance",
-        "infra"
-      ]
-    },
-    {
       "login": "tracker1",
       "name": "Michael J. Ryan",
       "avatar_url": "https://avatars.githubusercontent.com/u/444316?v=4",
