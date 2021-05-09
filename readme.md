@@ -211,26 +211,6 @@ bower install krishdevdb/reseter.css
 *   Reseter.css - https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.css
 *   Full Repository - https://github.com/krishdevdb/reseter.css/archive/master.zip ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
 
-### ⬇ Clone Repository ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
-
-#### Using Git ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
-
-```bash
-git clone https://github.com/krishdevdb/reseter.css.git
-```
-
-#### Github Cli ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
-
-```bash
-gh repo clone krishdevdb/reseter.css
-```
-
-#### Hub ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
-
-```bash
-hub clone krishdevdb/reseter.css
-```
-
 ## ✨ Get Using It
 
 ### Link Tag - The Recommended Way
