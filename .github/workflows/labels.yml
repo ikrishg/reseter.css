@@ -1,0 +1,18 @@
+name: Import open source standard labels
+
+on: [push]
+
+jobs:
+  labels:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - uses: EddieHubCommunity/gh-action-open-source-labels@main
+      with:
+        github-token: ${{ secrets.token }}
+        owner-name: ${{ github.repository_owner }}
+        repository-name: ${{ github.event.repository.name }}
