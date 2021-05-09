@@ -1,6 +1,7 @@
 name: Import open source standard labels
 
-on: [push]
+on:
+  workflow_dispatch:
 
 jobs:
   labels:
