@@ -126,7 +126,9 @@ p {
 }
 
 abbr[title],
-abbr[data-bs-original-title] {
+abbr[data-bs-original-title],
+acronym[title],
+acronym[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
