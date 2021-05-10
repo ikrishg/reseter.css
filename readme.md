@@ -274,7 +274,7 @@ First Import Reseter.css then add your custom styles
   href="path/to/your-custom-stylesheet.css"
 />
 
-<!-- Must Be Used Whereever You Want Reseter.css To Work -->
+<!-- Must Be Used Where ever You Want Reseter.css To Work -->
 ```
 
 ### React
