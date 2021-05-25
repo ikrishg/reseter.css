@@ -122,6 +122,16 @@
         "projectManagement",
         "bug"
       ]
+    },
+    {
+      "login": "meenal21",
+      "name": "Meenal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13515337?v=4",
+      "profile": "https://github.com/meenal21",
+      "contributions": [
+        "bug",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
