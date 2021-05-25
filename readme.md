@@ -12,11 +12,9 @@
 
 ## ❓ Why do I use a CSS Reset
 
-Down is the result of the same HTML file of 3 browsers. All of the chrome's headings are bolded nicely. Firefox ones are also bolded, but IE ones are bolded too much. The font on paragraphs is also bolded in IE. The border of the button is blue in IE. There's A little thinner border on buttons in Firefox. Below are only three browsers and 5 HTML tags. There are more than 100 browsers available to the public. There are plenty of tags there too. No one knows how many of them are not public. 1000s of versions of these 100s of browsers are available. How to keep us with these browsers? The answer is **Reseter.css**.
+There are many inconsistencies between browsers. Like Firefox 3 has a margin on top of paragraphs but Internet Explorer 7 doesn't have any margin. There are thousands of browsers with hundreds of versions. Each version atleast has 500+ inconsitencies with different browsers' different versions. How to keep up, this is an easy to use solution called **reseter.css**
 
-|                            Chrome                            |                      Internet Explorer                       |                       With Reseter.css                       |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/chrome.screenshot.png" /> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/ie.screenshot.png" alt="Result" zoom="67%"> | <img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/reseter.screenshot.png" alt="Result" style="zoom: 80%;" /> |
+<img alt="Browser Inconsistencies" src="https://github.com/krishdevdb/reseter.css/raw/fix-%2346/.github/assets/css_reset.png">
 
 ## 🆚 There Are Other Resets, Why Reseter.css?
 
