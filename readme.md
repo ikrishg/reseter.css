@@ -366,6 +366,7 @@ We’re excited that you’re using **reseter.css** and we’d love to help.
     <td align="center"><a href="http://coliss.com/"><img src="https://avatars.githubusercontent.com/u/450701?v=4?s=100" width="100px;" alt=""/><br /><sub><b>coliss</b></sub></a><br /><a href="#blog-coliss" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/lsprr"><img src="https://avatars.githubusercontent.com/u/16653744?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luis Parra</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=lsprr" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/yolenoyer"><img src="https://avatars.githubusercontent.com/u/24353810?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yolenoyer</b></sub></a><br /><a href="#projectManagement-yolenoyer" title="Project Management">📆</a> <a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ayolenoyer" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/meenal21"><img src="https://avatars.githubusercontent.com/u/13515337?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Meenal</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ameenal21" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=meenal21" title="Documentation">📖</a></td>
   </tr>
 </table>
 
