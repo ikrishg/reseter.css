@@ -132,6 +132,16 @@
         "bug",
         "doc"
       ]
+    },
+    {
+      "login": "verma-kunal",
+      "name": "Kunal Verma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72245772?v=4",
+      "profile": "https://github.com/verma-kunal",
+      "contributions": [
+        "doc",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
