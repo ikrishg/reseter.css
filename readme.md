@@ -74,7 +74,7 @@ Create A HTML File
 
 ```html
 <!-- To Be Placed In The Head Tag -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css/" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
 ```
 
 #### 🥳 All Set Now
