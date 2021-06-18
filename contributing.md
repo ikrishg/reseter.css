@@ -1,73 +1,96 @@
 # Contributing Guidelines
 
-## Our Pledge
+🎉 First of all, thanks for taking the time to contribute! 🎉
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to make participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+The following is a set of guidelines for contributing to Reseter.css. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-## Our Standards
+## Code of Conduct
 
-Examples of behavior that contributes to creating a positive environment
-include:
+This project and everyone participating in it is governed by a [Code of Conduct](https://github.com/krishdevdb/reseter.css/blob/master/code_of_conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [krishdevdb@gmail.com](mailto:krishdevdb@gmail.com).
 
-*   Using welcoming and inclusive language
-*   Being respectful of differing viewpoints and experiences
-*   Gracefully accepting constructive criticism
-*   Focusing on what is best for the community
-*   Showing empathy towards other community members
+## How Can I Contribute?
 
-Examples of unacceptable behavior by participants include:
+### Reporting Bugs
 
-*   The use of sexualized language or imagery and unwelcome sexual attention or
-    advances
-*   Trolling, insulting/derogatory comments, and personal or political attacks
-*   Publishing others' private information, such as a physical or electronic
-    address, without explicit permission
-*   Other conduct which could reasonably be considered inappropriate in a
-    professional setting
+This section guides you through submitting a bug report for Atom. Following these guidelines helps maintainers and the community understand your report 📝, reproduce the behavior 💻 💻, and find related reports 🔎.
 
-## Our Responsibilities
+Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/krishdevdb/reseter.css/blob/master/.github/ISSUE_TEMPLATE/bug-report.md), the information it asks for helps us resolve issues faster.
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+> **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+#### Before Submitting A Bug Report
 
-## Scope
+- **Perform a [cursory search](https://github.com/krishdevdb/reseter.css/issues)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
-This Code of Conduct applies within all project spaces, and it also applies when
-an individual is representing the project or its community in public spaces.
-Examples of representing a project or community include using an official
-project e-mail address, posting via an official social media account, or acting
-as an appointed representative at an online or offline event. Representation of
-a project may be further defined and clarified by project maintainers.
+#### How Do I Submit A (Good) Bug Report?
 
-## Enforcement
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue on this repository and provide the following information by filling in [the template](https://github.com/krishdevdb/reseter.css/blob/master/.github/ISSUE_TEMPLATE/bug-report.md).
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at krishdevdb@gmail.com. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+Explain the problem and include additional details to help maintainers reproduce the problem:
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+- **Use a clear and descriptive title** for the issue to identify the problem.
+- **Describe the exact steps which reproduce the problem** in as many details as possible. **don't just say what you did, but explain how you did it**.
+- **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+- **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
+- **Explain which behavior you expected to see instead and why.**
+- **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
 
-## Attribution
+### Suggesting Enhancements
 
-This Code of Conduct is adapted from the \[Contributor Covenant]\[https://www.contributor-covenant.org], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+This section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion 📝 and find related suggestions 🔎.
 
-For answers to common questions about this code of conduct, see
-https://www.contributor-covenant.org/faq
+Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](https://github.com/krishdevdb/reseter.css/blob/master/.github/ISSUE_TEMPLATE/feature-request.md), including the steps that you imagine you would take if the feature you're requesting existed.
+
+#### Before Submitting An Enhancement Suggestion
+
+- **Perform a [cursory search](https://github.com/search?q=repo%3Akrishdevdb%2Freseter.css+is%3Aissue+state%3Aopen)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+
+#### How Do I Submit A (Good) Enhancement Suggestion?
+
+Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue on that repository and provide the following information:
+
+- **Use a clear and descriptive title** for the issue to identify the suggestion.
+- **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
+- **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+- **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
+- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of reseter.css which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
+- **Explain why this enhancement would be useful** to most users and is something that can or should be implemented.
+
+### Your First Code Contribution
+
+Unsure where to begin contributing to Atom? You can start by looking through these `beginner` and `help-wanted` issues:
+
+- [Beginner issues](https://github.com/krishdevdb/reseter.css/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
+- [Help wanted issues](https://github.com/krishdevdb/reseter.css/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) - issues which should be a bit more involved than `beginner` issues.
+
+### Pull Requests
+
+The process described here has several goals:
+
+- Maintain Reseter.css's quality
+- Fix problems that are important to users
+- Engage the community in working toward the best possible!
+- Enable a sustainable system for maintainers to review contributions
+
+Please follow all instructions in [the template](https://github.com/krishdevdb/reseter.css/blob/master/.github/pull_request_template.md)
+
+#### Pull Request Proccess
+##### Docs
+Documentation can be edited via any medium you use! Just the code should not break :slight_smile:
+
+##### Code
+
+2. Make the changes to the code in the src/sass folder (omit all `{}` and `;`)
+
+3. Copy the contents of the sass file to the relavant file in src/stylus
+
+4. Repeat step one but in src/scss instead (don't omit `{}` and `;`)
+
+5. Copy the contents of the scss file to the relavant file in src/less
+
+6. Run the command `npm run npm:build`
+
+7. Copy the contents of css/reseter.min.css and paste into src/styled-components in replacing the old contents of the reset
+
+## Commit Guide
+We follow the [gitmoji guide](https://gitmoji.dev/) for our commit messages, we don't enforce that. The only enforcement is to add a relevant emoji at the beginning of the commit message
