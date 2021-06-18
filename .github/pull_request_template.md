@@ -2,35 +2,25 @@
 
 <!-- Replace "[ ]" with "[x]" to mark them as done --->
 
-- [ ] I followed the contributing guidelines: [https://github.com/krishdevdb/reseter.css/blob/master/contributing.md](https://github.com/krishdevdb/reseter.css/blob/master/contributing.md)
-
-### Which change are you proposing?
-
-- [ ] Adding A New Element's Reset
-- [ ] Editing A Old Element's Reset
-- [ ] Removing A Elements's Reset
-
-> Write Something About It Here
+- [ ] I followed the [code of conduct](https://github.com/krishdevdb/reseter.css/blob/master/code_of_conduct.md)
+- [ ] I followed the [contributing guidelines](https://github.com/krishdevdb/reseter.css/blob/master/contributing.md)
 
 ---
 
-My PR Meets The Following Criterias:
+## Changes Conducted
 
-- [ ] It Redifines Usefull Defaults (If you are doing it for h1 you redifine the font size to be big enough)
-- [ ] My Content Is Responsive If Applicable (If you are defining any `px` values please convert them to `rem` for responsiveness)
-- [ ] My Content Is Tested. That It Doesn't Breaks The Element
-- [ ] My Content Is Not My Personal Opinion
-- [ ] I have used the command `yarn *:build`
+This pull request meets the following criteria:
 
-<!-- Don't worry if you don't complete a source. our community will try best to make the changes in all sources as quick as possible -->
-
-I've added the following sources:
-
-- [ ] less
-- [ ] scss
-- [ ] sass
-- [ ] stylus
+- [ ] I am not affiliated for any kind of changes I am making
+- [ ] I have compiled all the files
+- [ ] I have only done whatever I have added the description (Create another pull request for any out of the box changes)
 
 > Please replace this line with an explanation of why you think these changes should be made.
 
-<!-- **Please note: we will close your PR without comment if you do not check the boxes above and provide ALL requested information.** -->
+## Fixed Issues/Added Features
+
+resolves #ISSUE_NO (Create Issue First Then PR)
+
+## Additional Details
+
+---
