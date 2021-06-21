@@ -59,9 +59,9 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
     ```
 4. Star this repository, if you like the project! It means a lot to the development team, Those stars a boosting happiness for our team
 
-5. How about reading a guide for best performance? Here's the link to [optimizing reseter.css for production](#-optimizing-reseter.css-for-production)
+5. How about reading a guide for best performance? Here's the link to [optimizing reseter.css for production](#-optimize)
 
-6. Lastly you can view our wiki for best practices and performance guides 
+6. Lastly you can view [our wiki for best practices and performance guides](https://github.com/krishdevdb/reseter.css/wiki/Performance) 
 
 7. 🥳 All Set Now
 
@@ -194,17 +194,37 @@ Coming Soon
 
 <br>
 
+## 🚅 Optimize
+
+> **Note** all of these guidelines are for static websites, frameworks like react have their own guide (please refer them)
+
+- Never import reseter.css via css, though this a option, it is not recommended for website loading, rather use html link tags
+
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
+  ```
+
+- Use this easy loading trick to make your life a lot easier
+
+  ```html
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/reseter.css" onload="this.rel='stylesheet';this.onload=null">
+  
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
+  </noscript>
+  ```
+
+- Find more at [our wiki](https://github.com/krishdevdb/reseter.css/wiki/Performance)
+
+<br>
+
 ## 📞 We're Ready To Support
 
-<!--
-- [x] Discord server
-- [x] GitHub discussions
-- [x] Stackoverflow
-- [x] Bug handler
-- [x] Mail Support
--->
-
-Support guidelines coming soon!
+- [ ] Discord server (Coming Soon)
+- [x] [GitHub discussions](https://github.com/krishdevdb/reseter.css/discussions)
+- [x] [Stackoverflow](https://stackoverflow.com/questions/ask)
+- [x] [Bug handler](https://github.com/krishdevdb/reseter.css/issues)
+- [x] [Mail Support](mailto:krishdevdb@gmail.com)
 
 <br>
 
