@@ -80,11 +80,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
 There are various ways to install reseter.css. Like package managers, content delivery networks, local copies...
 
-<br>
-
 ### 📦 Package Managers
-
-<br>
 
 #### 💝 **NPM** ![](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
 
@@ -92,30 +88,10 @@ There are various ways to install reseter.css. Like package managers, content de
 npm install reseter.css
 ```
 
-<br>
-
 #### 🐱**Yarn** ![](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
 
 ```bash
 yarn add reseter.css
-```
-
-<br>
-
-#### 🅿**PNPM** ![](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
-
-```bash
-pnpm install reseter.css
-```
-
-<br>
-
-#### 🐦**Bower** ![](https://img.shields.io/badge/Downloads-Unkown-inactive?style=flat-square)
-
-> Works Well For Development Purposes. Use Others For Production Use
-
-```bash
-bower install krishdevdb/reseter.css
 ```
 
 <br>
@@ -130,17 +106,6 @@ bower install krishdevdb/reseter.css
 
 <br>
 
-#### ☁ CDNJS ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
-
-```html
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/1.1.1/reseter.min.css"
-/>
-```
-
-<br>
-
 #### 📦 Unpkg ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
 
 ```html
@@ -151,7 +116,7 @@ bower install krishdevdb/reseter.css
 
 ### 🔖 Releases ![](https://img.shields.io/github/downloads/krishdevdb/reseter.css/total?style=flat-square&label=Downloads)
 
-#### [v1.1.3](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.3)
+#### 🆕 [v1.1.3](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.3)
 
 - 🌟 Fix Scroll Asked On Twitter
 
@@ -163,13 +128,13 @@ bower install krishdevdb/reseter.css
 
 <br>
 
-#### [v1.1.2](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.2)
+#### 🔨 [v1.1.2](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.2)
 - 🐛 Fix Margin Issue Created In v1.1.1
 - ➕ Update Dependencies
 
 <br>
 
-#### [v1.1.1](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.1)
+#### 🔥 [v1.1.1](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.1)
 - 🔥 Make Code Shorter
 - ✨ Update With Browsers
 - 🐛 Fix Bugs Of Related Projects
@@ -239,11 +204,8 @@ First Import Reseter.css then add your custom styles
 ```
 <br>
 
-### More
-- ⚛ React
-- 💅 Styled-Components
-- ✌ Vue
-- ⏭ Next.js
+### ✨ More
+Coming Soon
 
 <br>
 
