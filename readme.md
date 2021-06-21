@@ -208,12 +208,6 @@ Support guidelines coming soon!
 
 <br>
 
-## ♥ Feedback
-
-<a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" width="250" height="54" /></a>
-
-<br>
-
 ## ⌚ Roadmap
 
 *   [ ] Comment Blocks In The Sources
@@ -223,6 +217,13 @@ Support guidelines coming soon!
 *   [ ] Guide
 
 > All of these are moved to the [Benefits section](#-benefits) once done
+
+<br>
+
+
+## ♥ Feedback
+
+<a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" width="250" height="54" /></a>
 
 <br>
 
