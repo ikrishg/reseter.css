@@ -4,11 +4,11 @@
 
 *   [x] No need to start from scratch. Reseter.css doesn't remove all the browser styles, but instead redifines the useful ones
 *   [x] Never switch preprocessors/technologies. `sass`, `less`, `scss`, `stylus`, and `styled-components` support available.
-*   [x] Never find yourself fixing browser issues. Includes bug fixes and browser inconsistency fixes for wide browsers.
-*   [x] No need debugging load time for Reseter.css. It's sized ~2.5kb. Moreover, we are consistently trying to reduce it.
-*   [x] Get all the benefits of normalize.css. It includes all normalizations!
+*   [x] Never find yourself fixing browser issues. **Includes browser fixes** for a wide range of browsers.
+*   [x] No need debugging load time for Reseter.css. It's **sized ~2.5kb**. Moreover, we are consistently trying to reduce it.
+*   [x] Get **all the benefits of normalize.css**. It includes all normalizations!
 *   [x] Get a better box sizing for a better experience. `box-sing: border-box` set
-*   [x] Completely production ready code with browser support testing and source build ci
+*   [x] Completely production ready code with **browser support testing** and **source build ci**
 
 <br>
 
@@ -405,4 +405,4 @@ SOFTWARE.
 
 ## ⌚ Status
 
-This project is currently being maintained. Please Consider [Donating](https://opencollective.com/resetercss/).
+This project is currently being **maintained**. Please Consider [Donating](https://opencollective.com/resetercss/).
