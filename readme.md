@@ -104,8 +104,6 @@ yarn add reseter.css
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
 ```
 
-<br>
-
 #### 📦 Unpkg ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
 
 ```html
@@ -126,13 +124,9 @@ yarn add reseter.css
 
 - 😃 Fix Emoji
 
-<br>
-
 #### 🔨 [v1.1.2](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.2)
 - 🐛 Fix Margin Issue Created In v1.1.1
 - ➕ Update Dependencies
-
-<br>
 
 #### 🔥 [v1.1.1](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.1)
 - 🔥 Make Code Shorter
@@ -151,8 +145,6 @@ yarn add reseter.css
 
 ## ✨ Get Using It
 Reseter.css as said, is a zero-dependency project and excels in integrating with all kinds of usage options! These are a few easy guides for people to start
-
-<br>
 
 ### 🔗 Link Tag - The Recommended Way
 
@@ -173,8 +165,6 @@ Using It With A Browser Is Really Simple. First Link To Reseter.css Then Your Cu
 >
 > Make Sure To Link Your Custom Stylesheet After Reseter.css Else Your Custom Styles Might Not Be Implemented
 
-<br>
-
 ### 🟢 Import - The Easy Way
 
 First Import Reseter.css then add your custom styles
@@ -189,9 +179,6 @@ First Import Reseter.css then add your custom styles
 }
 ```
 
-
-<br>
-
 ```html
 <!-- In The Head Of Your HTML -->
 <link
@@ -202,8 +189,6 @@ First Import Reseter.css then add your custom styles
 
 <!-- Must Be Used Where ever You Want Reseter.css To Work -->
 ```
-<br>
-
 ### ✨ More
 Coming Soon
 
@@ -211,32 +196,23 @@ Coming Soon
 
 ## 📞 We're Ready To Support
 
+<!--
 - [x] Discord server
 - [x] GitHub discussions
 - [x] Stackoverflow
 - [x] Bug handler
 - [x] Mail Support
+-->
+
+Support guidelines coming soon!
 
 <br>
 
-## ❤ Show Your Love To The Community
+## ♥ Feedback
+
+<a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" width="250" height="54" /></a>
 
 <br>
-
-### ✏ Write a review
-
-*   <a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" width="250" height="54" /></a>
-
-<br>
-
-### 📤 Let others know about it!
-
-*   Twitter: <a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/badge/Share-Twitter-%231DA1F2?style=flat-square"></a>
-*   Facebook: <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Facebook-%233b5998?style=flat-square"></a>
-*   Linkedin: <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/krishdevdb/reseter.css"><img src="https://img.shields.io/badge/Share-Linkedin-%230e76a8?style=flat-square"></img></a>
-*   Pinterest: <a href="https://pinterest.com/pin/create/button/?url=https://github.com/krishdevdb/reseter.css&media=https://i.ibb.co/3vbFKfD/Reseter-css.png&description=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Pinterest-%23c8232c?style=flat-square"></img></a>
-*   Email: <a href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://github.com/krishdevdb/reseter.css%0AReseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img src="https://img.shields.io/badge/Share-Email-green?style=flat-square"></img></a>
-*   <br>
 
 ## ⌚ Roadmap
 
@@ -252,8 +228,6 @@ Coming Soon
 
 ## 🧑 Authors
 
-<br>
-
 | ![krishdevdb](https://avatars.githubusercontent.com/u/76587897?s=100) |
 | :----------------------------------------------------------: |
 |                            Krish                             |
@@ -263,8 +237,6 @@ Coming Soon
 <br>
 
 ## ❤ Contributors
-
-<br>
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -299,8 +271,6 @@ Coming Soon
 
 ## ❤ Thanks to our supporters
 
-<br>
-
 ### ⭐ Stargazers
 
 <a href="https://github.com/krishdevdb/reseter.css/stargazers">
@@ -317,19 +287,13 @@ Coming Soon
 
 ## 🌟 Special Mentions
 
-<br>
-
 ### 📤 Posts/Newletters
-
-<br>
 
 [Frontend Focus](https://frontendfoc.us/) - A Weekly Newsletter That Published **Reseter.css** in it's [Issue #485](https://frontendfoc.us/issues/485)
 
 [Collis.com](https://coliss.com) - For A Japanese [Post Regarding **Reseter.css**](https://coliss.com/articles/build-websites/operation/css/reset-and-normalizer-reseter-css.html)
 
 > We are only including the first few folks, who helped us out, but we are planning a dedicated section for every folk!
-
-<br>
 
 ### 🌟 GitHub Stargazers
 
@@ -338,8 +302,6 @@ Coming Soon
 <br>
 
 ## 📄 License
-
-<br>
 
 ```markdown
 MIT License
@@ -364,6 +326,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+<br>
 
 ## ⌚ Status
 
