@@ -94,8 +94,6 @@ npm install reseter.css
 yarn add reseter.css
 ```
 
-<br>
-
 ### ⚡ CDN
 
 #### 🚚 JsDelivir - The Recommended CDN ![](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
@@ -190,7 +188,11 @@ First Import Reseter.css then add your custom styles
 <!-- Must Be Used Where ever You Want Reseter.css To Work -->
 ```
 ### ✨ More
-Coming Soon
+- [**🐍 Django**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-django)
+- [**⚛ ReactJs**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-reactjs)
+- **https://github.com/krishdevdb/reseter.css/wiki/Usage#-vuejs**
+- [**⏭ Next.js**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-nextjs)
+- [**💅 Styled Components**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-styled-components)
 
 <br>
 
@@ -222,9 +224,8 @@ Coming Soon
 
 - [ ] Discord server (Coming Soon)
 - [x] [GitHub discussions](https://github.com/krishdevdb/reseter.css/discussions)
-- [x] [Stackoverflow](https://stackoverflow.com/questions/ask)
+- [x] [Stackoverflow](https://stackoverflow.com/questions/ask?tags=resetercss%20css%20webdev)
 - [x] [Bug handler](https://github.com/krishdevdb/reseter.css/issues)
-- [x] [Mail Support](mailto:krishdevdb@gmail.com)
 
 <br>
 
@@ -249,7 +250,7 @@ Coming Soon
 
 ## 🧑 Authors
 
-| ![krishdevdb](https://avatars.githubusercontent.com/u/76587897?s=100) |
+| <img src="https://avatars.githubusercontent.com/u/76587897?s=500" alt="krishdevdb" width="100" /> |
 | :----------------------------------------------------------: |
 |                            Krish                             |
 |           [Github](https://github.com/krishdevdb)            |
