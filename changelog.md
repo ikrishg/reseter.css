@@ -2,6 +2,16 @@
 
 All notable changes to this project will are being listed in this file.
 
+## 1.2.0
+
+*   📃 Major Documentation Changes
+*   🔧 All Contributor Fixes
+*   🍱 Screen Shots
+*   ✅ GitHub CI
+*   📜 Build Scripts
+*   ➕ Upgrade Development Dependencies
+*   ✨ Old Tags Support
+
 ## 1.1.3
 
 *   🌟 Fix Scroll Asked On Twitter
