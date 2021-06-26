@@ -3,7 +3,6 @@ input,
 optgroup,
 select,
 textarea
-  margin: 0
   line-height: inherit
   border: 1px solid currentColor
 
@@ -24,14 +23,12 @@ input
 input,
 textarea
   padding: 1px
-  box-sizing: border-box
 
 fieldset
   border: 1px solid currentColor
   margin: 0 2px
 
 legend
-  box-sizing: border-box
   color: inherit
   display: table
   max-width: 100%
@@ -45,7 +42,6 @@ select
   text-transform: none
 
 textarea
-  margin: 0
   overflow: auto
   vertical-align: top
 
@@ -53,32 +49,24 @@ textarea
   -webkit-appearance: textfield
   outline-offset: -2px
 
+[type="color"]
+  background: inherit
+
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button
   height: auto
 
-::-webkit-color-swatch,
-::-moz-color-swatch
-  border: 0
-
-::-webkit-color-swatch-wrapper,
-::-moz-color-swatch-wrapper
-  padding: 0
-
 ::-webkit-input-placeholder
   color: inherit
-  opacity: 0.54
+  opacity: 0.5
 
-::-webkit-search-decoration
-  -webkit-appearance: none
-
+::-webkit-search-decoration,
 ::-webkit-file-upload-button
   -webkit-appearance: button
   font: inherit
 
 ::-moz-focus-inner
   border-style: none
-  padding: 0
 
 :-moz-focusring
   outline: 1px dotted ButtonText
