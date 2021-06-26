@@ -1,5 +1,4 @@
 # Ignore Settings
-.vscode
 .github
 .all-contributorsrc
 .gitignore
