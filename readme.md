@@ -5,7 +5,7 @@
 *   [x] No need to start from scratch. Reseter.css doesn't remove all the browser styles, but instead redifines the useful ones
 *   [x] Never switch preprocessors/technologies. `sass`, `less`, `scss`, `stylus`, and `styled-components` support available.
 *   [x] Never find yourself fixing browser issues. **Includes browser fixes** for a wide range of browsers.
-*   [x] No need debugging load time for Reseter.css. It's **sized ~2.5kb**. Moreover, we are consistently trying to reduce it.
+*   [x] No need debugging load time for Reseter.css. It's **sized ~0.7kb**. Moreover, we are consistently trying to reduce it.
 *   [x] Get **all the benefits of normalize.css**. It includes all normalizations!
 *   [x] Get a better box sizing for a better experience. `box-sing: border-box` set
 *   [x] Completely production ready code with **browser support testing** and **source build ci**
@@ -61,7 +61,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
 5. How about reading a guide for best performance? Here's the link to [optimizing reseter.css for production](#-optimize)
 
-6. Lastly you can view [our wiki for best practices and performance guides](https://github.com/krishdevdb/reseter.css/wiki/Performance) 
+6. Lastly you can view [our wiki for best practices and performance guides](https://github.com/krishdevdb/reseter.css/wiki/Performance)
 
 7. 🥳 All Set Now
 
@@ -168,7 +168,7 @@ Using It With A Browser Is Really Simple. First Link To Reseter.css Then Your Cu
 First Import Reseter.css then add your custom styles
 
 ```css
-// In Your CSS File
+/** In Your CSS File **/
 
 @import "path/to/reseter.min.css";
 
@@ -210,7 +210,7 @@ First Import Reseter.css then add your custom styles
 
   ```html
   <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/reseter.css" onload="this.rel='stylesheet';this.onload=null">
-  
+
   <noscript>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
   </noscript>
@@ -327,19 +327,19 @@ First Import Reseter.css then add your custom styles
 
 ```markdown
 MIT License
-    
+
 Copyright (c) 2021 Krish Dev DB
-    
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-    
+
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-    
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
