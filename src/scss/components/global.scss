@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  line-height: 1.15;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
