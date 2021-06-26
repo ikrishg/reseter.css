@@ -4,17 +4,21 @@ hr
   color: inherit
   overflow: visible
 
-dl dl,
-dl ol,
-dl ul,
-ol dl,
-ul dl
-  margin: 0
+dl,
+ol,
+ul
+  margin: 1em 0
+
 
 ol ol,
 ol ul,
+ol dl,
 ul ol,
-ul ul
+ul ul,
+ul dl,
+dl ol,
+dl ul,
+dl dl
   margin: 0
 
 b,
@@ -47,14 +51,12 @@ dialog
   border: solid
   color: inherit
   display: block
-  height: -webkit-fit-content
   height: fit-content
   left: 0
   margin: auto
   padding: 1em
   position: absolute
   right: 0
-  width: -moz-fit-content
   width: fit-content
 
 dialog:not([open])
