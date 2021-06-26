@@ -11,6 +11,7 @@ jobs:
           node-version: '14.x'
         env:
           BUNDLEWATCH_GITHUB_TOKEN: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN }}
+      - name: Dependencies
         run: npm ci
       - name: Sass
         run: yarn sass
