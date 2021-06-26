@@ -9,6 +9,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14.x'
+        env:
+          BUNDLEWATCH_GITHUB_TOKEN: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN }}
         run: npm ci
       - name: Sass
         run: yarn sass
