@@ -18,7 +18,7 @@ jobs:
       - name: Compile Less
         run: npm run-script less
       - name: Compile Stylus
-        run: npm run-script stylus
+        run: npm run-script styl
   prepare:
     name: Prepare
     runs-on: ubuntu-latest
