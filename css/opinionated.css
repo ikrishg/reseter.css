@@ -137,7 +137,7 @@ textarea {
 }
 
 ::-moz-focus-inner {
-  border-style: none;
+  border: 0;
 }
 
 :-moz-focusring {
@@ -189,7 +189,7 @@ audio:not([controls]) {
 }
 
 img {
-  border-style: none;
+  border: 0;
 }
 
 svg:not(:root) {
