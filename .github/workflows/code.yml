@@ -44,4 +44,6 @@ jobs:
       - name: Dependencies
         run: npm install
       - name: Compress
+        env:
+          BUNDLEWATCH_GITHUB_TOKEN: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN }}
         run: npm run-script compress
