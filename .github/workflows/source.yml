@@ -1,0 +1,47 @@
+name: Build
+on: push
+jobs:
+  compile:
+    name: Compilation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Install Dependencies
+        run: npm install
+      - name: Compile Sass
+        run: npm run-script sass
+      - name: Compile Scss
+        run: npm run-script scss
+      - name: Compile Less
+        run: npm run-script less
+      - name: Compile Stylus
+        run: npm run-script stylus
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Dependencies
+        run: npm install
+      - name: Autoprefixing
+        run: npm run-script prefix
+      - name: Minification
+        run: npm run-script minify
+  bundlewatch:
+    name: Size Management
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Dependencies
+        run: npm install
+      - name: Compress
+        run: npm run-script compress
