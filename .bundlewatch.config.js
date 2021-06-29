@@ -9,11 +9,19 @@ module.exports = {
       maxSize: "1kb",
     },
     {
-      path: "css/optionated.css",
+      path: "css/opinionated.css",
       maxSize: "1.5kb",
     },
     {
-      path: "css/optionated.min.css",
+      path: "css/opinionated.min.css",
+      maxSize: "1kb",
+    },
+    {
+      path: "css/minireseter.css",
+      maxSize: "1.5kb",
+    },
+    {
+      path: "css/minireseter.min.css",
       maxSize: "1kb",
     },
   ],
