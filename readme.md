@@ -10,15 +10,11 @@
 *   [x] Get a better box sizing for a better experience. `box-sing: border-box` set
 *   [x] Completely production ready code with **browser support testing** and **source build ci**
 
-<br>
-
 ## ❓ Why do I use a css reset
 
 There are many inconsistencies between browsers. Like Firefox 3 has a margin on top of paragraphs but Internet Explorer 7 doesn't have any margin. There are thousands of browsers with hundreds of versions. Each version at least has 500+ inconsitencies with different browsers' different versions. How to keep up? This is an easy to use solution called **reseter.css**
 
 <img align="center" alt="Browser Inconsistencies" src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/css_reset.png">
-
-<br>
 
 ## 🆚 There are other resets, why reseter.css?
 
@@ -31,8 +27,6 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 |                    GZIP version                    | ![npm bundle size](https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square) |                    ❌ (Compress yourself)                     |                    ❌ (Compress yourself)                     |                    ❌ (Compress yourself)                     |
 |                     Box sizing                     |                              ✅                               |                              ❌                               |                              ✅                               |                              ❌                               |
 |                  Browser support                   | Last 5 versions <br />All not dead Browsers <br />**Customisable** | IE 10+<br />Safari 8+<br />Chrome<br />Firefox ESR+<br />Opera<br />Edge | Last 3 versions<br />Exception: safari last 2<br />Also firefox ESR, IE 9+ |                            Unkown                            |
-
-<br>
 
 ## 🚀 Get It Running Quick
 
@@ -65,16 +59,13 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
 7. 🥳 All Set Now
 
-<br>
-
 ## 📚 Quick Templates
 
 - [CodeSandBox](https://codesandbox.io/s/resetercss-26kzw)
 
 - [CodePen](https://codepen.io/krishdevdb/pen/XWppdvK)
-- More soon...
 
-<br>
+- More soon...
 
 ## 🌟 Installation
 
@@ -94,59 +85,14 @@ npm install reseter.css
 yarn add reseter.css
 ```
 
-### ⚡ CDN
-
-#### 🚚 JsDelivir - The Recommended CDN ![](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
+### ⚡ CDN ![](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
 ```
 
-#### 📦 Unpkg ![](https://img.shields.io/badge/Hits-Unkown-inactive?style=flat-square)
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/reseter.css" />
-```
-
-<br>
-
-### 🔖 Releases ![](https://img.shields.io/github/downloads/krishdevdb/reseter.css/total?style=flat-square&label=Downloads)
-
-#### 🆕 [v1.1.3](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.3)
-
-- 🌟 Fix Scroll Asked On Twitter
-
-- 🐛 Fix #19 (#30)
-
-- 📝 Meta Stuff (Readme, And More)
-
-- 😃 Fix Emoji
-
-#### 🔨 [v1.1.2](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.2)
-- 🐛 Fix Margin Issue Created In v1.1.1
-- ➕ Update Dependencies
-
-#### 🔥 [v1.1.1](https://github.com/krishdevdb/reseter.css/releases/tag/1.1.1)
-- 🔥 Make Code Shorter
-- ✨ Update With Browsers
-- 🐛 Fix Bugs Of Related Projects
-
-<br>
-
-### 📁 Download Beta
-
-*   Minified - [reseter.min.css](https://github.com/krishdevdb/reseter.css/blob/master/css/reseter.min.css)
-*   Compiled - [reseter.css](https://github.com/krishdevdb/reseter.css/blob/master/css/reseter.css)
-*   Source Binary - [master.zip](https://github.com/krishdevdb/reseter.css/archive/master.zip)
-
-<br>
-
 ## ✨ Get Using It
 Reseter.css as said, is a zero-dependency project and excels in integrating with all kinds of usage options! These are a few easy guides for people to start
-
-### 🔗 Link Tag - The Recommended Way
-
-Using It With A Browser Is Really Simple. First Link To Reseter.css Then Your Custom Stylesheet
 
 ```html
 <head>
@@ -163,38 +109,12 @@ Using It With A Browser Is Really Simple. First Link To Reseter.css Then Your Cu
 >
 > Make Sure To Link Your Custom Stylesheet After Reseter.css Else Your Custom Styles Might Not Be Implemented
 
-### 🟢 Import - The Easy Way
-
-First Import Reseter.css then add your custom styles
-
-```css
-/** In Your CSS File **/
-
-@import "path/to/reseter.min.css";
-
-.element {
-  /** Your Custom Style's Here **/
-}
-```
-
-```html
-<!-- In The Head Of Your HTML -->
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="path/to/your-custom-stylesheet.css"
-/>
-
-<!-- Must Be Used Where ever You Want Reseter.css To Work -->
-```
 ### ✨ More
 - [**🐍 Django**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-django)
 - [**⚛ ReactJs**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-reactjs)
-- **https://github.com/krishdevdb/reseter.css/wiki/Usage#-vuejs**
+- [**✌️ Vuejs**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-vuejs)
 - [**⏭ Next.js**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-nextjs)
 - [**💅 Styled Components**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-styled-components)
-
-<br>
 
 ## 🚅 Optimize
 
@@ -218,8 +138,6 @@ First Import Reseter.css then add your custom styles
 
 - Find more at [our wiki](https://github.com/krishdevdb/reseter.css/wiki/Performance)
 
-<br>
-
 ## 📞 We're Ready To Support
 
 - [ ] Discord server (Coming Soon)
@@ -227,129 +145,21 @@ First Import Reseter.css then add your custom styles
 - [x] [Stackoverflow](https://stackoverflow.com/questions/ask?tags=resetercss%20css%20webdev)
 - [x] [Bug handler](https://github.com/krishdevdb/reseter.css/issues)
 
-<br>
-
 ## ⌚ Roadmap
 
-*   [ ] Comment Blocks In The Sources
+* [ ] Comment Blocks In The Sources
 
-*   [ ] Long Documentation
+* [ ] Long Documentation
 
-*   [ ] Guide
+* [ ] Guide
 
 > All of these are moved to the [Benefits section](#-benefits) once done
 
-<br>
-
-
-## ♥ Feedback
-
-<a href="https://www.producthunt.com/posts/reseter-css?utm_source=badge-review&utm_medium=badge&utm_souce=badge-reseter-css#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=285799&theme=light" alt="Reseter.css - A futuristic CSS reset and normalize | Product Hunt" width="250" height="54" /></a>
-
-<br>
-
-## 🧑 Authors
-
-| <img src="https://avatars.githubusercontent.com/u/76587897?s=500" alt="krishdevdb" width="100" /> |
-| :----------------------------------------------------------: |
-|                            Krish                             |
-|           [Github](https://github.com/krishdevdb)            |
-|             [Email](mailto:krishdevdb@gmail.com)             |
-
-<br>
-
-## ❤ Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<table>
-  <tr>
-    <td align="center"><a href="https://tracker1.dev/"><img src="https://avatars.githubusercontent.com/u/444316?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael J. Ryan</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=tracker1" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/joejenett"><img src="https://avatars.githubusercontent.com/u/52048847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>joejenett</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ajoejenett" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=joejenett" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://vincentwill.com/"><img src="https://avatars.githubusercontent.com/u/43953403?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vincent Will</b></sub></a><br /><a href="#blog-vincenius" title="Blogposts">📝</a></td>
-    <td align="center"><a href="https://twitter.com/nghuuphuoc"><img src="https://avatars.githubusercontent.com/u/57786711?v=4?s=100" width="100px;" alt=""/><br /><sub><b>phuoc-ng</b></sub></a><br /><a href="#tool-phuoc-ng" title="Tools">🔧</a></td>
-    <td align="center"><a href="https://github.com/leandrooriente"><img src="https://avatars.githubusercontent.com/u/1781007?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leandro Oriente</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Aleandrooriente" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="http://linkedin.com/in/himanshu-here/"><img src="https://avatars.githubusercontent.com/u/65963997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Himanshu</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=himanshu007-creator" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/VixieTSQ"><img src="https://avatars.githubusercontent.com/u/62594135?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vixie</b></sub></a><br /><a href="#ideas-VixieTSQ" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=VixieTSQ" title="Code">💻</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=VixieTSQ" title="Documentation">📖</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://miza.org"><img src="https://avatars.githubusercontent.com/u/7329623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>aco</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Astarkana" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=starkana" title="Code">💻</a></td>
-    <td align="center"><a href="https://yamanoku.net"><img src="https://avatars.githubusercontent.com/u/1996642?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Okuto Oyama</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=yamanoku" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://coliss.com/"><img src="https://avatars.githubusercontent.com/u/450701?v=4?s=100" width="100px;" alt=""/><br /><sub><b>coliss</b></sub></a><br /><a href="#blog-coliss" title="Blogposts">📝</a></td>
-    <td align="center"><a href="https://github.com/lsprr"><img src="https://avatars.githubusercontent.com/u/16653744?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luis Parra</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=lsprr" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/yolenoyer"><img src="https://avatars.githubusercontent.com/u/24353810?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yolenoyer</b></sub></a><br /><a href="#projectManagement-yolenoyer" title="Project Management">📆</a> <a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ayolenoyer" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/meenal21"><img src="https://avatars.githubusercontent.com/u/13515337?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Meenal</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Ameenal21" title="Bug reports">🐛</a> <a href="https://github.com/krishdevdb/reseter.css/commits?author=meenal21" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/verma-kunal"><img src="https://avatars.githubusercontent.com/u/72245772?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kunal Verma</b></sub></a><br /><a href="https://github.com/krishdevdb/reseter.css/commits?author=verma-kunal" title="Documentation">📖</a> <a href="https://github.com/krishdevdb/reseter.css/issues?q=author%3Averma-kunal" title="Bug reports">🐛</a></td>
-  </tr>
-</table>
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-<br>
-
 ## ❤ Thanks to our supporters
 
-### ⭐ Stargazers
-
 <a href="https://github.com/krishdevdb/reseter.css/stargazers">
-<img src="https://reporoster.com/stars/krishdevdb/reseter.css"></a>
-
-<br>
-
-### 🍴 Forkers
-
-<a href="https://github.com/krishdevdb/reseter.css/fork">
-<img src="https://reporoster.com/forks/krishdevdb/reseter.css"></a>
-
-<br>
-
-## 🌟 Special Mentions
-
-### 📤 Posts/Newletters
-
-[Frontend Focus](https://frontendfoc.us/) - A Weekly Newsletter That Published **Reseter.css** in it's [Issue #485](https://frontendfoc.us/issues/485)
-
-[Collis.com](https://coliss.com) - For A Japanese [Post Regarding **Reseter.css**](https://coliss.com/articles/build-websites/operation/css/reset-and-normalizer-reseter-css.html)
-
-> We are only including the first few folks, who helped us out, but we are planning a dedicated section for every folk!
-
-### 🌟 GitHub Stargazers
-
-[![Stargazers over time](https://starchart.cc/krishdevdb/reseter.css.svg)](https://starchart.cc/krishdevdb/reseter.css)
-
-<br>
-
-## 📄 License
-
-```markdown
-MIT License
-
-Copyright (c) 2021 Krish Dev DB
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-<br>
+  <img src="https://reporoster.com/stars/krishdevdb/reseter.css">
+</a>
 
 ## ⌚ Status
 
