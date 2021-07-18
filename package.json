@@ -1,7 +1,7 @@
 {
   "name": "reseter.css",
-  "version": "1.2.0",
-  "description": "Reset Browser Default Styles, Without the need to work with a blankslate. Improve Cross Browser Compatibility. Get All Benifits From Normalize.css As Well ",
+  "version": "2.0.0",
+  "description": "Reset Browser Default Styles, Without the need to work with a blank slate. Improve Cross Browser Compatibility. Get All Benefits From Normalize.css As Well ",
   "keywords": [
     "css",
     "css-reset",
