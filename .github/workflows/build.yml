@@ -1,0 +1,37 @@
+on:
+  push:
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.8.0'
+      - run: npm install
+      - name: Compile Sass
+        run: npm run-script sass
+      - name: Compile Scss
+        run: npm run-script scss
+      - name: Autoprefixer
+        run: npm run-script prefix
+      - name: Minification
+        run: npm run-script minify
+      - name: Compress
+        run: npm run-script compress
+        env:
+          BUNDLEWATCH_GITHUB_TOKEN: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN }}
+      - name: Styled Components
+        run: npm run styledComponents
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: automated compilation"
+  wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy wiki
+        run: |
+          git remote set-url --add wiki https://github.com/resetercss/reseter.css.wiki.git
+          git subtree push --prefix docs wiki main
+
