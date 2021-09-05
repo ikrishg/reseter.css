@@ -32,6 +32,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Deploy wiki
         run: |
-          git remote set-url --add wiki https://github.com/resetercss/reseter.css.wiki.git
+          git remote add wiki https://github.com/resetercss/reseter.css.wiki.git
           git subtree push --prefix docs wiki main
 
