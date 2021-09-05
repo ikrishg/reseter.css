@@ -1,6 +1,6 @@
 # Reseter.css Wiki
 
-> These docs are automatically deployed [here](https://github.com/resetercss/reseter.css/wiki) using github action
+> These docs are automatically deployed [here](https://github.com/resetercss/reseter.css/wiki) using github actions
 
 Hey there! Welcome to the Reseter.css wiki. This wiki is our documentation. We have usage guides, performance optimizations and contributing guidelines.
 
