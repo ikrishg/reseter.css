@@ -27,9 +27,13 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "chore: automated compilation"
+
   release:
-    runs-on: ubuntu-latest
     needs: code
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v2
       - id: changelog
@@ -44,19 +48,22 @@ jobs:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
-  npm-registry:
-    runs-on: ubuntu-latest
-    needs: release
-    steps:
-      - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '16.8.x'
+          node-version: '10.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
-      - run: npm publish
+      - run: npm publish --access public
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - uses: actions/setup-node@v2
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+      - run: npm publish
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   gh-registry:
     runs-on: ubuntu-latest
