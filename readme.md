@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center"><p><a href="https://www.codefactor.io/repository/github/krishdevdb/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/krishdevdb/reseter.css?style=flat-square&logo=codefactor"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a> <a href="#-contributors"><img src="https://img.shields.io/github/all-contributors/krishdevdb/reseter.css?style=flat-square&logo=github"></a></p><img height="100px" width="100px" src="https://github.com/krishdevdb/reseter.css/raw/main/logo.png"><br><h1>Reseter.css</h1><h5>A Futuristic Alternative to Normalize.css and CSS Resets</h5><a href="https://twitter.com/intent/tweet?url=https://github.com/krishdevdb/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fkrishdevdb%2Freseter.css"></a><br><p><img src="https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/showcase.png" height="400"></p><p><a href="https://krishdevdb.github.io/reseter.css">Website</a> · <a href="https://github.com/krishdevdb/reseter.css/issues/new?assignees=krishdevdb%27&labels=feature+request&template=feature-request.md&title=Request%3A+">Request a Feature</a> · <a href="https://github.com/krishdevdb/reseter.css/issues/new?assignees=krishdevdb&labels=bug&template=bug-report.md&title=Bug%3A+">Report a Bug</a></p></div>
+<div align="center"><p><a href="https://www.codefactor.io/repository/github/resetercss/reseter.css"><img src="https://img.shields.io/codefactor/grade/github/resetercss/reseter.css?style=flat-square&logo=codefactor"></a> <a href="https://bundlephobia.com/result?p=reseter.css"><img src="https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square"></a> <a href="#-contributors"><img src="https://img.shields.io/github/all-contributors/resetercss/reseter.css?style=flat-square&logo=github"></a></p><img height="100px" width="100px" src="https://github.com/resetercss/reseter.css/raw/main/logo.png"><br><h1>Reseter.css</h1><h5>A Futuristic Alternative to Normalize.css and CSS Resets</h5><a href="https://twitter.com/intent/tweet?url=https://github.com/resetercss/reseter.css&text=Reseter.css%20helped%20me%20out%20in%20my%20website%20by%20normalizing%20everything.%20And%20Reseting%20The%20Browser%20Default%20Styles.%20Now%20My%20Website%20Looks%20The%20Same%20Across%20All%20Browsers"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?color=%23ffffff00&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fresetercss%2Freseter.css"></a><br><p><img src="https://github.com/resetercss/reseter.css/blob/main/.github/assets/showcase.png" height="400"></p><p><a href="https://resetercss.github.io/reseter.css">Website</a> · <a href="https://github.com/resetercss/reseter.css/issues/new?assignees=resetercss%27&labels=feature+request&template=feature-request.md&title=Request%3A+">Request a Feature</a> · <a href="https://github.com/resetercss/reseter.css/issues/new?assignees=resetercss&labels=bug&template=bug-report.md&title=Bug%3A+">Report a Bug</a></p></div>
 
 ## 🤓 Benefits
 
@@ -15,7 +15,7 @@
 
 There are many inconsistencies between browsers. Like Firefox 3 has a margin on top of paragraphs but Internet Explorer 7 doesn't have any margin. There are thousands of browsers with hundreds of versions. Each version at least has 500+ inconsistencies with different browsers' different versions. How to keep up? This is an easy to use solution called **reseter.css**
 
-![Browser Inconsistencies](https://github.com/krishdevdb/reseter.css/raw/master/.github/assets/css_reset.png)
+![Browser Inconsistencies](https://github.com/resetercss/reseter.css/blob/main/.github/assets/css_reset.png)
 
 ## 🆚 There are other resets, why reseter.css?
 
@@ -23,7 +23,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 | :------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                   Normalizations                   |                              ✅                               |                              ✅                               |                              ✅                               |                              ❌                               |
 |               Basic elemental styles               |                              ✅                               |                           Partial                            |                              ✅                               |                              ❌                               |
-| Size (by [bundle phobia](http://bundlephobia.com/)) | ![GitHub file size in bytes](https://img.shields.io/github/size/krishdevdb/reseter.css/css/reseter.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
+| Size (by [bundle phobia](http://bundlephobia.com/)) | ![GitHub file size in bytes](https://img.shields.io/github/size/resetercss/reseter.css/css/reseter.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
 |                  Minified version                  | ![npm bundle size](https://img.shields.io/bundlephobia/min/reseter.css?style=flat-square) |                     ❌ (Minify yourself)                      |                      ❌(Minify yourself)                      |                      ❌(Minify yourself)                      |
 |                    GZIP version                    | ![npm bundle size](https://img.shields.io/bundlephobia/minzip/reseter.css?style=flat-square) |                    ❌ (Compress yourself)                     |                    ❌ (Compress yourself)                     |                    ❌ (Compress yourself)                     |
 |                     Box sizing                     |                              ✅                               |                              ❌                               |                              ✅                               |                              ❌                               |
@@ -59,7 +59,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
 5. How about reading a guide for best performance? Here's the link to [optimizing reseter.css for production](#-optimize)
 
-6. Lastly you can view [our wiki for best practices and performance guides](https://github.com/krishdevdb/reseter.css/wiki/Performance)
+6. Lastly you can view [our wiki for best practices and performance guides](https://github.com/resetercss/reseter.css/wiki/Performance)
 
 7. 🥳 All Set Now
 
@@ -116,11 +116,11 @@ Reseter.css as said, is a zero-dependency project and excels in integrating with
 
 ### ✨ More
 
-* [**🐍 Django**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-django)
-* [**⚛ ReactJs**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-reactjs)
-* [**✌️ Vuejs**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-vuejs)
-* [**⏭ Next.js**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-nextjs)
-* [**💅 Styled Components**](https://github.com/krishdevdb/reseter.css/wiki/Usage#-styled-components)
+* [**🐍 Django**](https://github.com/resetercss/reseter.css/wiki/Usage#-django)
+* [**⚛ ReactJs**](https://github.com/resetercss/reseter.css/wiki/Usage#-reactjs)
+* [**✌️ Vuejs**](https://github.com/resetercss/reseter.css/wiki/Usage#-vuejs)
+* [**⏭ Next.js**](https://github.com/resetercss/reseter.css/wiki/Usage#-nextjs)
+* [**💅 Styled Components**](https://github.com/resetercss/reseter.css/wiki/Usage#-styled-components)
 
 ## 🚅 Optimize
 
@@ -142,14 +142,14 @@ Reseter.css as said, is a zero-dependency project and excels in integrating with
   </noscript>
   ```
 
-* Find more at [our wiki](https://github.com/krishdevdb/reseter.css/wiki/Performance)
+* Find more at [our wiki](https://github.com/resetercss/reseter.css/wiki/Performance)
 
 ## 📞 We're Ready To Support
 
 * [ ] Discord server (Coming Soon)
-* [x] [GitHub discussions](https://github.com/krishdevdb/reseter.css/discussions)
+* [x] [GitHub discussions](https://github.com/resetercss/reseter.css/discussions)
 * [x] [Stack overflow](https://stackoverflow.com/questions/ask?tags=resetercss%20css%20webdev)
-* [x] [Bug handler](https://github.com/krishdevdb/reseter.css/issues)
+* [x] [Bug handler](https://github.com/resetercss/reseter.css/issues)
 
 ## ⌚ Road Map
 
@@ -163,4 +163,4 @@ Reseter.css as said, is a zero-dependency project and excels in integrating with
 
 ## ❤ Thanks to our supporters
 
-[![GitHub Stargazers](https://reporoster.com/stars/krishdevdb/reseter.css)](https://github.com/krishdevdb/reseter.css/stargazers)
+[![GitHub Stargazers](https://reporoster.com/stars/resetercss/reseter.css)](https://github.com/resetercss/reseter.css/stargazers)
