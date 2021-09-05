@@ -64,30 +64,3 @@ jobs:
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  gh-registry:
-    runs-on: ubuntu-latest
-    needs: release
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12.x'
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@resetercss'
-      - run: npm install
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  wiki:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Deploy wiki
-        run: |
-          git remote add wiki https://github.com/resetercss/reseter.css.wiki.git
-          git subtree push --prefix docs wiki main
