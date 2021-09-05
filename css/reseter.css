@@ -21,6 +21,10 @@ h1 {
   margin: 0.67em 0;
 }
 
+p + p {
+  margin-top: 1rem;
+}
+
 a {
   background-color: transparent;
 }
@@ -210,16 +214,12 @@ dialog {
   border: solid;
   color: inherit;
   display: block;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   left: 0;
   margin: auto;
   padding: 1em;
   position: absolute;
   right: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
 }
 
