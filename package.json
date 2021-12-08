@@ -11,22 +11,22 @@
     "browser",
     "style"
   ],
-  "homepage": "https://github.com/krishdevdb/reseter.css",
+  "homepage": "https://github.com/krshkun/reseter.css",
   "bugs": {
-    "url": "https://github.com/krishdevdb/reseter.css/issues",
-    "email": "krishdevdb@gmail.com"
+    "url": "https://github.com/krshkun/reseter.css/issues",
+    "email": "krshkun@gmail.com"
   },
   "license": "MIT",
   "author": {
     "name": "Krish",
-    "email": "krishdevdb@gmail.com",
-    "url": "https://github.com/krishdevdb/"
+    "email": "krshkun@gmail.com",
+    "url": "https://github.com/krshkun/"
   },
   "contributors": [],
   "funding": [
     {
       "type": "patreon",
-      "url": "https://patreon.com/krishdevdb"
+      "url": "https://patreon.com/krshkun"
     },
     {
       "type": "opencollective",
@@ -34,7 +34,7 @@
     },
     {
       "type": "kofi",
-      "url": "https://ko-fi.com/krishdevdb"
+      "url": "https://ko-fi.com/krshkun"
     }
   ],
   "main": "css/reseter.min.css",
@@ -44,7 +44,7 @@
     "src": "src",
     "dist": "css"
   },
-  "repository": "github:krishdevdb/reseter.css",
+  "repository": "github:krshkun/reseter.css",
   "scripts": {
     "sass": "npm run-script sass:main && npm run-script sass:opinionated && npm run-script sass:mini",
     "sass:main": "sass src/sass/reseter.sass css/reseter.css --no-source-map",
