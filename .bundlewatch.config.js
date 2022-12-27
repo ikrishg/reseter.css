@@ -1,28 +1,20 @@
 module.exports = {
   files: [
     {
-      path: "css/reseter.css",
-      maxSize: "1.5kb",
-    },
-    {
-      path: "css/reseter.min.css",
+      path: "dist/index.css",
       maxSize: "1kb",
     },
     {
-      path: "css/opinionated.css",
-      maxSize: "1.5kb",
+      path: "dist/index.min.css",
+      maxSize: "0.9kb",
     },
     {
-      path: "css/opinionated.min.css",
-      maxSize: "1kb",
+      path: "dist/mini.css",
+      maxSize: "0.2kb",
     },
     {
-      path: "css/minireseter.css",
-      maxSize: "1.5kb",
-    },
-    {
-      path: "css/minireseter.min.css",
-      maxSize: "1kb",
+      path: "dist/mini.min.css",
+      maxSize: "0.15kb",
     },
   ],
   defaultCompression: "brotli",
