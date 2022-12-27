@@ -3,4 +3,4 @@
 
 ### Features
 
-* gardevoir initial project ([f34e7a4](https://github.com/krshkun/gardevoir/commit/f34e7a4b9effbaafc9b91ff8ba955905400dbe80))
+* gardevoir initial project ([3055ea4](https://github.com/krshkun/gardevoir/commit/3055ea4cf644a2421bf586975e32944af7e86a1e))
