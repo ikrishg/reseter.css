@@ -1,66 +1,58 @@
-button,
-input,
-optgroup,
-select,
-textarea {
+:where(button, input, optgroup, select, textarea) {
   line-height: inherit;
   border: 1px solid currentColor;
 }
 
-button {
+:where(button) {
   overflow: visible;
   text-transform: none;
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+:where(button, [type="button"], [type="reset"], [type="submit"]) {
   -webkit-appearance: button;
-	padding: 1px 6px;
+  padding: 1px 6px;
 }
 
-input {
+:where(input) {
   overflow: visible;
 }
 
-input,
-textarea {
+:where(input, textarea) {
   padding: 1px;
 }
 
-fieldset {
-	border: 1px solid currentColor;
-	margin: 0 2px;
+:where(fieldset) {
+  border: 1px solid currentColor;
+  margin: 0 2px;
 }
 
-legend {
+:where(legend) {
   color: inherit;
   display: table;
   max-width: 100%;
   white-space: normal;
 }
 
-progress {
+:where(progress) {
   display: inline-block;
   vertical-align: baseline;
 }
 
-select {
+:where(select) {
   text-transform: none;
 }
 
-textarea {
+:where(textarea) {
   overflow: auto;
   vertical-align: top;
 }
 
-[type="search"] {
+:where([type="search"]) {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-[type="color"] {
+:where([type="color"]) {
   background: inherit;
 }
 

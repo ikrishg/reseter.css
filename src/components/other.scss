@@ -1,62 +1,49 @@
-hr {
+:where(hr) {
   box-sizing: content-box;
   height: 0;
   color: inherit;
   overflow: visible;
 }
 
-dl,
-ol,
-ul {
-  margin: 1em 0
+:where(dl, ol, ul) {
+  margin: 1em 0;
 }
 
-ol ol,
-ol ul,
-ol dl,
-ul ol,
-ul ul,
-ul dl,
-dl ol,
-dl ul,
-dl dl {
-  margin: 0
+:where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
+  margin: 0;
 }
 
-b,
-strong {
+:where(b, strong) {
   font-weight: bolder;
 }
 
-audio,
-video {
+:where(audio, video) {
   display: inline-block;
 }
 
-audio:not([controls]) {
+:where(audio):not([controls]) {
   display: none;
   height: 0;
 }
 
-img {
+:where(img) {
   border: 0;
 }
 
-svg:not(:root) {
+:where(svg):not(:root) {
   overflow: hidden;
 }
 
-table {
+:where(table) {
   text-indent: 0;
   border-color: inherit;
 }
 
-
-details {
+:where(details) {
   display: block;
 }
 
-dialog {
+:where(dialog) {
   background-color: inherit;
   border: solid;
   color: inherit;
@@ -68,24 +55,24 @@ dialog {
   position: absolute;
   right: 0;
   width: fit-content;
+
+  &:not([open]) {
+    display: none;
+  }
 }
 
-dialog:not([open]) {
-  display: none;
-}
-
-summary {
+:where(summary) {
   display: list-item;
 }
 
-canvas {
+:where(canvas) {
   display: inline-block;
 }
 
-template {
+:where(template) {
   display: none;
 }
 
-[hidden] {
+:where([hidden]) {
   display: none;
 }

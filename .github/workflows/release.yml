@@ -1,0 +1,32 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Release Package
+    if: github.repository_owner == 'krshkun'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build package
+        run: yarn build
+        env:
+          BUNDLEWATCH_GITHUB_TOKEN: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN }}
+      - name: Release package
+        run: yarn release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GIT_AUTHOR_NAME: "Krish Gupta"
+          GIT_AUTHOR_EMAIL: "krshkun@proton.me"
+          GIT_COMMITTER_NAME: "Krish Gupta"
+          GIT_COMMITTER_EMAIL: "krshkun@proton.me"

@@ -1,37 +1,33 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
 }
 
-html {
+:where(html) {
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+:where(h1, h2, h3, h4, h5, h6) {
   font-weight: normal;
 }
 
-ul {
+:where(ul) {
   list-style: none;
 }
 
-img,
-video {
+:where(img, video) {
   height: auto;
   max-width: 100%;
 }
 
-iframe {
+:where(iframe) {
   border: 0;
 }
 
-table {
+:where(table) {
   border-collapse: collapse;
   border-spacing: 0;
 }

@@ -1,7 +1,8 @@
 {
-  "name": "reseter.css",
-  "version": "2.0.0",
-  "description": "Reset Browser Default Styles, Without the need to work with a blank slate. Improve Cross Browser Compatibility. Get All Benefits From Normalize.css As Well ",
+  "name": "gardevoir",
+  "version": "1.0.0",
+  "description": "The Modern CSS Reset 🚀 ",
+  "main": "dist/index.min.css",
   "keywords": [
     "css",
     "css-reset",
@@ -11,83 +12,38 @@
     "browser",
     "style"
   ],
-  "homepage": "https://github.com/krshkun/reseter.css",
-  "bugs": {
-    "url": "https://github.com/krshkun/reseter.css/issues",
-    "email": "krshkun@gmail.com"
-  },
+  "homepage": "https://github.com/krshkun/gardevoir#readme",
   "license": "MIT",
-  "author": {
-    "name": "Krish",
-    "email": "krshkun@gmail.com",
-    "url": "https://github.com/krshkun/"
-  },
-  "contributors": [],
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://patreon.com/krshkun"
-    },
-    {
-      "type": "opencollective",
-      "url": "https://opencollective.com/resetercss"
-    },
-    {
-      "type": "kofi",
-      "url": "https://ko-fi.com/krshkun"
-    }
+  "author": "Krish Gupta <krshkun@proton.me>",
+  "files": [
+    "dist"
   ],
-  "main": "css/reseter.min.css",
-  "bin": {},
-  "man": [],
-  "directories": {
-    "src": "src",
-    "dist": "css"
-  },
-  "repository": "github:krshkun/reseter.css",
+  "repository": "github:krshkun/gardevoir",
   "scripts": {
-    "sass": "npm run-script sass:main && npm run-script sass:opinionated && npm run-script sass:mini",
-    "sass:main": "sass src/sass/reseter.sass css/reseter.css --no-source-map",
-    "sass:opinionated": "sass src/sass/opinionated.sass css/opinionated.css --no-source-map",
-    "sass:mini": "sass src/sass/minireseter.sass css/minireseter.css --no-source-map",
-    "scss": "npm run-script scss:main && npm run-script scss:opinionated && npm run-script scss:mini",
-    "scss:main": "sass src/scss/reseter.scss css/reseter.css --no-source-map",
-    "scss:opinionated": "sass src/scss/opinionated.scss css/opinionated.css --no-source-map",
-    "scss:mini": "sass src/scss/minireseter.scss css/minireseter.css --no-source-map",
-    "compile": "npm run-script sass && npm run-script scss && npm run-script less && npm run-script styl",
-    "prefix": "npm run-script prefix:main && npm run-script prefix:opinionated && npm run-script prefix:mini",
-    "prefix:main": "postcss css/reseter.css -r --no-map -u autoprefixer",
-    "prefix:mini": "postcss css/minireseter.css -r --no-map -u autoprefixer",
-    "prefix:opinionated": "postcss css/opinionated.css -r --no-map -u autoprefixer",
-    "minify": "npm run-script minify:main && npm run-script minify:opinionated && npm run-script minify:mini",
-    "minify:main": "cleancss css/reseter.css -o css/reseter.min.css",
-    "minify:opinionated": "cleancss css/opinionated.css -o css/opinionated.min.css",
-    "minify:mini": "cleancss css/minireseter.css -o css/minireseter.min.css",
+    "compile": "sass src/index.scss dist/index.css --no-source-map",
+    "postcompile": "sass src/mini.scss dist/mini.css --no-source-map",
+    "prefix": "postcss dist/index.css -r --no-map -u autoprefixer",
+    "postprefix": "postcss dist/mini.css -r --no-map -u autoprefixer",
+    "minify": "cleancss dist/index.css -o dist/index.min.css",
+    "postminify": "cleancss dist/mini.css -o dist/mini.min.css",
     "compress": "bundlewatch --config .bundlewatch.config.js",
-    "styledComponents": "node scripts/styled-components.js"
+    "build": "yarn compile && yarn prefix && yarn minify && yarn compress",
+    "release": "semantic-release"
   },
-  "config": {},
-  "dependencies": {},
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "autoprefixer": "^10.2.5",
     "brotli-size": "^4.0.0",
     "bundlewatch": "^0.3.2",
     "clean-css-cli": "^5.2.2",
-    "dotenv": "^10.0.0",
-    "less": "^4.1.1",
     "postcss": "^8.2.9",
     "postcss-cli": "^9.0.0",
     "sass": "^1.32.8",
-    "styled-components": "^5.2.3",
-    "stylus": "^0.55.0"
-  },
-  "peerDependencies": {},
-  "bundledDependencies": [],
-  "optionalDependencies": {},
-  "engines": {},
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest"
+    "semantic-release": "^19.0.5"
   }
 }
