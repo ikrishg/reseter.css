@@ -11,6 +11,9 @@
 :where(button, [type="button"], [type="reset"], [type="submit"]) {
   -webkit-appearance: button;
   padding: 1px 6px;
+  &:not(:disabled) {
+    cursor: pointer;
+  }
 }
 
 :where(input) {
