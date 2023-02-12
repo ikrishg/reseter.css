@@ -23,7 +23,7 @@ Explain the problem and include additional details to help maintainers reproduce
 
 ## Cloning the project & creating PR
 
-**1.** Fork the repository. Click on the [![Fork this repo](https://img.icons8.com/fluency/30/000000/code-fork.png)](https://github.com/krshkun/gardevoir/fork) symbol at the top right corner.
+**1.** Fork the repository. Click on the [![Fork this repo](https://img.icons8.com/fluency/30/000000/code-fork.png)](https://github.com/krshoss/gardevoir/fork) symbol at the top right corner.
 
 **2.** Clone the forked repository.
 
