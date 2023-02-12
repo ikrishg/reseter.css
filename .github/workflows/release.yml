@@ -7,7 +7,7 @@ on:
 jobs:
   release:
     name: Release Package
-    if: github.repository_owner == 'krshkun'
+    if: github.repository_owner == 'krshoss'
     runs-on: ubuntu-latest
 
     steps:

@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center"><img height="100px" width="100px" src="https://github.com/krshkun/gardevoir/raw/main/.github/assets/gardevoir.png"><br><h1>The Modern CSS Reset 🚀</h5></div>
+<div align="center"><img height="100px" width="100px" src="https://github.com/krshoss/gardevoir/raw/main/.github/assets/gardevoir.png"><br><h1>The Modern CSS Reset 🚀</h5></div>
 
 ## 🤓 Benefits
 
@@ -14,7 +14,7 @@
 
 There are many inconsistencies between browsers. Like Firefox 3 has a margin on top of paragraphs but Internet Explorer 7 doesn't have any margin. There are thousands of browsers with hundreds of versions. Each version at least has 500+ inconsistencies with different browsers' different versions. How to keep up? This is an easy to use solution called **Gardevoir**
 
-![Browser Inconsistencies](https://github.com/krshkun/gardevoir/raw/main/.github/assets/css_reset.png)
+![Browser Inconsistencies](https://github.com/krshoss/gardevoir/raw/main/.github/assets/css_reset.png)
 
 ## 🆚 There are other resets, why Gardevoir?
 
@@ -58,7 +58,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
 4. How about reading a guide for best performance? Here's the link to [optimizing Gardevoir for production](#-optimize)
 
-5. Lastly you can view [our wiki for best practices and performance guides](https://github.com/krshkun/gardevoir/wiki/Performance)
+5. Lastly you can view [our wiki for best practices and performance guides](https://github.com/krshoss/gardevoir/wiki/Performance)
 
 6. 🥳 All Set Now
 
@@ -132,4 +132,4 @@ Gardevoir as said, is a zero-dependency project and excels in integrating with a
 
 ## ❤ Thanks to our supporters
 
-[![GitHub Stargazers](https://reporoster.com/stars/krshkun/gardevoir)](https://github.com/krshkun/gardevoir/stargazers)
+[![GitHub Stargazers](https://reporoster.com/stars/krshoss/gardevoir)](https://github.com/krshoss/gardevoir/stargazers)

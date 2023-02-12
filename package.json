@@ -12,13 +12,13 @@
     "browser",
     "style"
   ],
-  "homepage": "https://github.com/krshkun/gardevoir#readme",
+  "homepage": "https://github.com/krshoss/gardevoir#readme",
   "license": "MIT",
   "author": "Krish Gupta <krshkun@proton.me>",
   "files": [
     "dist"
   ],
-  "repository": "github:krshkun/gardevoir",
+  "repository": "github:krshoss/gardevoir",
   "scripts": {
     "compile": "sass src/index.scss dist/index.css --no-source-map",
     "postcompile": "sass src/mini.scss dist/mini.css --no-source-map",
