@@ -68,19 +68,19 @@ There are various ways to install Gardevoir. Like package managers, content deli
 
 ### 📦 Package Managers
 
-#### 💝 **NPM** ![Npm Downloads](https://img.shields.io/npm/dt/gardevoir?style=flat-square)
+#### 💝 **NPM** ![Npm Downloads](https://img.shields.io/npm/dt/gardevoir?style=flat-square) ![Npm Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
 
 ```bash
 npm install gardevoir
 ```
 
-#### 🐱**Yarn** ![Yarn Downloads](https://img.shields.io/npm/dt/gardevoir?style=flat-square)
+#### 🐱**Yarn** ![Yarn Downloads](https://img.shields.io/npm/dt/gardevoir?style=flat-square) ![Npm Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
 
 ```bash
 yarn add gardevoir
 ```
 
-### ⚡ CDN ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/gardevoir?style=flat-square)
+### ⚡ CDN ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/gardevoir?style=flat-square) ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
