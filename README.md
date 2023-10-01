@@ -7,7 +7,7 @@
 - [x] Never find yourself fixing browser issues. **Includes browser fixes** for a wide range of browsers.
 - [x] No need debugging load time for Gardevoir. It's **sized ~0.8kb**. Moreover, we are consistently trying to reduce it.
 - [x] Get **all the benefits of normalize.css**. It includes all normalizations!
-- [x] Get a better box sizing for a better experience. `box-sing: border-box` set
+- [x] Get a better box sizing for a better experience. `box-sizing: border-box` set
 - [x] Completely production ready code with **browser support testing** and **source build ci**
 
 ## ❓ Why do I use a css reset
