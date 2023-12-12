@@ -42,7 +42,7 @@
     "bundlewatch": "^0.3.2",
     "clean-css-cli": "^5.2.2",
     "postcss": "^8.2.9",
-    "postcss-cli": "^10.1.0",
+    "postcss-cli": "^11.0.0",
     "sass": "^1.32.8",
     "semantic-release": "^22.0.0"
   }
