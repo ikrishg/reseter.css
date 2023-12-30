@@ -398,7 +398,29 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@9.2.5", "@semantic-release/github@^9.0.0":
+"@semantic-release/github@9.2.6":
+  version "9.2.6"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.2.6.tgz#0b0b00ab3ab0486cd3aecb4ae2f9f9cf2edd8eae"
+  integrity sha512-shi+Lrf6exeNZF+sBhK+P011LSbhmIAoUEgEY6SsxF8irJ+J2stwI5jkyDQ+4gzYyDImzV6LCKdYB9FXnQRWKA==
+  dependencies:
+    "@octokit/core" "^5.0.0"
+    "@octokit/plugin-paginate-rest" "^9.0.0"
+    "@octokit/plugin-retry" "^6.0.0"
+    "@octokit/plugin-throttling" "^8.0.0"
+    "@semantic-release/error" "^4.0.0"
+    aggregate-error "^5.0.0"
+    debug "^4.3.4"
+    dir-glob "^3.0.1"
+    globby "^14.0.0"
+    http-proxy-agent "^7.0.0"
+    https-proxy-agent "^7.0.0"
+    issue-parser "^6.0.0"
+    lodash-es "^4.17.21"
+    mime "^4.0.0"
+    p-filter "^4.0.0"
+    url-join "^5.0.0"
+
+"@semantic-release/github@^9.0.0":
   version "9.2.5"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.2.5.tgz#69fd50759a2bb80dc1c38fded7f79e524a32c546"
   integrity sha512-XWumFEOHiWllekymZjeVgkQCJ4YnD8020ZspAHYIIBNX8O4d/1ldeU5iNXu6NGkKlOCokyXh13KwVP0UEMm5kw==
@@ -1068,15 +1090,15 @@ core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
 
-cosmiconfig@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-9.0.0.tgz#34c3fc58287b915f3ae905ab6dc3de258b55ad9d"
-  integrity sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==
+cosmiconfig@^8.0.0:
+  version "8.3.6"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-8.3.6.tgz#060a2b871d66dba6c8538ea1118ba1ac16f5fae3"
+  integrity sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==
   dependencies:
-    env-paths "^2.2.1"
     import-fresh "^3.3.0"
     js-yaml "^4.1.0"
     parse-json "^5.2.0"
+    path-type "^4.0.0"
 
 cross-spawn@^7.0.0, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -1209,7 +1231,7 @@ env-ci@^10.0.0:
     execa "^8.0.0"
     java-properties "^1.0.2"
 
-env-paths@^2.2.0, env-paths@^2.2.1:
+env-paths@^2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/env-paths/-/env-paths-2.2.1.tgz#420399d416ce1fbe9bc0a07c62fa68d67fd0f8f2"
   integrity sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A==
@@ -2627,6 +2649,13 @@ p-filter@^3.0.0:
   dependencies:
     p-map "^5.1.0"
 
+p-filter@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/p-filter/-/p-filter-4.1.0.tgz#fe0aa794e2dfad8ecf595a39a245484fcd09c6e4"
+  integrity sha512-37/tPdZ3oJwHaS3gNJdenCDB3Tz26i9sjhnguBtvN0vYlRIiDNnvTWkuh+0hETV9rLPdJ3rlL3yVOYPIAnM8rw==
+  dependencies:
+    p-map "^7.0.1"
+
 p-is-promise@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/p-is-promise/-/p-is-promise-3.0.0.tgz#58e78c7dfe2e163cf2a04ff869e7c1dba64a5971"
@@ -2673,6 +2702,11 @@ p-map@^5.1.0:
   integrity sha512-VFqfGDHlx87K66yZrNdI4YGtD70IRyd+zSvgks6mzHPRNkoKy+9EKP4SFC77/vTTQYmRmti7dvqC+m5jBrBAcg==
   dependencies:
     aggregate-error "^4.0.0"
+
+p-map@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.1.tgz#1faf994e597160f7851882926bfccabc1d226f80"
+  integrity sha512-2wnaR0XL/FDOj+TgpDuRb2KTjLnu3Fma6b1ZUwGY7LcqenMcvP/YFpjpbPKY6WVGsbuJZRuoUz8iPrt8ORnAFw==
 
 p-reduce@^2.0.0:
   version "2.1.0"
@@ -3145,19 +3179,19 @@ safe-buffer@~5.2.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@1.69.5:
-  version "1.69.5"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.5.tgz#23e18d1c757a35f2e52cc81871060b9ad653dfde"
-  integrity sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==
+sass@1.69.6:
+  version "1.69.6"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.6.tgz#88ae1f93facc46d2da9b0bdd652d65068bcfa397"
+  integrity sha512-qbRr3k9JGHWXCvZU77SD2OTwUlC+gNT+61JOLcmLm+XqH4h/5D+p4IIsxvpkB89S9AwJOyb5+rWNpIucaFxSFQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
 
-semantic-release@22.0.11:
-  version "22.0.11"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-22.0.11.tgz#f42152039b81b4722f8d685efa23bbae78f5f882"
-  integrity sha512-3gNOqnYUaZ445mIiVvjwWfNmuvbyTMz5e2uHsL7d23e5945TPy6+rlckPE8QUU0kj84C9vbwTzc60oIXAc77hg==
+semantic-release@22.0.12:
+  version "22.0.12"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-22.0.12.tgz#b8dd1a096b597080e05f30554ee5d128fe6dac84"
+  integrity sha512-0mhiCR/4sZb00RVFJIUlMuiBkW3NMpVIW2Gse7noqEMoFGkvfPPAImEQbkBV8xga4KOPP4FdTRYuLLy32R1fPw==
   dependencies:
     "@semantic-release/commit-analyzer" "^11.0.0"
     "@semantic-release/error" "^4.0.0"
@@ -3165,7 +3199,7 @@ semantic-release@22.0.11:
     "@semantic-release/npm" "^11.0.0"
     "@semantic-release/release-notes-generator" "^12.0.0"
     aggregate-error "^5.0.0"
-    cosmiconfig "^9.0.0"
+    cosmiconfig "^8.0.0"
     debug "^4.0.0"
     env-ci "^10.0.0"
     execa "^8.0.0"
