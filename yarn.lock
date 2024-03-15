@@ -416,10 +416,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@9.2.6":
-  version "9.2.6"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.2.6.tgz#0b0b00ab3ab0486cd3aecb4ae2f9f9cf2edd8eae"
-  integrity sha512-shi+Lrf6exeNZF+sBhK+P011LSbhmIAoUEgEY6SsxF8irJ+J2stwI5jkyDQ+4gzYyDImzV6LCKdYB9FXnQRWKA==
+"@semantic-release/github@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.0.0.tgz#0335dd0beacbf1a3b781794010423df682acd4c2"
+  integrity sha512-jaJeGDRkkZYZifIwuaMQW88ihdcCJkUyOeWagfP0d2VY0Rl5tKLgv3p4KO6SPDEjX78tHpwteBykP7gpCAOlFA==
   dependencies:
     "@octokit/core" "^5.0.0"
     "@octokit/plugin-paginate-rest" "^9.0.0"
