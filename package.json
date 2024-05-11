@@ -44,6 +44,6 @@
     "postcss": "8.4.38",
     "postcss-cli": "11.0.0",
     "sass": "1.77.0",
-    "semantic-release": "23.0.8"
+    "semantic-release": "23.1.1"
   }
 }
