@@ -41,7 +41,7 @@
     "brotli-size": "4.0.0",
     "bundlewatch": "0.4.0",
     "clean-css-cli": "5.6.3",
-    "postcss": "8.4.42",
+    "postcss": "8.4.43",
     "postcss-cli": "11.0.0",
     "sass": "1.77.8",
     "semantic-release": "24.1.0"
