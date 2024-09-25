@@ -451,10 +451,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.3.5":
-  version "10.3.5"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.3.5.tgz#112b6ee41fe78356359aa7ba9a1e98b68c8640fc"
-  integrity sha512-svvRglGmvqvxjmDgkXhrjf0lC88oZowFhOfifTldbgX9Dzj0inEtMLaC+3/MkDEmxmaQjWmF5Q/0CMIvPNSVdQ==
+"@semantic-release/github@11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.0.tgz#1cbfed43b96282994a1c480a204179b89b73a387"
+  integrity sha512-Uon6G6gJD8U1JNvPm7X0j46yxNRJ8Ui6SgK4Zw5Ktu8RgjEft3BGn+l/RX1TTzhhO3/uUcKuqM+/9/ETFxWS/Q==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
