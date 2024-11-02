@@ -3,17 +3,21 @@
   border: 1px solid currentColor;
 }
 
+:where(button, [type="button"], [type="reset"], [type="submit"]) {
+  -webkit-appearance: button;
+  padding: 1px 6px;
+}
+
 :where(button) {
   overflow: visible;
   text-transform: none;
 }
 
-:where(button, [type="button"], [type="reset"], [type="submit"]) {
-  -webkit-appearance: button;
-  padding: 1px 6px;
-  &:not(:disabled) {
-    cursor: pointer;
-  }
+:where(button):not(:disabled),
+:where([type="button"]):not(:disabled),
+:where([type="reset"]):not(:disabled),
+:where([type="submit"]):not(:disabled) {
+  cursor: pointer;
 }
 
 :where(input) {

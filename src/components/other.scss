@@ -55,10 +55,10 @@
   position: absolute;
   right: 0;
   width: fit-content;
+}
 
-  &:not([open]) {
-    display: none;
-  }
+:where(dialog):not([open]) {
+  display: none;
 }
 
 :where(summary) {
