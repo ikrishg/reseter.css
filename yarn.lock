@@ -3648,10 +3648,10 @@ sass@1.84.0:
   optionalDependencies:
     "@parcel/watcher" "^2.4.1"
 
-semantic-release@24.2.1:
-  version "24.2.1"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.2.1.tgz#ee4599fa9f0a5de0c9d3b99d5d155758c5be4bea"
-  integrity sha512-z0/3cutKNkLQ4Oy0HTi3lubnjTsdjjgOqmxdPjeYWe6lhFqUPfwslZxRHv3HDZlN4MhnZitb9SLihDkZNxOXfQ==
+semantic-release@24.2.2:
+  version "24.2.2"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.2.2.tgz#3f25f3506b1c9649e11ca56cc4a8caee63d095d1"
+  integrity sha512-f1PLgDKbSrZ1i1jFgHO/qJavv0SSZgahJdusPH0eUkWXcm0qYHAr1qFFC69ELYVCPzLUd5UZJuhEaQP/QOd1jw==
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.0-beta.1"
     "@semantic-release/error" "^4.0.0"
