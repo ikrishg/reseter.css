@@ -101,13 +101,14 @@ Gardevoir as said, is a zero-dependency project and excels in integrating with a
 </head>
 ```
 
-> **Warning!**
+> [!Warning]
 >
 > Make Sure To Link Your Custom Stylesheet After Gardevoir Else Your Custom Styles Might Not Be Implemented
 
 ## 🚅 Optimize
 
-> **Note** all of these guidelines are for static websites, frameworks like react have their own guide (please refer them)
+> [!Note]
+> All of these guidelines are for static websites, frameworks like react have their own guide (please refer them)
 
 - Never import Gardevoir via css, though this a option, it is not recommended for website loading, rather use html link tags
 
