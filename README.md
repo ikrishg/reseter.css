@@ -131,6 +131,6 @@ Gardevoir as said, is a zero-dependency project and excels in integrating with a
   </noscript>
   ```
 
-## ❤ Thanks to our supporters
+## ❤️ Thanks to our supporters
 
-[![GitHub Stargazers](https://reporoster.com/stars/krshoss/gardevoir)](https://github.com/krshoss/gardevoir/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/kkrishguptaa/reseter.css?style=for-the-badge&color=gold)](https://github.com/kkrishguptaa/reseter.css/stargazers)
