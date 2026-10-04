@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>reseter.css kitchen sink</title>
+    <link rel="stylesheet" href="dist/index.css" />
+    <style>
+      /* Layout only — not part of the reset demo */
+      .page {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 1.5rem;
+      }
+      .page > header {
+        margin-bottom: 2rem;
+      }
+      .demo {
+        margin-bottom: 2.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #ccc;
+      }
+      .demo-label {
+        font: 0.75rem/1.2 system-ui, sans-serif;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #666;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1>Kitchen sink</h1>
+        <p>
+          This page uses <code>dist/index.css</code> only (plus a little layout
+          CSS on wrappers). Run <code>yarn build</code> first if
+          <code>dist/</code> is missing.
+        </p>
+      </header>
+
+      <section class="demo" aria-labelledby="headings-label">
+        <p class="demo-label" id="headings-label">Headings</p>
+        <h1>Heading level 1</h1>
+        <h2>Heading level 2</h2>
+        <h3>Heading level 3</h3>
+        <h4>Heading level 4</h4>
+        <h5>Heading level 5</h5>
+        <h6>Heading level 6</h6>
+      </section>
+
+      <section class="demo" aria-labelledby="text-label">
+        <p class="demo-label" id="text-label">Text</p>
+        <p>
+          Paragraph with a <a href="#">link</a>, <strong>strong</strong>,
+          <em>emphasis</em>, and <abbr title="HyperText Markup Language"
+            >HTML</abbr
+          >.
+        </p>
+        <p>Second paragraph (spacing between paragraphs comes from the reset).</p>
+        <blockquote cite="#">
+          <p>Blockquote with a short quotation.</p>
+        </blockquote>
+        <hr />
+        <p>Text after a horizontal rule.</p>
+      </section>
+
+      <section class="demo" aria-labelledby="lists-label">
+        <p class="demo-label" id="lists-label">Lists</p>
+        <ul>
+          <li>Unordered item one</li>
+          <li>Unordered item two</li>
+          <li>
+            Nested list
+            <ul>
+              <li>Nested unordered</li>
+              <li>Another nested item</li>
+            </ul>
+          </li>
+        </ul>
+        <ol>
+          <li>Ordered item one</li>
+          <li>Ordered item two</li>
+          <li>
+            Nested ordered
+            <ol>
+              <li>Sub item a</li>
+              <li>Sub item b</li>
+            </ol>
+          </li>
+        </ol>
+        <dl>
+          <dt>Description term</dt>
+          <dd>Description details for the term.</dd>
+          <dt>Another term</dt>
+          <dd>More details.</dd>
+        </dl>
+      </section>
+
+      <section class="demo" aria-labelledby="code-label">
+        <p class="demo-label" id="code-label">Code</p>
+        <p>Inline <code>const x = 1;</code> and keyboard <kbd>Enter</kbd>.</p>
+        <pre><code>function greet(name) {
+  return `Hello, ${name}`;
+}</code></pre>
+      </section>
+
+      <section class="demo" aria-labelledby="table-label">
+        <p class="demo-label" id="table-label">Table</p>
+        <table>
+          <caption>
+            Sample table
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ada</td>
+              <td>Engineer</td>
+            </tr>
+            <tr>
+              <td>Grace</td>
+              <td>Scientist</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="demo" aria-labelledby="buttons-label">
+        <p class="demo-label" id="buttons-label">Buttons</p>
+        <button type="button">Button</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button" disabled>Disabled</button>
+      </section>
+
+      <section class="demo" aria-labelledby="forms-label">
+        <p class="demo-label" id="forms-label">Form controls</p>
+        <form action="#" method="get">
+          <p>
+            <label for="text-input">Text</label><br />
+            <input id="text-input" name="text" type="text" placeholder="Placeholder" />
+          </p>
+          <p>
+            <label for="email-input">Email</label><br />
+            <input id="email-input" name="email" type="email" />
+          </p>
+          <p>
+            <label for="search-input">Search</label><br />
+            <input id="search-input" name="q" type="search" />
+          </p>
+          <p>
+            <label for="number-input">Number</label><br />
+            <input id="number-input" name="n" type="number" value="42" />
+          </p>
+          <p>
+            <label for="color-input">Color</label><br />
+            <input id="color-input" name="color" type="color" value="#336699" />
+          </p>
+          <p>
+            <label for="select-input">Select</label><br />
+            <select id="select-input" name="choice">
+              <option>Option A</option>
+              <option>Option B</option>
+            </select>
+          </p>
+          <p>
+            <label for="textarea-input">Textarea</label><br />
+            <textarea id="textarea-input" name="message" rows="3">Some text</textarea>
+          </p>
+          <fieldset>
+            <legend>Fieldset legend</legend>
+            <label><input type="checkbox" name="c" checked /> Checkbox</label>
+            <label><input type="radio" name="r" checked /> Radio one</label>
+            <label><input type="radio" name="r" /> Radio two</label>
+          </fieldset>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
