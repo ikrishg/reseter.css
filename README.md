@@ -5,7 +5,7 @@
 
 - [x] No need to start from scratch. reseter.css doesn't remove all the browser styles, but instead redefines the useful ones
 - [x] Never find yourself fixing browser issues. **Includes browser fixes** for a wide range of browsers.
-- [x] No need debugging load time for reseter.css. It's **sized ~0.8kb**. Moreover, we are consistently trying to reduce it.
+- [x] No need debugging load time for reseter.css. It's **sized ~0.8kb (Brotli-compressed `dist/index.min.css`)**. Moreover, we are consistently trying to reduce it.
 - [x] Get **all the benefits of normalize.css**. It includes all normalizations!
 - [x] Get a better box sizing for a better experience. `box-sizing: border-box` set
 - [x] Completely production ready code with **browser support testing** and **source build ci**
@@ -56,9 +56,9 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
 3. Star this repository, if you like the project! It means a lot to the development team, Those stars a boosting happiness for our team
 
-4. How about reading a guide for best performance? Here's the link to [optimizing reseter.css for production](#-optimize)
+4. How about reading a guide for best performance? Here's the link to [optimizing reseter.css for production](#optimize)
 
-5. Lastly you can view [our wiki for best practices and performance guides](https://github.com/ikrishg/reseter.css/wiki/Performance)
+5. Lastly you can view [our wiki for best practices and performance guides](#optimize)
 
 6. 🥳 All Set Now
 
@@ -92,7 +92,7 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 
 ```html
 <head>
-  <link rel="stylesheet" type="text/css" href="path/to/gardevoir.min.css" />
+  <link rel="stylesheet" type="text/css" href="path/to/index.min.css" />
   <link
     rel="stylesheet"
     type="text/css"
