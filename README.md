@@ -1,37 +1,136 @@
-# reseter.css
+<!-- markdownlint-disable-next-line -->
+<div align="center"><img height="100px" width="100px" src="https://github.com/ikrishg/reseter.css/raw/main/.github/assets/gardevoir.png"><br><h1>The Modern CSS Reset 🚀</h5></div>
 
-A small modern CSS reset: cross-browser normalizations and sensible defaults (box sizing, typography, forms, media) with low-specificity `:where()` rules so your styles stay easy to override.
+## 🤓 Benefits
 
-Built output is about **850 bytes** minified (`dist/index.min.css`). A smaller **`dist/mini.min.css`** variant drops most opinionated rules.
+- [x] No need to start from scratch. reseter.css doesn't remove all the browser styles, but instead redefines the useful ones
+- [x] Never find yourself fixing browser issues. **Includes browser fixes** for a wide range of browsers.
+- [x] No need debugging load time for reseter.css. It's **sized ~0.8kb**. Moreover, we are consistently trying to reduce it.
+- [x] Get **all the benefits of normalize.css**. It includes all normalizations!
+- [x] Get a better box sizing for a better experience. `box-sizing: border-box` set
+- [x] Completely production ready code with **browser support testing** and **source build ci**
 
-## Usage
+## ❓ Why do I use a css reset
 
-1. Install and build:
+There are many inconsistencies between browsers. Like Firefox 3 has a margin on top of paragraphs but Internet Explorer 7 doesn't have any margin. There are thousands of browsers with hundreds of versions. Each version at least has 500+ inconsistencies with different browsers' different versions. How to keep up? This is an easy to use solution called **reseter.css**
 
-   ```bash
-   yarn install
-   yarn build
-   ```
+![Browser Inconsistencies](https://github.com/ikrishg/reseter.css/raw/main/.github/assets/css_reset.png)
 
-2. Link the reset **before** your own styles:
+## 🆚 There are other resets, why reseter.css?
+
+|                       Feature                       |                                                      reseter.css                                                      |                                                     Normalize.css                                                      |                                                     Sanitize.css                                                      |                                                       Reset.css                                                       |
+| :-------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
+|                   Normalizations                    |                                                         ✅                                                          |                                                           ✅                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
+|               Basic elemental styles                |                                                         ✅                                                          |                                                        Partial                                                         |                                                          ✅                                                           |                                                          ❌                                                           |
+| Size (by [bundle phobia](http://bundlephobia.com/)) | Compile with Sass | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
+|                  Minified version                   |    Compile with Sass    |                                                  ❌ (Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |     |
+|                     Box sizing                      |                                                         ✅                                                          |                                                           ❌                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
+|                   Browser support                   |                                                    Customizable                                                     |                                                    Last 3 versions                                                     |                                                    Last 3 versions                                                    |                                                        Unknown                                                        |
+
+## 🚀 Get It Running Quick
+
+1. Create A HTML File
 
    ```html
-   <link rel="stylesheet" href="path/to/dist/index.min.css" />
-   <link rel="stylesheet" href="path/to/your-styles.css" />
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <title>reseter.css Quick Start</title>
+     </head>
+     <body>
+       <h1>reseter.css Quick Start</h1>
+       <p>
+         Hey fella! Don't forget to change the title text an remove this
+         paragraph and the heading
+       </p>
+     </body>
+   </html>
    ```
 
-   Use `dist/mini.min.css` if you only want the minimal reset.
+2. Call reseter.css
 
-## Kitchen sink
+   ```html
+   <!-- To be placed in the head tag -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
+   ```
 
-After `yarn build`, open [`kitchen-sink.html`](kitchen-sink.html) in a browser (same folder as `dist/`). It loads `dist/index.css` and shows common elements with only the reset applied.
+3. Star this repository, if you like the project! It means a lot to the development team, Those stars a boosting happiness for our team
 
-## Development
+4. How about reading a guide for best performance? Here's the link to [optimizing reseter.css for production](#-optimize)
 
-- Source: `src/` (Sass)
-- `yarn build` — compile, autoprefix, minify, size check
-- See [CONTRIBUTING.md](CONTRIBUTING.md) and [CHANGELOG.md](CHANGELOG.md)
+5. Lastly you can view [our wiki for best practices and performance guides](https://github.com/ikrishg/reseter.css/wiki/Performance)
 
-## License
+6. 🥳 All Set Now
 
-[MIT](LICENSE)
+## 🌟 Installation
+
+There are various ways to install reseter.css. Like package managers, content delivery networks, local copies...
+
+### 📦 Package Managers
+
+#### 💝 **NPM** ![Npm Downloads](https://img.shields.io/npm/dt/gardevoir?style=flat-square) ![Npm Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
+
+```bash
+npm install gardevoir
+```
+
+#### 🐱**Yarn** ![Yarn Downloads](https://img.shields.io/npm/dt/gardevoir?style=flat-square) ![Npm Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
+
+```bash
+yarn add gardevoir
+```
+
+### ⚡ CDN ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/gardevoir?style=flat-square) ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
+```
+
+## ✨ Usage
+
+reseter.css as said, is a zero-dependency project and excels in integrating with all kinds of usage options! These are a few easy guides for people to start
+
+```html
+<head>
+  <link rel="stylesheet" type="text/css" href="path/to/gardevoir.min.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="path/to/your-custom-stylesheet.css"
+  />
+</head>
+```
+
+> [!Warning]
+>
+> Make Sure To Link Your Custom Stylesheet After reseter.css Else Your Custom Styles Might Not Be Implemented
+
+## 🚅 Optimize
+
+> [!Note]
+> All of these guidelines are for static websites, frameworks like react have their own guide (please refer them)
+
+- Never import reseter.css via css, though this a option, it is not recommended for website loading, rather use html link tags
+
+  ```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
+  ```
+
+- Use this easy loading trick to make your life a lot easier
+
+  ```html
+  <link
+    rel="preload"
+    as="style"
+    href="https://cdn.jsdelivr.net/npm/gardevoir"
+    onload="this.rel='stylesheet';this.onload=null"
+  />
+
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
+  </noscript>
+  ```
+
+## ❤️ Thanks to our supporters
+
+[![GitHub Stars](https://img.shields.io/github/stars/ikrishg/reseter.css?style=for-the-badge&color=gold)](https://github.com/ikrishg/reseter.css/stargazers)
