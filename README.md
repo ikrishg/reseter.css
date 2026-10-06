@@ -22,7 +22,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 | :-------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 |                   Normalizations                    |                                                         ✅                                                          |                                                           ✅                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |               Basic elemental styles                |                                                         ✅                                                          |                                                        Partial                                                         |                                                          ✅                                                           |                                                          ❌                                                           |
-| Size (by [bundle phobia](http://bundlephobia.com/)) | Compile with Sass | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
+| Size (by [bundle phobia](https://bundlephobia.com/)) | Compile with Sass | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
 |                  Minified version                   |    Compile with Sass    |                                                  ❌ (Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |     |
 |                     Box sizing                      |                                                         ✅                                                          |                                                           ❌                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |                   Browser support                   |                                                    Customizable                                                     |                                                    Last 3 versions                                                     |                                                    Last 3 versions                                                    |                                                        Unknown                                                        |
@@ -51,14 +51,14 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
    ```html
    <!-- To be placed in the head tag -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
    ```
 
 3. Star this repository, if you like the project! It means a lot to the development team, Those stars a boosting happiness for our team
 
 4. How about reading a guide for best performance? Here's the link to [optimizing reseter.css for production](#optimize)
 
-5. Lastly you can view [our wiki for best practices and performance guides](#optimize)
+5. Lastly you can view [our GitHub Discussions for best practices and performance guides](https://github.com/ikrishg/reseter.css/discussions)
 
 6. 🥳 All Set Now
 
@@ -68,22 +68,22 @@ There are various ways to install reseter.css. Like package managers, content de
 
 ### 📦 Package Managers
 
-#### 💝 **NPM** ![Npm Downloads](https://img.shields.io/npm/dt/gardevoir?style=flat-square) ![Npm Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
+#### 💝 **NPM** ![Npm Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
 
 ```bash
-npm install gardevoir
+npm install reseter.css
 ```
 
-#### 🐱**Yarn** ![Yarn Downloads](https://img.shields.io/npm/dt/gardevoir?style=flat-square) ![Npm Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
+#### 🐱**Yarn** ![Yarn Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
 
 ```bash
-yarn add gardevoir
+yarn add reseter.css
 ```
 
-### ⚡ CDN ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/gardevoir?style=flat-square) ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
+### ⚡ CDN ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
 ```
 
 ## ✨ Usage
@@ -113,7 +113,7 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 - Never import reseter.css via css, though this a option, it is not recommended for website loading, rather use html link tags
 
   ```html
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
   ```
 
 - Use this easy loading trick to make your life a lot easier
@@ -122,12 +122,12 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
   <link
     rel="preload"
     as="style"
-    href="https://cdn.jsdelivr.net/npm/gardevoir"
+    href="https://cdn.jsdelivr.net/npm/reseter.css"
     onload="this.rel='stylesheet';this.onload=null"
   />
 
   <noscript>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gardevoir" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
   </noscript>
   ```
 
