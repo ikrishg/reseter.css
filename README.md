@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center"><img height="100px" width="100px" src="https://github.com/krshoss/gardevoir/raw/main/.github/assets/gardevoir.png"><br><h1>The Modern CSS Reset 🚀</h5></div>
+<div align="center"><img height="100px" width="100px" src="https://github.com/kkrishguptaa/reseter.css/raw/main/.github/assets/gardevoir.png"><br><h1>The Modern CSS Reset 🚀</h5></div>
 
 ## 🤓 Benefits
 
@@ -14,7 +14,7 @@
 
 There are many inconsistencies between browsers. Like Firefox 3 has a margin on top of paragraphs but Internet Explorer 7 doesn't have any margin. There are thousands of browsers with hundreds of versions. Each version at least has 500+ inconsistencies with different browsers' different versions. How to keep up? This is an easy to use solution called **Gardevoir**
 
-![Browser Inconsistencies](https://github.com/krshoss/gardevoir/raw/main/.github/assets/css_reset.png)
+![Browser Inconsistencies](https://github.com/kkrishguptaa/reseter.css/raw/main/.github/assets/css_reset.png)
 
 ## 🆚 There are other resets, why Gardevoir?
 
@@ -22,7 +22,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 | :-------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 |                   Normalizations                    |                                                         ✅                                                          |                                                           ✅                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |               Basic elemental styles                |                                                         ✅                                                          |                                                        Partial                                                         |                                                          ✅                                                           |                                                          ❌                                                           |
-| Size (by [bundle phobia](http://bundlephobia.com/)) | Compile with Sass | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
+| Size (by [bundle phobia](https://bundlephobia.com/)) | Compile with Sass | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
 |                  Minified version                   |    Compile with Sass    |                                                  ❌ (Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |     |
 |                     Box sizing                      |                                                         ✅                                                          |                                                           ❌                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |                   Browser support                   |                                                    Customizable                                                     |                                                    Last 3 versions                                                     |                                                    Last 3 versions                                                    |                                                        Unknown                                                        |
@@ -58,7 +58,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
 4. How about reading a guide for best performance? Here's the link to [optimizing Gardevoir for production](#-optimize)
 
-5. Lastly you can view [our wiki for best practices and performance guides](https://github.com/krshoss/gardevoir/wiki/Performance)
+5. Lastly you can view [our GitHub Discussions for best practices and performance guides](https://github.com/kkrishguptaa/reseter.css/discussions)
 
 6. 🥳 All Set Now
 
