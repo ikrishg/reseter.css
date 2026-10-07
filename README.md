@@ -92,7 +92,7 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 
 ```html
 <head>
-  <link rel="stylesheet" type="text/css" href="path/to/index.min.css" />
+  <link rel="stylesheet" type="text/css" href="path/to/css/reseter.min.css" />
   <link
     rel="stylesheet"
     type="text/css"
