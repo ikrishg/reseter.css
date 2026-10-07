@@ -44,6 +44,8 @@
     "postminify": "cleancss dist/mini.css -o dist/mini.min.css && node scripts/copy-css-aliases.js",
     "compress": "bundlewatch --config .bundlewatch.config.js",
     "build": "yarn compile && yarn prefix && yarn minify && yarn compress",
+    "prepack": "node scripts/copy-css-aliases.js",
+    "prepublishOnly": "yarn build",
     "release": "semantic-release"
   },
   "devDependencies": {

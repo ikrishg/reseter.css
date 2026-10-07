@@ -121,6 +121,9 @@ out
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# Generated npm alias copies (see scripts/copy-css-aliases.js)
+css/
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged

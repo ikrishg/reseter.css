@@ -1,6 +1,12 @@
-:where(button, input:not([type="checkbox"]):not([type="radio"]), optgroup, select, textarea) {
+:where(button, input, optgroup, select, textarea) {
   font: inherit;
   line-height: inherit;
+}
+
+:where(
+  textarea,
+  input:not([type="button"]):not([type="checkbox"]):not([type="color"]):not([type="file"]):not([type="hidden"]):not([type="image"]):not([type="radio"]):not([type="range"]):not([type="reset"]):not([type="submit"])
+) {
   border: 1px solid currentColor;
 }
 

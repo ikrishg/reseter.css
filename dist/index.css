@@ -81,9 +81,12 @@
   :where(sup) {
     top: -0.5em;
   }
-  :where(button, input:not([type=checkbox]):not([type=radio]), optgroup, select, textarea) {
+  :where(button, input, optgroup, select, textarea) {
     font: inherit;
     line-height: inherit;
+  }
+  :where(textarea,
+  input:not([type=button]):not([type=checkbox]):not([type=color]):not([type=file]):not([type=hidden]):not([type=image]):not([type=radio]):not([type=range]):not([type=reset]):not([type=submit])) {
     border: 1px solid currentColor;
   }
   :where(button, [type=button], [type=reset], [type=submit]) {
@@ -150,6 +153,7 @@
   }
   :where(ul[role=list], ol[role=list]) {
     list-style: none;
+    padding-inline-start: 0;
   }
   :where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
     margin: 0;
@@ -198,16 +202,17 @@
     margin: auto;
     padding: 1em;
   }
-  :where(dialog):not([open]) {
-    display: none;
-  }
   :where(summary) {
     display: list-item;
   }
   :where(template) {
     display: none;
   }
-  [hidden]:not([hidden=until-found i]) {
-    display: none;
-  }
+}
+:where(dialog):not([open]) {
+  display: none;
+}
+
+[hidden]:not([hidden=until-found i]) {
+  display: none;
 }

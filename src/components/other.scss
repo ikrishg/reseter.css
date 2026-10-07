@@ -16,6 +16,7 @@
 
 :where(ul[role="list"], ol[role="list"]) {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 :where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
@@ -77,18 +78,10 @@
   padding: 1em;
 }
 
-:where(dialog):not([open]) {
-  display: none;
-}
-
 :where(summary) {
   display: list-item;
 }
 
 :where(template) {
-  display: none;
-}
-
-[hidden]:not([hidden="until-found" i]) {
   display: none;
 }

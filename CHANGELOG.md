@@ -20,7 +20,7 @@ All notable changes to this project will be documented in this file.
 - Form controls inherit typography via `font: inherit` ([#384](https://github.com/ikrishg/reseter.css/issues/384)).
 - Restore UA-like margins (and heading sizes) for `h2`–`h6` ([#385](https://github.com/ikrishg/reseter.css/issues/385)).
 - Apply `box-sizing: border-box` on the universal selector instead of inherit ([#386](https://github.com/ikrishg/reseter.css/issues/386)).
-- Omit `1px solid currentColor` border on checkbox and radio inputs ([#387](https://github.com/ikrishg/reseter.css/issues/387)).
+- Limit `1px solid currentColor` borders to text-like inputs (not buttons, selects, range, color, or file controls) ([#387](https://github.com/ikrishg/reseter.css/issues/387)).
 - Expand system font stack with `system-ui` and emoji families ([#388](https://github.com/ikrishg/reseter.css/issues/388)).
 - Responsive media sizing in the full bundle ([#389](https://github.com/ikrishg/reseter.css/issues/389)).
 
@@ -31,6 +31,7 @@ All notable changes to this project will be documented in this file.
 ### Chore
 
 - Remove legacy IE / vendor-prefixed form and search rules superseded by the `>3%` browserslist target.
+- Generate `css/reseter.css` and `css/reseter.min.css` at build/publish time only (`copy-css-aliases.js`); stop tracking `css/` in git.
 - Relax bundlewatch Brotli limits after reset growth.
 
 ## 2.1.0 (2026-10-07)
