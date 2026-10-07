@@ -29,8 +29,8 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 | :-------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 |                   Normalizations                    |                                                         ✅                                                          |                                                           ✅                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |               Basic elemental styles                |                                                         ✅                                                          |                                                        Partial                                                         |                                                          ✅                                                           |                                                          ❌                                                           |
-| Size (by [bundle phobia](https://bundlephobia.com/)) | Compile with Sass | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
-|                  Minified version                   |    Compile with Sass    |                                                  ❌ (Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |     |
+| Size (by [bundle phobia](https://bundlephobia.com/)) | ![GitHub file size in bytes](https://img.shields.io/github/size/ikrishg/reseter.css/dist/index.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
+|                  Minified version                   | ![npm bundle size](https://img.shields.io/github/size/ikrishg/reseter.css/dist/index.min.css?style=flat-square) |                                                  ❌ (Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |     |
 |                     Box sizing                      |                                                         ✅                                                          |                                                           ❌                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |                   Browser support                   |                                                    Customizable                                                     |                                                    Last 3 versions                                                     |                                                    Last 3 versions                                                    |                                                        Unknown                                                        |
 
@@ -111,6 +111,16 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 > [!Warning]
 >
 > Make Sure To Link Your Custom Stylesheet After reseter.css Else Your Custom Styles Might Not Be Implemented
+
+### More
+
+Framework-specific guides in [docs/Usage.md](docs/Usage.md):
+
+- [Django](docs/Usage.md#django)
+- [ReactJs](docs/Usage.md#reactjs)
+- [VueJs](docs/Usage.md#vuejs)
+- [Next.js](docs/Usage.md#nextjs)
+- [Styled Components](docs/Usage.md#styled-components)
 
 ## 🚅 Optimize
 
