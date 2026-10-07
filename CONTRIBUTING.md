@@ -4,7 +4,7 @@
 
 This section guides you through submitting a bug report. Following these guidelines helps maintainers and the community understand your report 📝, reproduce the behaviour 💻 💻, and find related reports. 🔎
 
-Since the new GitHub Issue forms, we only suggest you include the most information possible. But you can also **Perform a [cursory search](../../../issues)** to see if the enhancement has already been suggested. If it has, adds a comment to the existing issue instead of opening a new one.
+Since the new GitHub Issue forms, we only suggest you include the most information possible. But you can also **Perform a [cursory search](../../../issues)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
