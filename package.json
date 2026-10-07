@@ -1,6 +1,7 @@
 {
   "name": "reseter.css",
   "version": "2.1.1",
+  "packageManager": "pnpm@10.15.0",
   "description": "The Modern CSS Reset 🚀",
   "main": "dist/index.min.css",
   "style": "dist/index.min.css",
@@ -43,9 +44,9 @@
     "minify": "cleancss dist/index.css -o dist/index.min.css",
     "postminify": "cleancss dist/mini.css -o dist/mini.min.css && node scripts/copy-css-aliases.js",
     "compress": "bundlewatch --config .bundlewatch.config.js",
-    "build": "yarn compile && yarn prefix && yarn minify && yarn compress",
+    "build": "pnpm run compile && pnpm run prefix && pnpm run minify && pnpm run compress",
     "prepack": "node scripts/copy-css-aliases.js",
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "pnpm run build",
     "release": "semantic-release"
   },
   "devDependencies": {

@@ -81,10 +81,10 @@ There are various ways to install reseter.css. Like package managers, content de
 npm install reseter.css
 ```
 
-#### 🐱**Yarn** ![Yarn Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
+#### 🐱 **pnpm** ![Npm Downloads](https://img.shields.io/npm/dt/reseter.css?style=flat-square)
 
 ```bash
-yarn add reseter.css
+pnpm add reseter.css
 ```
 
 ### ⚡ CDN ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
