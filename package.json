@@ -10,7 +10,9 @@
     "normalize-css",
     "reset",
     "browser",
-    "style"
+    "style",
+    "reseter",
+    "reseter.css"
   ],
   "homepage": "https://github.com/krshoss/gardevoir#readme",
   "license": "MIT",
