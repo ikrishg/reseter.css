@@ -112,20 +112,93 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 >
 > Make Sure To Link Your Custom Stylesheet After reseter.css Else Your Custom Styles Might Not Be Implemented
 
-### More
+### Framework usage
 
-Framework-specific guides in [docs/Usage.md](docs/Usage.md):
+- [Django](#django)
+- [ReactJs](#reactjs)
+- [VueJs](#vuejs)
+- [Next.js](#nextjs)
+- [Styled Components](#styled-components)
 
-- [Django](docs/Usage.md#django)
-- [ReactJs](docs/Usage.md#reactjs)
-- [VueJs](docs/Usage.md#vuejs)
-- [Next.js](docs/Usage.md#nextjs)
-- [Styled Components](docs/Usage.md#styled-components)
+### 🐍 Django
+
+1. Download reseter.css into the static directory
+
+2. Find your template file
+
+3. Call reseter.css with a link tag
+
+   ```html
+   <link rel="stylesheet" href="{{ STATIC_URL }}/path/to/reseter.css" />
+   ```
+
+### ⚛ ReactJs
+
+1. Install reseter.css
+
+   ```bash
+   npm i reseter.css
+   ```
+
+2. Import in your main file
+
+   ```jsx
+   import "reseter.css";
+   ```
+
+### ✌ VueJs
+
+1. Install reseter.css
+
+   ```bash
+   npm i reseter.css
+   ```
+
+2. Import in your main file
+
+   ```jsx
+   import "reseter.css";
+   ```
+
+### ⏭ Next.js
+
+1. Install reseter.css
+
+   ```bash
+   npm i reseter.css
+   ```
+
+2. Import in your `_App.js` file
+
+   ```jsx
+   import "reseter.css";
+   ```
+
+### 💅 Styled Components
+
+1. Install reseter.css
+
+   ```bash
+   npm i reseter.css
+   ```
+
+2. Create a global style
+
+   ```jsx
+   import { createGlobalStyle } from "styled-components";
+   import resetercss from "node_modules/reseter.css/src/styled-components/js/reseter.js";
+
+   export const GlobalStyle = createGlobalStyle`
+   ${resetercss}
+
+   // You can continue writing global styles here if you want.
+   `;
+   ```
 
 ## 🚅 Optimize
 
 > [!Note]
-> All of these guidelines are for static websites, frameworks like react have their own guide (please refer them)
+> These guidelines are for static sites. For frameworks, see [Framework usage](#framework-usage) above.
 
 - Never import reseter.css via css, though this a option, it is not recommended for website loading, rather use html link tags
 
@@ -147,6 +220,9 @@ Framework-specific guides in [docs/Usage.md](docs/Usage.md):
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
   </noscript>
   ```
+
+- **Purging CSS** — drop unused rules with a tool like [PurgeCSS](https://purgecss.com/) if you only need a subset of the reset in production.
+- **Minification** — release builds ship minified (`dist/index.min.css`).
 
 ## ❤️ Thanks to our supporters
 
