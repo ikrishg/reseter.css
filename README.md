@@ -118,7 +118,6 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 - [ReactJs](#reactjs)
 - [VueJs](#vuejs)
 - [Next.js](#nextjs)
-- [Styled Components](#styled-components)
 
 ### 🐍 Django
 
@@ -172,27 +171,6 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 
    ```jsx
    import "reseter.css";
-   ```
-
-### 💅 Styled Components
-
-1. Install reseter.css
-
-   ```bash
-   npm i reseter.css
-   ```
-
-2. Create a global style
-
-   ```jsx
-   import { createGlobalStyle } from "styled-components";
-   import resetercss from "node_modules/reseter.css/src/styled-components/js/reseter.js";
-
-   export const GlobalStyle = createGlobalStyle`
-   ${resetercss}
-
-   // You can continue writing global styles here if you want.
-   `;
    ```
 
 ## 🚅 Optimize

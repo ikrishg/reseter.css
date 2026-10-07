@@ -2,11 +2,11 @@ module.exports = {
   files: [
     {
       path: "dist/index.css",
-      maxSize: "1kb",
+      maxSize: "1.1kb",
     },
     {
       path: "dist/index.min.css",
-      maxSize: "0.9kb",
+      maxSize: "1kb",
     },
     {
       path: "dist/mini.css",

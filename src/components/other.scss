@@ -9,6 +9,10 @@
   margin: 1em 0;
 }
 
+:where(ul, ol, menu) {
+  padding-inline-start: 40px;
+}
+
 :where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
   margin: 0;
 }
@@ -26,8 +30,10 @@
   height: 0;
 }
 
-:where(img) {
+:where(img, video) {
   border: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 :where(svg):not(:root) {

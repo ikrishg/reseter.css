@@ -1,5 +1,7 @@
-:where(button, input, optgroup, select, textarea) {
+:where(button, input:not([type="checkbox"]):not([type="radio"]), optgroup, select, textarea) {
   line-height: inherit;
+  font-family: inherit;
+  font-size: 100%;
   border: 1px solid currentColor;
 }
 
