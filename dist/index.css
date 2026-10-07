@@ -192,7 +192,7 @@
 }
 
 :where(dialog) {
-  background-color: inherit;
+  background-color: Canvas;
   border: solid;
   color: inherit;
   display: block;
@@ -200,7 +200,6 @@
   left: 0;
   margin: auto;
   padding: 1em;
-  position: absolute;
   right: 0;
   width: fit-content;
 }
@@ -221,6 +220,6 @@
   display: none;
 }
 
-:where([hidden]) {
+[hidden]:not([hidden=until-found i]) {
   display: none;
 }
