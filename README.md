@@ -1,5 +1,12 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center"><img height="100px" width="100px" src="https://github.com/ikrishg/reseter.css/raw/main/.github/assets/gardevoir.png"><br><h1>The Modern CSS Reset 🚀</h5></div>
+<div align="center"><img height="100px" width="100px" src="https://github.com/ikrishg/reseter.css/raw/main/.github/assets/logo.svg" alt="reseter.css"><br><h1>The Modern CSS Reset 🚀</h1></div>
+
+<div align="center">
+  <img
+    alt="Build websites with cross-browser form experiences — Chrome, Firefox, and Edge"
+    src="https://github.com/ikrishg/reseter.css/raw/main/.github/assets/showcase.png"
+  />
+</div>
 
 ## 🤓 Benefits
 
