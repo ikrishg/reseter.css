@@ -6,11 +6,15 @@
   margin: 0;
 }
 
-:where(:root, html) {
+:where(:root) {
   line-height: 1.5;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:where(html) {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 :where(main) {
@@ -19,33 +23,47 @@
 
 :where(h1) {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin-block: 0.67em;
+  margin-inline: 0;
 }
 
 :where(h2) {
   font-size: 1.5em;
-  margin: 0.83em 0;
+  margin-block: 0.83em;
+  margin-inline: 0;
 }
 
 :where(h3) {
   font-size: 1.17em;
-  margin: 1em 0;
+  margin-block: 1em;
+  margin-inline: 0;
 }
 
 :where(h4) {
-  margin: 1.33em 0;
+  margin-block: 1.33em;
+  margin-inline: 0;
 }
 
 :where(h5) {
   font-size: 0.83em;
-  margin: 1.67em 0;
+  margin-block: 1.67em;
+  margin-inline: 0;
 }
 
 :where(h6) {
   font-size: 0.67em;
-  margin: 2.33em 0;
+  margin-block: 2.33em;
+  margin-inline: 0;
+}
+
+:where(h1, h2, h3, h4) {
+  text-wrap: balance;
 }
 
 :where(p + p) {
-  margin-top: 1rem;
+  margin-block-start: 1rem;
+}
+
+:where(:target) {
+  scroll-margin-block: 5ex;
 }

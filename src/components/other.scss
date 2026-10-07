@@ -1,16 +1,21 @@
 :where(hr) {
   box-sizing: content-box;
-  height: 0;
+  block-size: 0;
   color: inherit;
   overflow: visible;
 }
 
 :where(dl, ol, ul) {
-  margin: 1em 0;
+  margin-block: 1em;
+  margin-inline: 0;
 }
 
 :where(ul, ol, menu) {
   padding-inline-start: 40px;
+}
+
+:where(ul[role="list"], ol[role="list"]) {
+  list-style: none;
 }
 
 :where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
@@ -21,19 +26,30 @@
   font-weight: bolder;
 }
 
-:where(audio, video) {
+:where(audio) {
   display: inline-block;
 }
 
 :where(audio):not([controls]) {
   display: none;
-  height: 0;
+  block-size: 0;
 }
 
-:where(img, video) {
+:where(img, picture, video, canvas, svg) {
+  display: block;
+  max-inline-size: 100%;
+}
+
+:where(img, video, canvas, svg) {
+  block-size: auto;
+}
+
+:where(img) {
   border: 0;
-  max-width: 100%;
-  height: auto;
+}
+
+:where(svg:not([fill])) {
+  fill: currentColor;
 }
 
 :where(svg):not(:root) {
@@ -54,12 +70,11 @@
   border: solid;
   color: CanvasText;
   display: block;
-  height: fit-content;
-  left: 0;
+  block-size: fit-content;
+  inline-size: fit-content;
+  inset-inline: 0;
   margin: auto;
   padding: 1em;
-  right: 0;
-  width: fit-content;
 }
 
 :where(dialog):not([open]) {
@@ -68,10 +83,6 @@
 
 :where(summary) {
   display: list-item;
-}
-
-:where(canvas) {
-  display: inline-block;
 }
 
 :where(template) {

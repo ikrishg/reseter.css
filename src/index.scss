@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-@import "./components/global.scss";
-@import "./components/text.scss";
-@import "./components/forms.scss";
-@import "./components/other.scss";
+@layer reset {
+  @import "./components/global.scss";
+  @import "./components/text.scss";
+  @import "./components/forms.scss";
+  @import "./components/other.scss";
+}

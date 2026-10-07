@@ -10,11 +10,11 @@ module.exports = {
     },
     {
       path: "dist/mini.css",
-      maxSize: "0.2kb",
+      maxSize: "0.25kb",
     },
     {
       path: "dist/mini.min.css",
-      maxSize: "0.15kb",
+      maxSize: "0.2kb",
     },
   ],
   defaultCompression: "brotli",

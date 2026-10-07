@@ -1,258 +1,213 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-:where(:root, html) {
-  line-height: 1.5;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-:where(main) {
-  display: block;
-}
-
-:where(h1) {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-:where(h2) {
-  font-size: 1.5em;
-  margin: 0.83em 0;
-}
-
-:where(h3) {
-  font-size: 1.17em;
-  margin: 1em 0;
-}
-
-:where(h4) {
-  margin: 1.33em 0;
-}
-
-:where(h5) {
-  font-size: 0.83em;
-  margin: 1.67em 0;
-}
-
-:where(h6) {
-  font-size: 0.67em;
-  margin: 2.33em 0;
-}
-
-:where(p + p) {
-  margin-top: 1rem;
-}
-
-:where(a) {
-  background-color: transparent;
-}
-
-:where(abbr[title]) {
-  text-decoration: underline dotted;
-}
-
-:where(code, kbd, samp, pre) {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-:where(sub, sup) {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-:where(sub) {
-  bottom: -0.25em;
-}
-
-:where(sup) {
-  top: -0.5em;
-}
-
-:where(button, input:not([type=checkbox]):not([type=radio]), optgroup, select, textarea) {
-  line-height: inherit;
-  font-family: inherit;
-  font-size: 100%;
-  border: 1px solid currentColor;
-}
-
-:where(button, [type=button], [type=reset], [type=submit]) {
-  -webkit-appearance: button;
-  padding: 1px 6px;
-}
-
-:where(button) {
-  overflow: visible;
-  text-transform: none;
-}
-
-:where(button):not(:disabled),
-:where([type=button]):not(:disabled),
-:where([type=reset]):not(:disabled),
-:where([type=submit]):not(:disabled) {
-  cursor: pointer;
-}
-
-:where(input) {
-  overflow: visible;
-}
-
-:where(input, textarea) {
-  padding: 1px;
-}
-
-:where(fieldset) {
-  border: 1px solid currentColor;
-  margin: 0 2px;
-}
-
-:where(legend) {
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  white-space: normal;
-}
-
-:where(progress) {
-  display: inline-block;
-  vertical-align: baseline;
-}
-
-:where(select) {
-  text-transform: none;
-}
-
-:where(textarea) {
-  overflow: auto;
-  vertical-align: top;
-}
-
-:where([type=search]) {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-
-:where([type=color]) {
-  background: inherit;
-}
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
-
-::-webkit-input-placeholder {
-  color: inherit;
-  opacity: 0.5;
-}
-
-::-webkit-search-decoration,
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
-
-::-moz-focus-inner {
-  border: 0;
-}
-
-:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-:-moz-ui-invalid {
-  box-shadow: none;
-}
-
-:where(hr) {
-  box-sizing: content-box;
-  height: 0;
-  color: inherit;
-  overflow: visible;
-}
-
-:where(dl, ol, ul) {
-  margin: 1em 0;
-}
-
-:where(ul, ol, menu) {
-  padding-inline-start: 40px;
-}
-
-:where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
-  margin: 0;
-}
-
-:where(b, strong) {
-  font-weight: bolder;
-}
-
-:where(audio, video) {
-  display: inline-block;
-}
-
-:where(audio):not([controls]) {
-  display: none;
-  height: 0;
-}
-
-:where(img, video) {
-  border: 0;
-  max-width: 100%;
-  height: auto;
-}
-
-:where(svg):not(:root) {
-  overflow: hidden;
-}
-
-:where(table) {
-  text-indent: 0;
-  border-color: inherit;
-}
-
-:where(details) {
-  display: block;
-}
-
-:where(dialog) {
-  background-color: Canvas;
-  border: solid;
-  color: CanvasText;
-  display: block;
-  height: fit-content;
-  left: 0;
-  margin: auto;
-  padding: 1em;
-  right: 0;
-  width: fit-content;
-}
-
-:where(dialog):not([open]) {
-  display: none;
-}
-
-:where(summary) {
-  display: list-item;
-}
-
-:where(canvas) {
-  display: inline-block;
-}
-
-:where(template) {
-  display: none;
-}
-
-[hidden]:not([hidden=until-found i]) {
-  display: none;
+@layer reset {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  :where(:root) {
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  :where(html) {
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+  :where(main) {
+    display: block;
+  }
+  :where(h1) {
+    font-size: 2em;
+    margin-block: 0.67em;
+    margin-inline: 0;
+  }
+  :where(h2) {
+    font-size: 1.5em;
+    margin-block: 0.83em;
+    margin-inline: 0;
+  }
+  :where(h3) {
+    font-size: 1.17em;
+    margin-block: 1em;
+    margin-inline: 0;
+  }
+  :where(h4) {
+    margin-block: 1.33em;
+    margin-inline: 0;
+  }
+  :where(h5) {
+    font-size: 0.83em;
+    margin-block: 1.67em;
+    margin-inline: 0;
+  }
+  :where(h6) {
+    font-size: 0.67em;
+    margin-block: 2.33em;
+    margin-inline: 0;
+  }
+  :where(h1, h2, h3, h4) {
+    text-wrap: balance;
+  }
+  :where(p + p) {
+    margin-block-start: 1rem;
+  }
+  :where(:target) {
+    scroll-margin-block: 5ex;
+  }
+  :where(a) {
+    background-color: transparent;
+  }
+  :where(a:not([class])) {
+    -webkit-text-decoration-skip: ink;
+            text-decoration-skip-ink: auto;
+  }
+  :where(abbr[title]) {
+    text-decoration: underline dotted;
+  }
+  :where(code, kbd, samp, pre) {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  :where(sub, sup) {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  :where(sub) {
+    bottom: -0.25em;
+  }
+  :where(sup) {
+    top: -0.5em;
+  }
+  :where(button, input:not([type=checkbox]):not([type=radio]), optgroup, select, textarea) {
+    font: inherit;
+    line-height: inherit;
+    border: 1px solid currentColor;
+  }
+  :where(button, [type=button], [type=reset], [type=submit]) {
+    padding: 1px 6px;
+  }
+  :where(button) {
+    overflow: visible;
+    text-transform: none;
+  }
+  :where(button):not(:disabled),
+  :where([type=button]):not(:disabled),
+  :where([type=reset]):not(:disabled),
+  :where([type=submit]):not(:disabled) {
+    cursor: pointer;
+  }
+  :where(input) {
+    overflow: visible;
+  }
+  :where(input, textarea) {
+    padding: 1px;
+  }
+  :where(fieldset) {
+    border: 1px solid currentColor;
+    margin-block: 0;
+    margin-inline: 2px;
+  }
+  :where(legend) {
+    color: inherit;
+    display: table;
+    max-inline-size: 100%;
+    white-space: normal;
+  }
+  :where(progress) {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  :where(select) {
+    text-transform: none;
+  }
+  :where(textarea) {
+    overflow: auto;
+    resize: vertical;
+    vertical-align: top;
+  }
+  :where([type=color]) {
+    background: inherit;
+  }
+  ::placeholder {
+    color: inherit;
+    opacity: 0.5;
+  }
+  :where(hr) {
+    box-sizing: content-box;
+    block-size: 0;
+    color: inherit;
+    overflow: visible;
+  }
+  :where(dl, ol, ul) {
+    margin-block: 1em;
+    margin-inline: 0;
+  }
+  :where(ul, ol, menu) {
+    padding-inline-start: 40px;
+  }
+  :where(ul[role=list], ol[role=list]) {
+    list-style: none;
+  }
+  :where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
+    margin: 0;
+  }
+  :where(b, strong) {
+    font-weight: bolder;
+  }
+  :where(audio) {
+    display: inline-block;
+  }
+  :where(audio):not([controls]) {
+    display: none;
+    block-size: 0;
+  }
+  :where(img, picture, video, canvas, svg) {
+    display: block;
+    max-inline-size: 100%;
+  }
+  :where(img, video, canvas, svg) {
+    block-size: auto;
+  }
+  :where(img) {
+    border: 0;
+  }
+  :where(svg:not([fill])) {
+    fill: currentColor;
+  }
+  :where(svg):not(:root) {
+    overflow: hidden;
+  }
+  :where(table) {
+    text-indent: 0;
+    border-color: inherit;
+  }
+  :where(details) {
+    display: block;
+  }
+  :where(dialog) {
+    background-color: Canvas;
+    border: solid;
+    color: CanvasText;
+    display: block;
+    block-size: fit-content;
+    inline-size: fit-content;
+    inset-inline: 0;
+    margin: auto;
+    padding: 1em;
+  }
+  :where(dialog):not([open]) {
+    display: none;
+  }
+  :where(summary) {
+    display: list-item;
+  }
+  :where(template) {
+    display: none;
+  }
+  [hidden]:not([hidden=until-found i]) {
+    display: none;
+  }
 }

@@ -2,6 +2,10 @@
   background-color: transparent;
 }
 
+:where(a:not([class])) {
+  text-decoration-skip-ink: auto;
+}
+
 :where(abbr[title]) {
   text-decoration: underline dotted;
 }

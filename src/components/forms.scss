@@ -1,12 +1,10 @@
 :where(button, input:not([type="checkbox"]):not([type="radio"]), optgroup, select, textarea) {
+  font: inherit;
   line-height: inherit;
-  font-family: inherit;
-  font-size: 100%;
   border: 1px solid currentColor;
 }
 
 :where(button, [type="button"], [type="reset"], [type="submit"]) {
-  -webkit-appearance: button;
   padding: 1px 6px;
 }
 
@@ -32,13 +30,14 @@
 
 :where(fieldset) {
   border: 1px solid currentColor;
-  margin: 0 2px;
+  margin-block: 0;
+  margin-inline: 2px;
 }
 
 :where(legend) {
   color: inherit;
   display: table;
-  max-width: 100%;
+  max-inline-size: 100%;
   white-space: normal;
 }
 
@@ -53,42 +52,15 @@
 
 :where(textarea) {
   overflow: auto;
+  resize: vertical;
   vertical-align: top;
-}
-
-:where([type="search"]) {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
 }
 
 :where([type="color"]) {
   background: inherit;
 }
 
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
-
-::-webkit-input-placeholder {
+::placeholder {
   color: inherit;
   opacity: 0.5;
-}
-
-::-webkit-search-decoration,
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
-
-::-moz-focus-inner {
-  border: 0;
-}
-
-:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-:-moz-ui-invalid {
-  box-shadow: none;
 }
