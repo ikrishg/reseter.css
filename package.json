@@ -1,8 +1,9 @@
 {
-  "name": "gardevoir",
-  "version": "1.0.0",
-  "description": "The Modern CSS Reset 🚀 ",
+  "name": "reseter.css",
+  "version": "2.1.0",
+  "description": "The Modern CSS Reset 🚀",
   "main": "dist/index.min.css",
+  "style": "dist/index.min.css",
   "keywords": [
     "css",
     "css-reset",
@@ -14,20 +15,33 @@
     "reseter",
     "reseter.css"
   ],
-  "homepage": "https://github.com/krshoss/gardevoir#readme",
+  "homepage": "https://github.com/ikrishg/reseter.css#readme",
   "license": "MIT",
-  "author": "Krish Gupta <krshkun@proton.me>",
+  "author": "Krish Gupta <krish@krishg.com> (https://github.com/ikrishg)",
+  "bugs": {
+    "url": "https://github.com/ikrishg/reseter.css/issues",
+    "email": "krish@krishg.com"
+  },
   "files": [
-    "dist"
+    "dist",
+    "css",
+    "src",
+    "CHANGELOG.md"
   ],
-  "repository": "github:krshoss/gardevoir",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikrishg/reseter.css.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "compile": "sass src/index.scss dist/index.css --no-source-map",
     "postcompile": "sass src/mini.scss dist/mini.css --no-source-map",
     "prefix": "postcss dist/index.css -r --no-map -u autoprefixer",
     "postprefix": "postcss dist/mini.css -r --no-map -u autoprefixer",
     "minify": "cleancss dist/index.css -o dist/index.min.css",
-    "postminify": "cleancss dist/mini.css -o dist/mini.min.css",
+    "postminify": "cleancss dist/mini.css -o dist/mini.min.css && node scripts/copy-css-aliases.js",
     "compress": "bundlewatch --config .bundlewatch.config.js",
     "build": "yarn compile && yarn prefix && yarn minify && yarn compress",
     "release": "semantic-release"
