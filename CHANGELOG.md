@@ -30,6 +30,8 @@ All notable changes to this project will be documented in this file.
 
 ### Chore
 
+- Replace Sass, PostCSS, Autoprefixer, and clean-css with Lightning CSS bundling/minification (`scripts/build-css.js`).
+- Migrate reset sources from `.scss` to plain `.css` with layered `@import`.
 - Switch repository tooling from Yarn to pnpm (`pnpm-lock.yaml`, `packageManager` field).
 - Remove legacy IE / vendor-prefixed form and search rules superseded by the `>3%` browserslist target.
 - Generate `css/reseter.css` and `css/reseter.min.css` at build/publish time only (`copy-css-aliases.js`); stop tracking `css/` in git.

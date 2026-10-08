@@ -37,14 +37,10 @@
     "access": "public"
   },
   "scripts": {
-    "compile": "sass src/index.scss dist/index.css --no-source-map",
-    "postcompile": "sass src/mini.scss dist/mini.css --no-source-map",
-    "prefix": "postcss dist/index.css -r --no-map -u autoprefixer",
-    "postprefix": "postcss dist/mini.css -r --no-map -u autoprefixer",
-    "minify": "cleancss dist/index.css -o dist/index.min.css",
-    "postminify": "cleancss dist/mini.css -o dist/mini.min.css && node scripts/copy-css-aliases.js",
+    "build:css": "node scripts/build-css.js",
+    "postbuild:css": "node scripts/copy-css-aliases.js",
     "compress": "bundlewatch --config .bundlewatch.config.js",
-    "build": "pnpm run compile && pnpm run prefix && pnpm run minify && pnpm run compress",
+    "build": "pnpm run build:css && pnpm run compress",
     "prepack": "node scripts/copy-css-aliases.js",
     "prepublishOnly": "pnpm run build",
     "release": "semantic-release"
@@ -56,13 +52,10 @@
     "@semantic-release/github": "11.0.3",
     "@semantic-release/npm": "12.0.1",
     "@semantic-release/release-notes-generator": "14.1.0",
-    "autoprefixer": "10.4.27",
+    "browserslist": "4.28.1",
     "brotli-size": "4.0.0",
     "bundlewatch": "0.4.1",
-    "clean-css-cli": "5.6.3",
-    "postcss": "8.5.10",
-    "postcss-cli": "11.0.1",
-    "sass": "1.98.0",
+    "lightningcss": "1.33.0",
     "semantic-release": "24.2.5"
   }
 }

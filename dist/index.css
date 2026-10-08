@@ -1,218 +1,260 @@
 @layer reset {
-  *,
-  *::before,
-  *::after {
+  *, :before, :after {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
+
   :where(:root) {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     line-height: 1.5;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
+
   :where(html) {
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
   }
+
   :where(main) {
     display: block;
   }
+
   :where(h1) {
+    margin-block: .67em;
+    margin-inline: 0;
     font-size: 2em;
-    margin-block: 0.67em;
-    margin-inline: 0;
   }
+
   :where(h2) {
-    font-size: 1.5em;
-    margin-block: 0.83em;
+    margin-block: .83em;
     margin-inline: 0;
+    font-size: 1.5em;
   }
+
   :where(h3) {
-    font-size: 1.17em;
     margin-block: 1em;
     margin-inline: 0;
+    font-size: 1.17em;
   }
+
   :where(h4) {
     margin-block: 1.33em;
     margin-inline: 0;
   }
+
   :where(h5) {
-    font-size: 0.83em;
     margin-block: 1.67em;
     margin-inline: 0;
+    font-size: .83em;
   }
+
   :where(h6) {
-    font-size: 0.67em;
     margin-block: 2.33em;
     margin-inline: 0;
+    font-size: .67em;
   }
+
   :where(h1, h2, h3, h4) {
     text-wrap: balance;
   }
+
   :where(p + p) {
     margin-block-start: 1rem;
   }
+
   :where(:target) {
     scroll-margin-block: 5ex;
   }
+
   :where(a) {
-    background-color: transparent;
+    background-color: #0000;
   }
+
   :where(a:not([class])) {
-    -webkit-text-decoration-skip: ink;
-            text-decoration-skip-ink: auto;
+    -webkit-text-decoration-skip-ink: auto;
+    text-decoration-skip-ink: auto;
   }
+
   :where(abbr[title]) {
     text-decoration: underline dotted;
   }
+
   :where(code, kbd, samp, pre) {
-    font-family: monospace, monospace;
+    font-family: monospace;
     font-size: 1em;
   }
+
   :where(sub, sup) {
+    vertical-align: baseline;
     font-size: 75%;
     line-height: 0;
     position: relative;
-    vertical-align: baseline;
   }
+
   :where(sub) {
-    bottom: -0.25em;
+    bottom: -.25em;
   }
+
   :where(sup) {
-    top: -0.5em;
+    top: -.5em;
   }
+
   :where(button, input, optgroup, select, textarea) {
     font: inherit;
     line-height: inherit;
   }
-  :where(textarea,
-  input:not([type=button]):not([type=checkbox]):not([type=color]):not([type=file]):not([type=hidden]):not([type=image]):not([type=radio]):not([type=range]):not([type=reset]):not([type=submit])) {
-    border: 1px solid currentColor;
+
+  :where(textarea, input:not([type="button"]):not([type="checkbox"]):not([type="color"]):not([type="file"]):not([type="hidden"]):not([type="image"]):not([type="radio"]):not([type="range"]):not([type="reset"]):not([type="submit"])) {
+    border: 1px solid;
   }
-  :where(button, [type=button], [type=reset], [type=submit]) {
+
+  :where(button, [type="button"], [type="reset"], [type="submit"]) {
     padding: 1px 6px;
   }
+
   :where(button) {
-    overflow: visible;
     text-transform: none;
+    overflow: visible;
   }
-  :where(button):not(:disabled),
-  :where([type=button]):not(:disabled),
-  :where([type=reset]):not(:disabled),
-  :where([type=submit]):not(:disabled) {
+
+  :where(button):not(:disabled), :where([type="button"]):not(:disabled), :where([type="reset"]):not(:disabled), :where([type="submit"]):not(:disabled) {
     cursor: pointer;
   }
+
   :where(input) {
     overflow: visible;
   }
+
   :where(input, textarea) {
     padding: 1px;
   }
+
   :where(fieldset) {
-    border: 1px solid currentColor;
+    border: 1px solid;
     margin-block: 0;
     margin-inline: 2px;
   }
+
   :where(legend) {
     color: inherit;
-    display: table;
-    max-inline-size: 100%;
     white-space: normal;
+    max-inline-size: 100%;
+    display: table;
   }
+
   :where(progress) {
-    display: inline-block;
     vertical-align: baseline;
+    display: inline-block;
   }
+
   :where(select) {
     text-transform: none;
   }
+
   :where(textarea) {
-    overflow: auto;
     resize: vertical;
     vertical-align: top;
+    overflow: auto;
   }
-  :where([type=color]) {
+
+  :where([type="color"]) {
     background: inherit;
   }
+
   ::placeholder {
     color: inherit;
-    opacity: 0.5;
+    opacity: .5;
   }
+
   :where(hr) {
     box-sizing: content-box;
     block-size: 0;
     color: inherit;
     overflow: visible;
   }
+
   :where(dl, ol, ul) {
     margin-block: 1em;
     margin-inline: 0;
   }
+
   :where(ul, ol, menu) {
     padding-inline-start: 40px;
   }
-  :where(ul[role=list], ol[role=list]) {
-    list-style: none;
+
+  :where(ul[role="list"], ol[role="list"]) {
     padding-inline-start: 0;
+    list-style: none;
   }
+
   :where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
     margin: 0;
   }
+
   :where(b, strong) {
     font-weight: bolder;
   }
+
   :where(audio) {
     display: inline-block;
   }
+
   :where(audio):not([controls]) {
-    display: none;
     block-size: 0;
+    display: none;
   }
+
   :where(img, picture, video, canvas, svg) {
-    display: block;
     max-inline-size: 100%;
+    display: block;
   }
+
   :where(img, video, canvas, svg) {
     block-size: auto;
   }
+
   :where(img) {
     border: 0;
   }
+
   :where(svg:not([fill])) {
     fill: currentColor;
   }
+
   :where(svg):not(:root) {
     overflow: hidden;
   }
+
   :where(table) {
     text-indent: 0;
     border-color: inherit;
   }
+
   :where(details) {
     display: block;
   }
+
   :where(dialog) {
-    background-color: Canvas;
+    color: canvastext;
+    background-color: canvas;
     border: solid;
-    color: CanvasText;
-    display: block;
     block-size: fit-content;
     inline-size: fit-content;
-    inset-inline: 0;
     margin: auto;
     padding: 1em;
+    display: block;
+    inset-inline: 0;
   }
+
   :where(summary) {
     display: list-item;
   }
+
   :where(template) {
     display: none;
   }
 }
-:where(dialog):not([open]) {
-  display: none;
-}
 
-[hidden]:not([hidden=until-found i]) {
+:where(dialog):not([open]), [hidden]:not([hidden="until-found" i]) {
   display: none;
 }
