@@ -45,6 +45,10 @@
     font-size: .67em;
   }
 
+  :where(h1, h2, h3, h4) {
+    text-wrap: balance;
+  }
+
   :where(ul, ol, menu) {
     padding-inline-start: 40px;
   }

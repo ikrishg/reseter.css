@@ -1,0 +1,8 @@
+:where(img, picture, video, canvas, svg) {
+  display: block;
+  max-inline-size: 100%;
+}
+
+:where(img, video, canvas, svg) {
+  block-size: auto;
+}

@@ -5,6 +5,11 @@
   "description": "The Modern CSS Reset 🚀",
   "main": "dist/index.min.css",
   "style": "dist/index.min.css",
+  "exports": {
+    ".": "./dist/index.min.css",
+    "./mini": "./dist/mini.min.css",
+    "./package.json": "./package.json"
+  },
   "keywords": [
     "css",
     "css-reset",

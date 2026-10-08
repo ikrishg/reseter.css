@@ -1,3 +1,6 @@
+@import "./lists.css";
+@import "./media-block.css";
+
 :where(hr) {
   box-sizing: content-box;
   block-size: 0;
@@ -8,15 +11,6 @@
 :where(dl, ol, ul) {
   margin-block: 1em;
   margin-inline: 0;
-}
-
-:where(ul, ol, menu) {
-  padding-inline-start: 40px;
-}
-
-:where(ul[role="list"], ol[role="list"]) {
-  list-style: none;
-  padding-inline-start: 0;
 }
 
 :where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
@@ -34,15 +28,6 @@
 :where(audio):not([controls]) {
   display: none;
   block-size: 0;
-}
-
-:where(img, picture, video, canvas, svg) {
-  display: block;
-  max-inline-size: 100%;
-}
-
-:where(img, video, canvas, svg) {
-  block-size: auto;
 }
 
 :where(img) {

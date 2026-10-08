@@ -30,6 +30,7 @@ All notable changes to this project will be documented in this file.
 
 ### Chore
 
+- Shrink form border selectors; share mini/full source modules; canonical CDN/npm artifact is `dist/index.min.css` (legacy `css/reseter.css` alias is minified).
 - Replace Sass, PostCSS, Autoprefixer, and clean-css with Lightning CSS bundling/minification (`scripts/build-css.js`).
 - Migrate reset sources from `.scss` to plain `.css` with layered `@import`.
 - Switch repository tooling from Yarn to pnpm (`pnpm-lock.yaml`, `packageManager` field).

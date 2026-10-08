@@ -29,7 +29,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 | :-------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 |                   Normalizations                    |                                                         ✅                                                          |                                                           ✅                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |               Basic elemental styles                |                                                         ✅                                                          |                                                        Partial                                                         |                                                          ✅                                                           |                                                          ❌                                                           |
-| Size (by [bundle phobia](https://bundlephobia.com/)) | ![GitHub file size in bytes](https://img.shields.io/github/size/ikrishg/reseter.css/dist/index.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
+| Size (by [bundle phobia](https://bundlephobia.com/)) | ![GitHub file size in bytes](https://img.shields.io/github/size/ikrishg/reseter.css/dist/index.min.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/necolas/normalize.css/normalize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/csstools/sanitize.css/sanitize.css?style=flat-square) | ![GitHub file size in bytes](https://img.shields.io/github/size/shannonmoeller/reset-css/reset.css?style=flat-square) |
 |                  Minified version                   | ![npm bundle size](https://img.shields.io/github/size/ikrishg/reseter.css/dist/index.min.css?style=flat-square) |                                                  ❌ (Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |                                                  ❌(Minify yourself)                                                  |     |
 |                     Box sizing                      |                                                         ✅                                                          |                                                           ❌                                                           |                                                          ✅                                                           |                                                          ❌                                                           |
 |                   Browser support                   |                                            Browsers with >3% global usage                                             |                                                    Last 3 versions                                                     |                                                    Last 3 versions                                                    |                                                        Unknown                                                        |
@@ -58,7 +58,7 @@ There are many inconsistencies between browsers. Like Firefox 3 has a margin on 
 
    ```html
    <!-- To be placed in the head tag -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css/dist/index.min.css" />
    ```
 
 3. Star this repository, if you like the project! It means a lot to the development team, Those stars a boosting happiness for our team
@@ -90,7 +90,7 @@ pnpm add reseter.css
 ### ⚡ CDN ![CDN Hits](https://img.shields.io/jsdelivr/npm/hy/reseter.css?style=flat-square)
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css/dist/index.min.css" />
 ```
 
 ## ✨ Usage
@@ -99,7 +99,7 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 
 ```html
 <head>
-  <link rel="stylesheet" type="text/css" href="path/to/css/reseter.min.css" />
+  <link rel="stylesheet" type="text/css" href="path/to/node_modules/reseter.css/dist/index.min.css" />
   <link
     rel="stylesheet"
     type="text/css"
@@ -128,7 +128,7 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 3. Call reseter.css with a link tag
 
    ```html
-   <link rel="stylesheet" href="{{ STATIC_URL }}/path/to/reseter.css" />
+   <link rel="stylesheet" href="{{ STATIC_URL }}/path/to/reseter.min.css" />
    ```
 
 ### ⚛ ReactJs
@@ -181,7 +181,7 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 - Never import reseter.css via css, though this a option, it is not recommended for website loading, rather use html link tags
 
   ```html
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css/dist/index.min.css" />
   ```
 
 - Use this easy loading trick to make your life a lot easier
@@ -190,17 +190,17 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
   <link
     rel="preload"
     as="style"
-    href="https://cdn.jsdelivr.net/npm/reseter.css"
+    href="https://cdn.jsdelivr.net/npm/reseter.css/dist/index.min.css"
     onload="this.rel='stylesheet';this.onload=null"
   />
 
   <noscript>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css/dist/index.min.css" />
   </noscript>
   ```
 
 - **Purging CSS** — drop unused rules with a tool like [PurgeCSS](https://purgecss.com/) if you only need a subset of the reset in production.
-- **Minification** — release builds ship minified (`dist/index.min.css`).
+- **Minification** — production/CDN entry is always the minified build (`dist/index.min.css`; npm `main` / jsDelivr default resolve here).
 
 ## ❤️ Thanks to our supporters
 

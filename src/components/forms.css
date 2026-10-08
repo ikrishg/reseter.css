@@ -3,11 +3,23 @@
   line-height: inherit;
 }
 
-:where(
-  textarea,
-  input:not([type="button"]):not([type="checkbox"]):not([type="color"]):not([type="file"]):not([type="hidden"]):not([type="image"]):not([type="radio"]):not([type="range"]):not([type="reset"]):not([type="submit"])
-) {
+:where(input, textarea) {
   border: 1px solid currentColor;
+}
+
+:where(
+  input[type="button"],
+  input[type="checkbox"],
+  input[type="color"],
+  input[type="file"],
+  input[type="hidden"],
+  input[type="image"],
+  input[type="radio"],
+  input[type="range"],
+  input[type="reset"],
+  input[type="submit"]
+) {
+  border: 0;
 }
 
 :where(button, [type="button"], [type="reset"], [type="submit"]) {
