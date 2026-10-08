@@ -46,7 +46,7 @@ Also: `npm` / `bun` / `yarn`; legacy npm name [`gardevoir`](https://www.npmjs.co
 
 </div>
 
-Use **one** file — do not also load `css/reseter.min.css`. Sass sources: `src/index.scss` / `src/mini.scss`.
+Use **one** file — do not also load `css/reseter.min.css`. Source CSS (for reference): `src/index.css` / `src/mini.css`.
 
 ## Frameworks
 

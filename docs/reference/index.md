@@ -5,11 +5,11 @@ description: Rule highlights for reseter.css 3.0.0 (PR #390); see src/ for every
 permalink: /reference/
 ---
 
-These tables summarize the main rules in [`src/`](https://github.com/ikrishg/reseter.css/tree/main/src) on `main` — not an exhaustive list. Full build: `global`, `text`, `forms`, `other` inside `@layer reset`; `cascade` is unlayered. Mini is only `src/mini.scss`. Selectors use `:where()` unless noted. [CHANGELOG](https://github.com/ikrishg/reseter.css/blob/main/CHANGELOG.md#300-2026-10-07).
+These tables summarize the main rules in [`src/`](https://github.com/ikrishg/reseter.css/tree/main/src) on `main` — not an exhaustive list. Full build: `global`, `text`, `forms`, `other` inside `@layer reset`; `cascade` is unlayered. Mini is only `src/mini.css`. Selectors use `:where()` unless noted. [CHANGELOG](https://github.com/ikrishg/reseter.css/blob/main/CHANGELOG.md#300-2026-10-07).
 
 ## Global {#global}
 
-`src/components/global.scss`
+`src/components/global.css`
 
 <div class="table-scroll" markdown="1">
 
@@ -28,7 +28,7 @@ These tables summarize the main rules in [`src/`](https://github.com/ikrishg/res
 
 ## Text {#text}
 
-`src/components/text.scss` (full only)
+`src/components/text.css` (full only)
 
 <div class="table-scroll" markdown="1">
 
@@ -44,7 +44,7 @@ These tables summarize the main rules in [`src/`](https://github.com/ikrishg/res
 
 ## Forms {#forms}
 
-`src/components/forms.scss` (full only)
+`src/components/forms.css` (full only)
 
 <div class="table-scroll" markdown="1">
 
@@ -61,7 +61,7 @@ These tables summarize the main rules in [`src/`](https://github.com/ikrishg/res
 
 ## Other {#other}
 
-`src/components/other.scss` (full); overlapping rules also in mini
+`src/components/other.css` (full); overlapping rules also in mini
 
 <div class="table-scroll" markdown="1">
 
@@ -80,7 +80,7 @@ Closed `dialog` and `[hidden]` are in **Cascade** (below).
 
 ## Cascade {#cascade}
 
-`src/components/cascade.scss` — **outside** `@layer reset`
+`src/components/cascade.css` — **outside** `@layer reset`
 
 <div class="table-scroll" markdown="1">
 
@@ -93,4 +93,4 @@ Closed `dialog` and `[hidden]` are in **Cascade** (below).
 
 ## Mini-only extras {#mini}
 
-`src/mini.scss` — also includes `iframe { border: 0 }` and collapsed `table` rules not duplicated above. Everything in **Text**, **Forms**, and most **Other** / **Cascade** rows is **absent** from mini. See [Get started → Full vs mini]({{ '/getting-started/' | relative_url }}#full-vs-mini).
+`src/mini.css` — also includes `iframe { border: 0 }` and collapsed `table` rules not duplicated above. Everything in **Text**, **Forms**, and most **Other** / **Cascade** rows is **absent** from mini. See [Get started → Full vs mini]({{ '/getting-started/' | relative_url }}#full-vs-mini).

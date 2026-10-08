@@ -274,13 +274,13 @@ const GlobalStyle = createGlobalStyle`
 
 Do not use removed legacy paths under `src/styled-components/`.
 
-## Compile from Sass
+## Compose from source CSS
 
-If your app already compiles SCSS:
+3.0.0 ships **plain CSS** under `src/` (built with Lightning CSS in this repo — no Sass entry files). Prefer the npm import or CDN paths above; if you `@import` in your own stylesheet:
 
-```scss
-@use "reseter.css/src/index.scss";
-// your layers after
+```css
+@import "reseter.css/src/index.css";
+/* your rules after */
 ```
 
-You may skip Autoprefixer on the reset if your pipeline already prefixes the bundle — match `.browserslistrc` in this repo for parity.
+Mini: `import "reseter.css/mini"` or `src/mini.css`. The published `dist/*.min.css` files are already prefixed and minified.
