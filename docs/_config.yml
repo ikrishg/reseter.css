@@ -1,0 +1,26 @@
+title: reseter.css
+description: The Modern CSS Reset — cross-browser normalization with a compact footprint.
+baseurl: "/reseter.css"
+url: "https://ikrishg.github.io"
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  parse_block_html: true
+
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# Current release (package.json, npm, jsDelivr, and these docs)
+reseter_version: "3.0.0"
+reseter_published_version: "3.0.0"
+reseter_cdn: "https://cdn.jsdelivr.net/npm/reseter.css@3.0.0"
+reseter_cdn_mini: "https://cdn.jsdelivr.net/npm/reseter.css@3.0.0/dist/mini.min.css"
+repo: "https://github.com/ikrishg/reseter.css"
+npm: "https://www.npmjs.com/package/reseter.css"
