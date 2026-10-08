@@ -5,7 +5,7 @@ description: Recipes for React, Vue, Next.js, Svelte, bundlers, and server-rende
 permalink: /usage/frameworks/
 ---
 
-Use **full** `dist/index.min.css` unless you have chosen **mini** ([get started]({{ '/getting-started/' | relative_url }}#full-vs-mini)).
+Use **`import "reseter.css"`** (full) unless you have chosen **mini** (`import "reseter.css/mini"`) — see [get started]({{ '/getting-started/' | relative_url }}#full-vs-mini). The npm `exports` map exposes only those entry points (not `dist/` or `src/` subpaths).
 
 ## React (Vite, CRA, Rsbuild)
 
@@ -136,15 +136,15 @@ Import reseter in `root.tsx` so it is global; route CSS via `links`.
 ```json
 // angular.json — styles array in build options
 "styles": [
-  "node_modules/reseter.css/dist/index.min.css",
+  "reseter.css",
   "src/styles.css"
 ]
 ```
 
-Or in `src/styles.css` (bundled):
+Or in `src/styles.css` (when your bundler resolves package `exports`):
 
 ```css
-@import "reseter.css/dist/index.min.css";
+@import "reseter.css";
 ```
 
 ## Solid (Vite)
@@ -177,18 +177,19 @@ import "./style.css";
 
 ## Parcel
 
-```html
-<link rel="stylesheet" href="node_modules/reseter.css/dist/index.min.css">
-<script type="module" src="src/index.js"></script>
+```js
+// src/index.js
+import "reseter.css";
+import "./style.css";
 ```
 
-Or `import "reseter.css"` from your JS entry.
+For a static HTML entry without JS, use a [CDN `<link>`]({{ '/getting-started/' | relative_url }}#cdn-paths) or copy `index.min.css` from the installed package into your project.
 
 ## Webpack
 
 ```js
 // src/index.js
-import "reseter.css/dist/index.min.css";
+import "reseter.css";
 import "./main.css";
 ```
 
@@ -211,11 +212,13 @@ Use `collectstatic` after updating vendor CSS.
 
 ## Ruby on Rails
 
-With import maps or jsbundling/cssbundling, `import "reseter.css"` in `application.js`, or in `app/assets/stylesheets/application.css`:
+With import maps or jsbundling/cssbundling, `import "reseter.css"` in `application.js` (recommended).
+
+Pure Sprockets without a JS bundler: vendor `index.min.css` from the installed package into `app/assets/stylesheets/`, then:
 
 ```css
 /*
- *= require reseter.css/dist/index.min
+ *= require reseter
  *= require_tree .
  */
 ```
@@ -257,7 +260,7 @@ Copy `dist/index.min.css` into your theme `assets/` folder or load from a CDN UR
 
 ## Eleventy
 
-Passthrough `node_modules/reseter.css/dist/index.min.css` or link jsDelivr from [Get started → CDN]({{ '/getting-started/' | relative_url }}#cdn-paths).
+Passthrough a copied `index.min.css` from the installed package, or link jsDelivr from [Get started → CDN]({{ '/getting-started/' | relative_url }}#cdn-paths).
 
 ## Styled Components / CSS-in-JS
 
@@ -274,13 +277,11 @@ const GlobalStyle = createGlobalStyle`
 
 Do not use removed legacy paths under `src/styled-components/`.
 
-## Compose from source CSS
+## npm `exports` (bundlers)
 
-3.0.0 ships **plain CSS** under `src/` (built with Lightning CSS in this repo — no Sass entry files). Prefer the npm import or CDN paths above; if you `@import` in your own stylesheet:
+| Import | Resolves to |
+| --- | --- |
+| `import "reseter.css"` | Full minified CSS (`dist/index.min.css`) |
+| `import "reseter.css/mini"` | Mini minified CSS (`dist/mini.min.css`) |
 
-```css
-@import "reseter.css/src/index.css";
-/* your rules after */
-```
-
-Mini: `import "reseter.css/mini"` or `src/mini.css`. The published `dist/*.min.css` files are already prefixed and minified.
+There is **no** published export for `reseter.css/dist/...` or `reseter.css/src/...`. Vite, webpack 5, and Node ESM will reject those paths. Use the table above, a CDN `<link>`, or copy files from the installed package directory for static hosting.
