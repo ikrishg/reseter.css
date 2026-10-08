@@ -32,7 +32,7 @@ Also: `npm` / `bun` / `yarn`; legacy npm name [`gardevoir`](https://www.npmjs.co
 
 </div>
 
-[unpkg](https://unpkg.com/reseter.css@{{ site.reseter_published_version }}/dist/index.min.css) works the same. Self-host from `node_modules/reseter.css/dist/`.
+[unpkg](https://unpkg.com/reseter.css@{{ site.reseter_published_version }}/dist/index.min.css) works the same. Self-host by copying `index.min.css` / `mini.min.css` from the installed package, or use `import "reseter.css"` / `import "reseter.css/mini"` in your bundler (the only npm export paths).
 
 ## Full vs mini {#full-vs-mini}
 
@@ -46,7 +46,7 @@ Also: `npm` / `bun` / `yarn`; legacy npm name [`gardevoir`](https://www.npmjs.co
 
 </div>
 
-Use **one** file — do not also load `css/reseter.min.css`. Source CSS (for reference): `src/index.css` / `src/mini.css`.
+Use **one** file — do not also load `css/reseter.min.css`. Mini build: `import "reseter.css/mini"` (not a second full import).
 
 ## Frameworks
 
