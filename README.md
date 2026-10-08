@@ -1,7 +1,5 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center"><img height="100px" width="100px" src="https://github.com/ikrishg/reseter.css/raw/main/.github/assets/logo.svg" alt="reseter.css"><br><h1>The Modern CSS Reset 🚀</h1></div>
-
-<div align="center">
+<div align="center"><img height="100px" width="100px" src="https://github.com/ikrishg/reseter.css/raw/main/.github/assets/logo.svg" alt="reseter.css"><br><h1>Reseter.css</h1><p>The Modern CSS Reset 🚀</p><br>
   <img
     alt="Build websites with cross-browser form experiences — Chrome, Firefox, and Edge"
     src="https://github.com/ikrishg/reseter.css/raw/main/.github/assets/showcase.png"
@@ -225,5 +223,12 @@ reseter.css as said, is a zero-dependency project and excels in integrating with
 - **Minification** — release builds ship minified (`dist/index.min.css`).
 
 ## ❤️ Thanks to our supporters
+
+Sponsors:
+
+- [BrowserStack](https://www.browserstack.com/open-source) – This project is tested with BrowserStack
+
+
+Stargazers:
 
 [![GitHub Stars](https://img.shields.io/github/stars/ikrishg/reseter.css?style=for-the-badge&color=gold)](https://github.com/ikrishg/reseter.css/stargazers)
