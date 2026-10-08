@@ -32,7 +32,7 @@ Also: `npm` / `bun` / `yarn`; legacy npm name [`gardevoir`](https://www.npmjs.co
 
 </div>
 
-[unpkg](https://unpkg.com/reseter.css@{{ site.reseter_published_version }}/dist/index.min.css) works the same. Self-host by copying `index.min.css` / `mini.min.css` from the installed package, or use `import "reseter.css"` / `import "reseter.css/mini"` in your bundler (the only npm export paths).
+[unpkg](https://unpkg.com/reseter.css@{{ site.reseter_published_version }}/dist/index.min.css) works the same. Self-host: copy `dist/index.min.css` (or `dist/mini.min.css`) from the installed package to your static directory **using the same filename in your `<link href>`**, or use `import "reseter.css"` / `import "reseter.css/mini"` in your bundler (the only npm export paths).
 
 ## Full vs mini {#full-vs-mini}
 
