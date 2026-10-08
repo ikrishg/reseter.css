@@ -183,7 +183,7 @@ import "reseter.css";
 import "./style.css";
 ```
 
-For a static HTML entry without JS, use a [CDN `<link>`]({{ '/getting-started/' | relative_url }}#cdn-paths), or copy `dist/index.min.css` to `css/index.min.css` and add `<link rel="stylesheet" href="css/index.min.css">` before your other styles.
+For a static HTML entry without JS, use a [CDN `<link>`]({{ '/getting-started/' | relative_url }}#cdn-paths), or copy `dist/index.min.css` to `css/index.min.css` and add `<link rel="stylesheet" href="/css/index.min.css">` before your other styles (root-relative; use a base-path helper on subpath deployments).
 
 ## Webpack
 

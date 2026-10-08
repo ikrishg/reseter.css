@@ -13,10 +13,10 @@ pnpm add reseter.css@{{ site.reseter_published_version }}
 
 ```html
 <link rel="stylesheet" href="{{ site.reseter_cdn }}/dist/index.min.css">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/styles.css">
 ```
 
-If the site is not served from the domain root, use your framework's base-path helper for both local stylesheets (see [Frameworks]({{ '/usage/frameworks/' | relative_url }})).
+Use a **root-relative** path (`/styles.css`) so nested pages resolve the same URL. If the site is served under a subpath (`pathPrefix`, `basePath`, and similar), use your framework's base-path helper instead of a bare `/…` href (see [Frameworks]({{ '/usage/frameworks/' | relative_url }})).
 
 Bundlers: `import "reseter.css";` then your CSS. Load **your styles after** reseter. Rules sit in `@layer reset` with `:where()`; unlayered app CSS wins — see [reference]({{ '/reference/' | relative_url }}#cascade).
 
