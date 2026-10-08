@@ -183,7 +183,7 @@ import "reseter.css";
 import "./style.css";
 ```
 
-For a static HTML entry without JS, use a [CDN `<link>`]({{ '/getting-started/' | relative_url }}#cdn-paths) or copy `index.min.css` from the installed package into your project.
+For a static HTML entry without JS, use a [CDN `<link>`]({{ '/getting-started/' | relative_url }}#cdn-paths), or copy `dist/index.min.css` to `css/index.min.css` and add `<link rel="stylesheet" href="css/index.min.css">` before your other styles.
 
 ## Webpack
 
@@ -197,7 +197,7 @@ Ensure `css-loader` and `style-loader` (or `MiniCssExtractPlugin`) are configure
 
 ## Django
 
-1. Add to static files (e.g. `pip`/`npm` install in frontend pipeline, or download into `static/css/`).
+1. Copy the package's `dist/index.min.css` to `static/css/index.min.css` (same path as the template below).
 2. In base template:
 
 {% raw %}
@@ -214,7 +214,7 @@ Use `collectstatic` after updating vendor CSS.
 
 With import maps or jsbundling/cssbundling, `import "reseter.css"` in `application.js` (recommended).
 
-Pure Sprockets without a JS bundler: vendor `index.min.css` from the installed package into `app/assets/stylesheets/`, then:
+Pure Sprockets without a JS bundler: copy `dist/index.min.css` from the installed package to `app/assets/stylesheets/reseter.css`, then:
 
 ```css
 /*
@@ -256,11 +256,27 @@ function theme_reseter() {
 add_action('wp_enqueue_scripts', 'theme_reseter');
 ```
 
-Copy `dist/index.min.css` into your theme `assets/` folder or load from a CDN URL.
+Copy `dist/index.min.css` to `assets/index.min.css` in your theme (same path as the `get_template_directory_uri()` call above), or load from a CDN URL.
 
 ## Eleventy
 
-Passthrough a copied `index.min.css` from the installed package, or link jsDelivr from [Get started → CDN]({{ '/getting-started/' | relative_url }}#cdn-paths).
+Passthrough copy with matching output path, then link that path:
+
+```js
+// eleventy.config.js
+export default function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/reseter.css/dist/index.min.css": "css/index.min.css",
+  });
+}
+```
+
+```html
+<!-- base layout -->
+<link rel="stylesheet" href="/css/index.min.css">
+```
+
+Or use jsDelivr from [Get started → CDN]({{ '/getting-started/' | relative_url }}#cdn-paths).
 
 ## Styled Components / CSS-in-JS
 
