@@ -272,8 +272,8 @@ export default function (eleventyConfig) {
 ```
 
 ```html
-<!-- base layout -->
-<link rel="stylesheet" href="/css/index.min.css">
+<!-- base layout (Nunjucks/Liquid) — respects pathPrefix -->
+<link rel="stylesheet" href="{{ '/css/index.min.css' | url }}">
 ```
 
 Or use jsDelivr from [Get started → CDN]({{ '/getting-started/' | relative_url }}#cdn-paths).
