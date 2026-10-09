@@ -52,9 +52,16 @@ You could follow this convention. Some ideas to get you started:
 git checkout -b your-branch-name
 ```
 
-**5.** Make the necessary changes.
+**5.** Install dependencies and verify the build (this repo uses [pnpm](https://pnpm.io/)):
 
-**6.** Stage your changes and commit.
+```bash
+pnpm install
+pnpm run build
+```
+
+**6.** Make the necessary changes.
+
+**7.** Stage your changes and commit.
 
 ```bash
 git add . # Stages all the changes
@@ -63,12 +70,26 @@ git commit -m "<your_commit_message>"
 
 Your commit message should be something which gives concise idea of the issue you are solving.
 
-**7.** Push your local commits to the remote repository.
+**8.** Push your local commits to the remote repository.
 
 ```bash
 git push origin your-branch-name
 ```
 
-**8.** Create a new [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) from `your-branch-name`
+**9.** Create a new [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) from `your-branch-name`
 
 🎉 Congratulations! You've made your first pull request! Now, you should wait until the maintainers review your pull request.
+
+## Releasing
+
+This repository does **not** use semantic-release or other automated publish bots.
+
+Maintainers cut releases manually:
+
+1. Update [CHANGELOG.md](CHANGELOG.md) and bump `version` in [package.json](package.json).
+2. Run `pnpm install` (if dependencies changed) and `pnpm run build`.
+3. Commit the version/changelog/dist changes on `main`.
+4. Tag the release (for example `git tag v3.0.0`) and push the tag.
+5. Publish to npm: `pnpm publish` (from a clean tree with `prepublishOnly` build).
+
+GitHub release notes can be copied from the CHANGELOG entry for that version.

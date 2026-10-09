@@ -1,0 +1,15 @@
+{% assign path = page.url %}
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/logo.svg' | relative_url }}" width="32" height="32" alt="">
+      <span>{{ site.title }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="{{ '/getting-started/' | relative_url }}"{% if path contains '/getting-started/' %} class="is-current" aria-current="page"{% endif %}>Get started</a>
+      <a href="{{ '/reference/' | relative_url }}"{% if path contains '/reference/' %} class="is-current" aria-current="page"{% endif %}>Reference</a>
+      <a href="{{ '/awesome/' | relative_url }}"{% if path contains '/awesome/' %} class="is-current" aria-current="page"{% endif %}>Awesome</a>
+      <a href="{{ site.repo }}">GitHub</a>
+    </nav>
+  </div>
+</header>

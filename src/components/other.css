@@ -1,12 +1,16 @@
+@import "./lists.css";
+@import "./media-block.css";
+
 :where(hr) {
   box-sizing: content-box;
-  height: 0;
+  block-size: 0;
   color: inherit;
   overflow: visible;
 }
 
 :where(dl, ol, ul) {
-  margin: 1em 0;
+  margin-block: 1em;
+  margin-inline: 0;
 }
 
 :where(ol ol, ol ul, ol dl, ul ol, ul ul, ul dl, dl ol, dl ul, dl dl) {
@@ -17,17 +21,21 @@
   font-weight: bolder;
 }
 
-:where(audio, video) {
+:where(audio) {
   display: inline-block;
 }
 
 :where(audio):not([controls]) {
   display: none;
-  height: 0;
+  block-size: 0;
 }
 
 :where(img) {
   border: 0;
+}
+
+:where(svg:not([fill])) {
+  fill: currentColor;
 }
 
 :where(svg):not(:root) {
@@ -48,30 +56,17 @@
   border: solid;
   color: CanvasText;
   display: block;
-  height: fit-content;
-  left: 0;
+  block-size: fit-content;
+  inline-size: fit-content;
+  inset-inline: 0;
   margin: auto;
   padding: 1em;
-  right: 0;
-  width: fit-content;
-}
-
-:where(dialog):not([open]) {
-  display: none;
 }
 
 :where(summary) {
   display: list-item;
 }
 
-:where(canvas) {
-  display: inline-block;
-}
-
 :where(template) {
-  display: none;
-}
-
-[hidden]:not([hidden="until-found" i]) {
   display: none;
 }

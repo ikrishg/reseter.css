@@ -1,9 +1,21 @@
 {
   "name": "reseter.css",
-  "version": "2.1.0",
+  "version": "3.0.0",
+  "packageManager": "pnpm@10.15.0",
   "description": "The Modern CSS Reset 🚀",
   "main": "dist/index.min.css",
   "style": "dist/index.min.css",
+  "exports": {
+    ".": "./dist/index.min.css",
+    "./mini": "./dist/mini.min.css",
+    "./dist/index.css": "./dist/index.css",
+    "./dist/index.min.css": "./dist/index.min.css",
+    "./dist/mini.css": "./dist/mini.css",
+    "./dist/mini.min.css": "./dist/mini.min.css",
+    "./css/reseter.css": "./css/reseter.min.css",
+    "./css/reseter.min.css": "./css/reseter.min.css",
+    "./package.json": "./package.json"
+  },
   "keywords": [
     "css",
     "css-reset",
@@ -36,30 +48,17 @@
     "access": "public"
   },
   "scripts": {
-    "compile": "sass src/index.scss dist/index.css --no-source-map",
-    "postcompile": "sass src/mini.scss dist/mini.css --no-source-map",
-    "prefix": "postcss dist/index.css -r --no-map -u autoprefixer",
-    "postprefix": "postcss dist/mini.css -r --no-map -u autoprefixer",
-    "minify": "cleancss dist/index.css -o dist/index.min.css",
-    "postminify": "cleancss dist/mini.css -o dist/mini.min.css && node scripts/copy-css-aliases.js",
+    "build:css": "node scripts/build-css.js",
+    "postbuild:css": "node scripts/copy-css-aliases.js",
     "compress": "bundlewatch --config .bundlewatch.config.js",
-    "build": "yarn compile && yarn prefix && yarn minify && yarn compress",
-    "release": "semantic-release"
+    "build": "pnpm run build:css && pnpm run compress",
+    "prepack": "node scripts/copy-css-aliases.js",
+    "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "13.0.1",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "11.0.3",
-    "@semantic-release/npm": "12.0.1",
-    "@semantic-release/release-notes-generator": "14.1.0",
-    "autoprefixer": "10.4.27",
+    "browserslist": "4.28.1",
     "brotli-size": "4.0.0",
     "bundlewatch": "0.4.1",
-    "clean-css-cli": "5.6.3",
-    "postcss": "8.5.10",
-    "postcss-cli": "11.0.1",
-    "sass": "1.98.0",
-    "semantic-release": "24.2.5"
+    "lightningcss": "1.33.0"
   }
 }

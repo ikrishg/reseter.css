@@ -1,0 +1,9 @@
+docs/
+.github/
+.bundlewatch.config.js
+.browserslistrc
+.editorconfig
+renovate.json
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+scripts/
