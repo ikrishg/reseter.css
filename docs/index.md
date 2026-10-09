@@ -19,7 +19,7 @@ title: Home
 
 <div class="card-grid" markdown="0">
   <div class="card">
-    <h2><a href="{{ '/usage/frameworks/' | relative_url }}">Frameworks</a></h2>
+    <h2><a href="{{ '/getting-started/' | relative_url }}#frameworks">Frameworks</a></h2>
     <p>React, Vue, Next, SvelteKit, Rails, Django, and more.</p>
   </div>
   <div class="card">

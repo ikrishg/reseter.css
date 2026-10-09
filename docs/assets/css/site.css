@@ -161,7 +161,7 @@ main .highlight pre {
 
 main details {
   margin: 0 0 0.75rem;
-  padding: 0.65rem 1rem 0.75rem;
+  padding: 0.65rem 1rem 0.75rem 1.75rem;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: #fafafa;
