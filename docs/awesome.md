@@ -56,64 +56,50 @@ Sites and UI kits that ship with reseter.css.
 
 ## Press
 
-### Newsletters
+<div class="impact-press-list" markdown="1">
 
-- [TLDR tech (2021-02-25)](https://tldr.tech/tech/2021-02-25)
-- [daily.dev — Best of CSS, February 2021 (#7)](https://daily.dev/tags/css/best-of/2021/02)
-- [DEV #63 — Vincent Will weekly resources](https://dev.to/vincenius/weekly-web-development-resources-63-51o1)
-- [Web Tools Weekly #406](https://webtoolsweekly.com/archives/issue-406/)
-- [Speckyboy №582](https://yeswebdesigns.com/weekly-news-for-designers-%e2%84%96-582/) · [№589 (Wayback)](https://web.archive.org/web/20210424175736/https://speckyboy.com/weekly-news-for-designers-589/) ([republish](https://yeswebdesigns.com/weekly-news-for-designers-%e2%84%96-589/))
-- [jQuery Script Collective #386](https://www.jqueryscript.net/blog/Weekly-Web-Design-Development-News-Collective-386.html)
-- [TNT-Weekly 第97期](https://github.com/tnfe/TNT-Weekly) (item 8)
-- [Frontend Focus #485](https://frontendfoc.us/issues/485) — “Reseter.css: A Futuristic CSS Reset”
+1. 🇺🇸 [Frontend Focus #485](https://frontendfoc.us/issues/485) — *Reseter.css: A Futuristic CSS Reset* (newsletter feature)
+2. 🇺🇸 [Show HN](https://news.ycombinator.com/item?id=26300161) — *Reseter.css – A New CSS Reset/Normalizer* (Mar 2021)
+3. 🇺🇸 [Wikipedia — Reset style sheet](https://en.wikipedia.org/wiki/Reset_style_sheet) — *Reseter.css - A futuristic CSS reset/normalizer*
+4. 🇯🇵 [Coliss](https://coliss.com/articles/build-websites/operation/css/reset-and-normalizer-reseter-css.html) — dedicated article · [2021 best-of](https://coliss.com/articles/digress/coliss-best-in-2021.html)
+5. 🇺🇸 [CSS Script](https://www.cssscript.com/css-reset-normalizer/) — *Just another CSS Reset & Normalizer library for modern web development*
+6. 🇯🇵 [とほほ Reset CSS tester](https://www.tohoho-web.com/ex/reset-css-tester.html) · [history](https://www.tohoho-web.com/ex/reset-css.html)
+7. 🇨🇳 [Chokcoco — Modern CSS Reset](https://www.cnblogs.com/coco1s/p/16143423.html) ([Juejin](https://juejin.cn/post/7086280551446888462) · [SegmentFault](https://segmentfault.com/a/1190000041700998/en) · [Tencent Cloud](https://developer.cloud.tencent.com/article/1989582))
+8. 🇨🇳 [iCSS #117](https://github.com/chokcoco/iCSS/issues/117) · [iCSS #176](https://github.com/chokcoco/iCSS/issues/176)
+9. 🇺🇸 [HandWiki — Reset style sheet](https://handwiki.org/wiki/Reset_style_sheet)
+10. 🇺🇸 [TLDR tech (2021-02-25)](https://tldr.tech/tech/2021-02-25)
+11. 🇺🇸 [daily.dev — Best of CSS, February 2021 (#7)](https://daily.dev/tags/css/best-of/2021/02)
+12. 🇺🇸 [Speckyboy №582](https://yeswebdesigns.com/weekly-news-for-designers-%e2%84%96-582/) · [№589 (Wayback)](https://web.archive.org/web/20210424175736/https://speckyboy.com/weekly-news-for-designers-589/) ([republish](https://yeswebdesigns.com/weekly-news-for-designers-%e2%84%96-589/))
+13. 🇺🇸 [Web Tools Weekly #406](https://webtoolsweekly.com/archives/issue-406/)
+14. 🇺🇸 [DEV #63 — Vincent Will weekly resources](https://dev.to/vincenius/weekly-web-development-resources-63-51o1)
+15. 🇺🇸 [jQuery Script Collective #386](https://www.jqueryscript.net/blog/Weekly-Web-Design-Development-News-Collective-386.html)
+16. 🇨🇳 [TNT-Weekly 第97期](https://github.com/tnfe/TNT-Weekly) (item 8)
+17. 🇷🇺 [Habr digest №461](https://habr.com/ru/articles/550648/) · [№463](https://habr.com/ru/articles/553090/)
+18. 🇷🇺 [Skillfactory tools roundup](https://habr.com/ru/companies/skillfactory/articles/569874/)
+19. 🇷🇺 [Beeline Cloud](https://habr.com/ru/companies/beeline_cloud/articles/955742/)
+20. 🇺🇦 [Zfort digest №463](https://www.zfort.com.ua/blog/frontend-daidzhest-463-12-18-kvitnya-2021)
+21. 🇷🇺 Featured in [RWpod S09E13](https://www.rwpod.com/posts/2021/04/05/podcast-09-13) show notes
+22. 🇯🇵 [Web Design Trends](https://webdesign-trends.net/entry/8137)
+23. 🇯🇵 [ProgLearn — Frontend technology trends 2021](https://proglearn.com/frontend-technology-trends-2021/)
+24. 🇯🇵 [original-game.com — Reset CSS](https://original-game.com/reset-css/)
+25. 🇯🇵 [Zenn — yamanoku OSS year-in-review](https://zenn.dev/yamanoku/articles/bd8d86ee79459b)
+26. 🇯🇵 [cocohp textbook](https://cocohp.com/wp/) · [naonews — Coliss clip](https://naonews.jp/155988)
+27. 🇨🇳 [CSDN — mouday](https://blog.csdn.net/mouday/article/details/124188283)
+28. 🇨🇳 [Juejin reuse](https://juejin.cn/post/7398480670459183158) · [Huawei Cloud BBS](https://bbs.huaweicloud.com/blogs/348165)
+29. 🇨🇳 [Baidu Baike — reset.css](https://baike.baidu.com/item/reset.css/5099721)
+30. 🇨🇳 [fly63 nav](https://web.fly63.com/nav/3647) · [geekdaxue ebook](https://geekdaxue.co/read/fcant@web/uqtd1b) · [mybj123](https://www.mybj123.com/16787.html) · [uyuanma](https://www.uyuanma.com/opensource/reseter-dot-css)
+31. 🇨🇳 [kujian/githubTrending #2352](https://github.com/kujian/githubTrending/issues/2352)
+32. 🇷🇺 Mirrors: [forpes №461](https://forpes.ru/post/116938) · [forpes №463](https://forpes.ru/post/117970) · [PCNEWS №461](https://pcnews.ru/blogs/dajdzest_svezih_materialov_iz_mira_frontenda_za_poslednuu_nedelu_no461_29_marta__4_aprela_2021-1071228.html) · [PCNEWS №463](https://pcnews.ru/blogs/dajdzest_svezih_materialov_iz_mira_frontenda_za_poslednuu_nedelu_no463_12__18_aprela_2021-1075043.html) · [PCNEWS Skillfactory](https://pcnews.ru/blogs/%5Bperevod%5D_bolee_15_poleznyh_instrumentov_dla_frontendera_s_uklonom_v_css-1100157.html)
+33. 🇺🇸 [fxis.ai — The Modern CSS Reset (Gardevoir)](https://fxis.ai/edu/the-modern-css-reset-gardevoir/)
+34. 🇺🇸 [ABOV.dev — CSS frameworks](https://abov.dev/resources/css/frameworks#gardevoir)
+35. 🇺🇸 [Open Awesome](https://open-awesome.com/projects/reseter-css)
+36. 🇺🇸 [TLINE — CSS resets timeline](https://tline.vercel.app/)
+37. 🇺🇸 [go2share — CSS reset stylesheet](https://www.go2share.net/article/css-reset-stylesheet)
+38. 🇻🇳 [Viblo — Reset vs Normalize](https://viblo.asia/p/su-khac-nhau-giua-nhung-dieu-tuong-giong-nhau-phan-1-OeVKBkbQZkW)
+39. 🇺🇦 Zakandaiev portfolio: [FrontEnd Starter](https://zakandaiev.com/portfolio/frontend-starter) · [Vite Frontend Starter](https://zakandaiev.com/portfolio/vite-frontend-starter)
+40. 🇪🇺 [prefetch.eu — website adventures](https://prefetch.eu/blog/2022/website-adventures-basics/)
 
-### Features & encyclopedias
-
-- [Show HN](https://news.ycombinator.com/item?id=26300161) · Mar 2021
-- [CSS Script](https://www.cssscript.com/css-reset-normalizer/)
-- [Wikipedia — Reset style sheet](https://en.wikipedia.org/wiki/Reset_style_sheet)
-- [HandWiki — Reset style sheet](https://handwiki.org/wiki/Reset_style_sheet)
-- [Coliss](https://coliss.com/articles/build-websites/operation/css/reset-and-normalizer-reseter-css.html) · [Coliss 2021 best-of](https://coliss.com/articles/digress/coliss-best-in-2021.html)
-- [とほほ Reset CSS tester](https://www.tohoho-web.com/ex/reset-css-tester.html) · [とほほ history](https://www.tohoho-web.com/ex/reset-css.html)
-- [prefetch.eu — website adventures](https://prefetch.eu/blog/2022/website-adventures-basics/)
-
-### Japanese
-
-- [Web Design Trends](https://webdesign-trends.net/entry/8137)
-- [ProgLearn — Frontend technology trends 2021](https://proglearn.com/frontend-technology-trends-2021/)
-- [original-game.com — Reset CSS](https://original-game.com/reset-css/)
-- [Zenn — yamanoku OSS year-in-review](https://zenn.dev/yamanoku/articles/bd8d86ee79459b)
-- [cocohp textbook](https://cocohp.com/wp/)
-- [naonews — Coliss clip](https://naonews.jp/155988)
-
-### Russian & Ukrainian
-
-- [Habr digest №461](https://habr.com/ru/articles/550648/) · [№463](https://habr.com/ru/articles/553090/)
-- [Skillfactory tools roundup](https://habr.com/ru/companies/skillfactory/articles/569874/)
-- [Beeline Cloud](https://habr.com/ru/companies/beeline_cloud/articles/955742/)
-- Mirrors: [forpes №461](https://forpes.ru/post/116938) · [forpes №463](https://forpes.ru/post/117970) · [PCNEWS №461](https://pcnews.ru/blogs/dajdzest_svezih_materialov_iz_mira_frontenda_za_poslednuu_nedelu_no461_29_marta__4_aprela_2021-1071228.html) · [PCNEWS №463](https://pcnews.ru/blogs/dajdzest_svezih_materialov_iz_mira_frontenda_za_poslednuu_nedelu_no463_12__18_aprela_2021-1075043.html) · [PCNEWS Skillfactory](https://pcnews.ru/blogs/%5Bperevod%5D_bolee_15_poleznyh_instrumentov_dla_frontendera_s_uklonom_v_css-1100157.html)
-- [Zfort digest №463 (UA)](https://www.zfort.com.ua/blog/frontend-daidzhest-463-12-18-kvitnya-2021)
-- Featured in [RWpod S09E13](https://www.rwpod.com/posts/2021/04/05/podcast-09-13) show notes
-
-### Chinese
-
-- [Chokcoco — Modern CSS Reset](https://www.cnblogs.com/coco1s/p/16143423.html) ([Juejin](https://juejin.cn/post/7086280551446888462) · [SegmentFault](https://segmentfault.com/a/1190000041700998/en) · [Tencent Cloud](https://developer.cloud.tencent.com/article/1989582))
-- [iCSS #117](https://github.com/chokcoco/iCSS/issues/117) · [iCSS #176](https://github.com/chokcoco/iCSS/issues/176)
-- [CSDN — mouday](https://blog.csdn.net/mouday/article/details/124188283) (plus several AIGC-style CSDN republishes of the same comparison table)
-- [Juejin reuse](https://juejin.cn/post/7398480670459183158) · [Huawei Cloud BBS](https://bbs.huaweicloud.com/blogs/348165)
-- [Baidu Baike — reset.css](https://baike.baidu.com/item/reset.css/5099721)
-- [fly63 nav](https://web.fly63.com/nav/3647) · [geekdaxue ebook](https://geekdaxue.co/read/fcant@web/uqtd1b) · [mybj123](https://www.mybj123.com/16787.html) · [uyuanma](https://www.uyuanma.com/opensource/reseter-dot-css)
-- [kujian/githubTrending #2352](https://github.com/kujian/githubTrending/issues/2352)
-
-### Other
-
-- [fxis.ai — The Modern CSS Reset (Gardevoir)](https://fxis.ai/edu/the-modern-css-reset-gardevoir/)
-- [ABOV.dev — CSS frameworks](https://abov.dev/resources/css/frameworks#gardevoir)
-- [Open Awesome](https://open-awesome.com/projects/reseter-css)
-- [TLINE — CSS resets timeline](https://tline.vercel.app/)
-- [go2share — CSS reset stylesheet](https://www.go2share.net/article/css-reset-stylesheet)
-- [Viblo (VI) — Reset vs Normalize](https://viblo.asia/p/su-khac-nhau-giua-nhung-dieu-tuong-giong-nhau-phan-1-OeVKBkbQZkW)
-- Zakandaiev portfolio: [FrontEnd Starter](https://zakandaiev.com/portfolio/frontend-starter) · [Vite Frontend Starter](https://zakandaiev.com/portfolio/vite-frontend-starter)
+</div>
 
 ## Endorsements
 
@@ -144,20 +130,16 @@ Sites and UI kits that ship with reseter.css.
     <p><a href="https://github.com/grafana/pyroscope/pull/1097#discussion_r870450211">PR discussion (2022)</a></p>
   </div>
   <div class="card impact-adopter">
-    <h3>GitHub Explore</h3>
-    <p>Included in the Made in India collection.</p>
-    <p><a href="https://github.com/github/explore/blob/main/collections/made-in-india/index.md">Made in India</a></p>
-  </div>
-  <div class="card impact-adopter">
     <h3>Eddie Jaoude</h3>
     <p>Live OSS review via EddieHub Community.</p>
     <p><a href="https://github.com/EddieHubCommunity/support/issues/1448#issuecomment-878191691">Review comment</a> · <a href="https://www.youtube.com/watch?v=w0ELpv3Z4Wk">YouTube</a></p>
   </div>
 </div>
 
-## Miscellaneous
+## Misc
 
+- [GitHub Explore — Made in India](https://github.com/github/explore/blob/main/collections/made-in-india/index.md)
 - **Moscow Polytechnic University** includes reseter.css in its web-technology syllabus — exam questions ask *«Для чего нужны normalize.css или reseter.css?»* ([2025 program PDF](https://mospolytech.ru/sveden/files/aif/B1.1.21_Osnovy_veb-texnologii.pdf), [2024 sibling](https://mospolytech.ru/sveden/files/viy/B1.1.10_Veb-texnologii.pdf)). Instructor labs ([laba02](https://slavaver.github.io/web-course-site/labs/web-basics/full-time/2025/laba02), [laba03](https://slavaver.github.io/web-course-site/labs/web-basics/full-time/2025/laba03)) let students pick normalize **or** reseter.
 - Listed in [DeepSource good-first-issue](https://github.com/DeepSourceCorp/good-first-issue/blob/master/data/repositories.toml), on [First Contributions](https://firstcontributions.github.io/), and among [Contributor Covenant adopters](https://www.contributor-covenant.org/adopters/).
 - Available on major CDNs beyond jsDelivr/npm — including [CDNJS](https://cdnjs.com/libraries/reseter.css) (`cdnjs.cloudflare.com/.../reseter.css/2.0.0/...`) and [ByteDance CDN](https://cdn.bytedance.com/cdn/expire-1-M/reseter.css/2.0.0/reseter.min.css).
-- Browse [dependents on GitHub](https://github.com/search?q=reseter.css+filename%3Apackage.json&amp;type=code).
+- [Code mentioning `reseter.css` on GitHub](https://github.com/search?q=%22reseter.css%22&type=code)
