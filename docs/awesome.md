@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Impact
+title: Awesome
 description: Live reach, citations, and editorial proof for reseter.css.
 permalink: /awesome/
 page_class: page-impact
