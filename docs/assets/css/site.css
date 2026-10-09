@@ -237,8 +237,29 @@ main th {
   white-space: nowrap;
 }
 
+.page-impact.container {
+  width: min(100% - 2rem, 64rem);
+}
+
 .page-impact .card-grid--impact {
   margin: 1.5rem 0 2rem;
+}
+
+.page-impact h2 {
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.page-impact h2:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.page-impact h3 {
+  margin-top: 1.75rem;
+  font-size: 1.05rem;
 }
 
 .impact-proof-band {
@@ -265,40 +286,51 @@ main th {
   max-width: 100%;
 }
 
-.impact-coverage {
+.showcase-grid {
   display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  margin: 1rem 0 2rem;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  margin: 1.25rem 0 2rem;
 }
 
-.impact-coverage-card .impact-coverage__line {
-  margin: 0 0 0.75rem;
-  font-size: 1.05rem;
-  line-height: 1.45;
-  color: var(--text);
-}
-
-.impact-coverage-card p:last-child {
+.showcase-card {
   margin: 0;
-  font-size: 0.85rem;
+  min-width: 0;
+}
+
+.showcase-card__media {
+  display: block;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--code-bg);
+  aspect-ratio: 16 / 10;
+}
+
+.showcase-card__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.showcase-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+  border: 0;
+  padding: 0;
+}
+
+.showcase-card p {
+  margin: 0 0 0.35rem;
+  font-size: 0.92rem;
   color: var(--muted);
 }
 
-.impact-quote {
-  margin: 0;
-}
-
-.impact-quote blockquote {
-  margin: 0 0 0.75rem;
-  font-size: 1.05rem;
-  line-height: 1.45;
-  color: var(--text);
-}
-
-.impact-quote figcaption {
-  font-size: 0.85rem;
-  color: var(--muted);
+.showcase-card p:last-child {
+  margin-bottom: 0;
 }
 
 .impact-adopter h3 {
@@ -306,13 +338,13 @@ main th {
   font-size: 1.1rem;
 }
 
-.impact-press {
-  font-size: 0.88rem;
-  color: var(--muted);
-  line-height: 1.6;
-  margin: 2rem 0 0;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
+.page-impact ul {
+  padding-left: 1.2rem;
+}
+
+.page-impact li {
+  margin: 0.35rem 0;
+  line-height: 1.5;
 }
 
 .table-scroll td code {

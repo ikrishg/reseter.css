@@ -28,7 +28,7 @@ title: Home
   </div>
   <div class="card">
     <h2><a href="{{ '/awesome/' | relative_url }}">Awesome</a></h2>
-    <p>Editorial proof and adoption highlights.</p>
+    <p>Showcase, press, endorsements, and more.</p>
   </div>
 </div>
 
