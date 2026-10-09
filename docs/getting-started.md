@@ -18,7 +18,7 @@ pnpm add reseter.css@{{ site.reseter_published_version }}
 
 Use a **root-relative** path (`/styles.css`) so nested pages resolve the same URL. If the site is served under a subpath (`pathPrefix`, `basePath`, and similar), use your framework's base-path helper instead of a bare `/…` href (see [Frameworks]({{ '/usage/frameworks/' | relative_url }})).
 
-Bundlers: `import "reseter.css";` then your CSS. Load **your styles after** reseter. Rules sit in `@layer reset` with `:where()`; unlayered app CSS wins — see [reference]({{ '/reference/' | relative_url }}#cascade).
+Bundlers: `import "reseter.css";` then your CSS. Load **your styles after** reseter. Rules sit in `@layer reset` with `:where()`; unlayered app CSS wins — see [reference]({{ '/reference/' | relative_url }}#hide-closed-dialogs).
 
 Also: `npm` / `bun` / `yarn`; legacy npm name [`gardevoir`](https://www.npmjs.com/package/gardevoir) bridges to `reseter.css`.
 

@@ -123,6 +123,74 @@ main pre {
 main .highlight {
   max-width: 100%;
   overflow-x: auto;
+  background: #f6f8fa;
+  border-radius: 6px;
+}
+
+main .highlight pre {
+  background: transparent;
+}
+
+/* Rouge token colors for CSS blocks (GitHub light). */
+.highlight .k { color: #cf222e; }
+.highlight .nt,
+.highlight .na { color: #116329; }
+.highlight .nc,
+.highlight .nn,
+.highlight .no,
+.highlight .nb { color: #953800; }
+.highlight .nf,
+.highlight .nd { color: #8250df; }
+.highlight .nl,
+.highlight .py,
+.highlight .nx,
+.highlight .m,
+.highlight .mi,
+.highlight .mf,
+.highlight .mh,
+.highlight .o { color: #0550ae; }
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sx { color: #0a3069; }
+.highlight .c,
+.highlight .cp,
+.highlight .c1,
+.highlight .cm { color: #6e7781; font-style: italic; }
+.highlight .p { color: #24292f; }
+
+.toc {
+  margin: 0 0 2.5rem;
+  padding: 1rem 1.25rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.toc__label {
+  margin: 0 0 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.toc ol {
+  margin: 0;
+  padding-inline-start: 1.25rem;
+}
+
+.toc li {
+  margin: 0.2rem 0;
+}
+
+.toc a {
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
 }
 
 main :not(pre) > code {
