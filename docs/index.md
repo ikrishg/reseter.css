@@ -27,7 +27,7 @@ title: Home
     <p>Rules in <code>src/</code> for full and mini builds.</p>
   </div>
   <div class="card">
-    <h2><a href="{{ '/awesome/' | relative_url }}">Impact</a></h2>
+    <h2><a href="{{ '/awesome/' | relative_url }}">Awesome</a></h2>
     <p>Editorial proof and adoption highlights.</p>
   </div>
 </div>
