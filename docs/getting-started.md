@@ -4,6 +4,33 @@ title: Get started
 description: Install reseter.css __RESETER_VERSION__ and load it before your own styles.
 permalink: /getting-started/
 ---
+## Install
+
+Add the package:
+
+```bash
+pnpm add reseter.css@{{ site.reseter_version }}
+```
+
+```bash
+npm install reseter.css@{{ site.reseter_version }}
+```
+
+Or load that same release from a CDN, then your stylesheet:
+
+```html
+<link rel="stylesheet" href="{{ site.reseter_cdn }}/dist/index.min.css">
+<link rel="stylesheet" href="/styles.css">
+```
+
+Put reseter ahead of your own CSS so your rules win. With a bundler, that means importing the package first:
+
+```js
+import "reseter.css";
+import "./styles.css";
+```
+
+For a smaller file that skips forms, links, and dialogs, use `reseter.css/mini` or `{{ site.reseter_cdn_mini }}` — see [Full vs mini](#full-vs-mini).
 
 ## Frameworks {#frameworks}
 
@@ -263,34 +290,6 @@ const GlobalStyle = createGlobalStyle`
 
 </details>
 
-## Install
-
-Add the package:
-
-```bash
-pnpm add reseter.css@{{ site.reseter_version }}
-```
-
-```bash
-npm install reseter.css@{{ site.reseter_version }}
-```
-
-Or load that same release from a CDN, then your stylesheet:
-
-```html
-<link rel="stylesheet" href="{{ site.reseter_cdn }}/dist/index.min.css">
-<link rel="stylesheet" href="/styles.css">
-```
-
-Put reseter ahead of your own CSS so your rules win. With a bundler, that means importing the package first:
-
-```js
-import "reseter.css";
-import "./styles.css";
-```
-
-For a smaller file that skips forms, links, and dialogs, use `reseter.css/mini` or `{{ site.reseter_cdn_mini }}` — see [Full vs mini](#full-vs-mini).
-
 ## Full vs mini {#full-vs-mini}
 
 Choose **full** when the page uses native forms, links, dialogs, or the reset’s typography defaults. Choose **mini** when a UI library already styles controls and you only need the shared layout base: border-box, heading scale, lists, and responsive media.
@@ -306,7 +305,7 @@ Load one build, not both.
 | [No mobile text inflation]({{ '/reference/' | relative_url }}#no-mobile-text-inflation) | ✅ | ❌ |
 | [Block-level main]({{ '/reference/' | relative_url }}#block-level-main) | ✅ | ❌ |
 | [Heading sizes and logical margins]({{ '/reference/' | relative_url }}#heading-sizes-and-logical-margins) | ✅ | ✅ |
-| [Balanced heading wraps]({{ '/reference/' | relative_url }}#balanced-heading-wraps) | ✅ | ❌ |
+| [Balanced heading wraps]({{ '/reference/' | relative_url }}#balanced-heading-wraps) | ✅ | ✅ |
 | [Paragraph spacing]({{ '/reference/' | relative_url }}#paragraph-spacing) | ✅ | ❌ |
 | [Anchor scroll offset]({{ '/reference/' | relative_url }}#anchor-scroll-offset) | ✅ | ❌ |
 | [Transparent link backgrounds]({{ '/reference/' | relative_url }}#transparent-link-backgrounds) | ✅ | ❌ |

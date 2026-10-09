@@ -146,7 +146,7 @@ User-agent heading margins use physical `margin-top` and `margin-bottom`, so the
 <details id="balanced-heading-wraps" class="rule" markdown="1">
 <summary>Balanced heading wraps</summary>
 
-A long heading can wrap so the last line holds one short word. `text-wrap: balance` on `h1`–`h4` evens the line lengths. Full build only.
+A long heading can wrap so the last line holds one short word. `text-wrap: balance` on `h1`–`h4` evens the line lengths. Ships in the full build and in mini.
 
 ```css
 :where(h1, h2, h3, h4) {
@@ -509,14 +509,24 @@ Separate table borders leave a gap between cells. Mini collapses the borders and
 
 <script>
 (function () {
-  function openTarget() {
-    var id = location.hash.slice(1);
+  function openId(id) {
     if (!id) return;
     var el = document.getElementById(id);
     if (el && el.tagName === "DETAILS") el.open = true;
   }
+
+  function openTarget() {
+    openId(location.hash.slice(1));
+  }
+
   openTarget();
   window.addEventListener("hashchange", openTarget);
+
+  document.addEventListener("click", function (event) {
+    var link = event.target.closest("a[href^='#']");
+    if (!link) return;
+    openId(link.getAttribute("href").slice(1));
+  });
 })();
 </script>
 
