@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Reset reference
+title: Reseter.css reference
 permalink: /reference/
 ---
+<details class="toc" open markdown="1">
+<summary>Contents</summary>
 
-<nav class="toc" aria-label="Contents">
-  <p class="toc__label">Contents</p>
-  <ol>
+<ol>
     <li><a href="#universal-border-box-and-zero-spacing">Universal border-box and zero spacing</a></li>
     <li><a href="#root-line-height-and-system-font">Root line height and system font</a></li>
     <li><a href="#no-mobile-text-inflation">No mobile text inflation</a></li>
@@ -37,11 +37,11 @@ permalink: /reference/
     <li><a href="#frameless-iframes">Frameless iframes</a></li>
     <li><a href="#collapsed-table-borders">Collapsed table borders</a></li>
   </ol>
-</nav>
 
-## Universal border-box and zero spacing {#universal-border-box-and-zero-spacing}
+</details>
 
-### Why it exists?
+<details id="universal-border-box-and-zero-spacing" class="rule" markdown="1">
+<summary>Universal border-box and zero spacing</summary>
 
 User agents size boxes from the content edge, and they add margin and padding that differ by element and browser. This rule switches every element, and both pseudos, to `border-box`, so width and height include padding and border, and it clears that spacing so layout starts from the same empty box. Ships in the full build and in mini.
 
@@ -55,9 +55,10 @@ User agents size boxes from the content edge, and they add margin and padding th
 }
 ```
 
-## Root line height and system font {#root-line-height-and-system-font}
+</details>
 
-### Why it exists?
+<details id="root-line-height-and-system-font" class="rule" markdown="1">
+<summary>Root line height and system font</summary>
 
 Body text inherits line height and font from the root, and those defaults differ between engines. The root sets a 1.5 line height and a system UI stack, including color emoji fonts, so unread text matches the platform. Full build only.
 
@@ -68,9 +69,10 @@ Body text inherits line height and font from the root, and those defaults differ
 }
 ```
 
-## No mobile text inflation {#no-mobile-text-inflation}
+</details>
 
-### Why it exists?
+<details id="no-mobile-text-inflation" class="rule" markdown="1">
+<summary>No mobile text inflation</summary>
 
 Mobile browsers enlarge text they consider too small, which changes a layout that set its own type size. `text-size-adjust: none`, with the WebKit and Firefox prefixes, keeps the font size you wrote. Full build only.
 
@@ -82,9 +84,10 @@ Mobile browsers enlarge text they consider too small, which changes a layout tha
 }
 ```
 
-## Block-level main {#block-level-main}
+</details>
 
-### Why it exists?
+<details id="block-level-main" class="rule" markdown="1">
+<summary>Block-level main</summary>
 
 Older browsers left `main` as inline, so it sat in the line and its margins did not behave like a section. `display: block` makes it a normal block container. Full build only.
 
@@ -94,9 +97,10 @@ Older browsers left `main` as inline, so it sat in the line and its margins did 
 }
 ```
 
-## Heading sizes and logical margins {#heading-sizes-and-logical-margins}
+</details>
 
-### Why it exists?
+<details id="heading-sizes-and-logical-margins" class="rule" markdown="1">
+<summary>Heading sizes and logical margins</summary>
 
 User-agent heading margins use physical `margin-top` and `margin-bottom`, so the rhythm breaks in a vertical writing mode. These rules restore the classic size ladder with logical `margin-block` and zero inline margin. Mini ships this same ladder, and also sets `font-weight: normal` and `line-height: 1.5` on `h1`–`h6`.
 
@@ -137,9 +141,10 @@ User-agent heading margins use physical `margin-top` and `margin-bottom`, so the
 }
 ```
 
-## Balanced heading wraps {#balanced-heading-wraps}
+</details>
 
-### Why it exists?
+<details id="balanced-heading-wraps" class="rule" markdown="1">
+<summary>Balanced heading wraps</summary>
 
 A long heading can wrap so the last line holds one short word. `text-wrap: balance` on `h1`–`h4` evens the line lengths. Full build only.
 
@@ -149,9 +154,10 @@ A long heading can wrap so the last line holds one short word. `text-wrap: balan
 }
 ```
 
-## Paragraph spacing {#paragraph-spacing}
+</details>
 
-### Why it exists?
+<details id="paragraph-spacing" class="rule" markdown="1">
+<summary>Paragraph spacing</summary>
 
 The universal spacing reset removes the gap between paragraphs. Adjacent paragraphs (`p + p`) get `1rem` of block-start margin, so body copy still separates, and a paragraph after a heading stays tight to that heading. Full build only.
 
@@ -161,9 +167,10 @@ The universal spacing reset removes the gap between paragraphs. Adjacent paragra
 }
 ```
 
-## Anchor scroll offset {#anchor-scroll-offset}
+</details>
 
-### Why it exists?
+<details id="anchor-scroll-offset" class="rule" markdown="1">
+<summary>Anchor scroll offset</summary>
 
 A fragment link scrolls the `:target` flush with the top of the viewport, where a sticky header covers it. `scroll-margin-block: 5ex` leaves room above the target. Full build only.
 
@@ -173,9 +180,10 @@ A fragment link scrolls the `:target` flush with the top of the viewport, where 
 }
 ```
 
-## Transparent link backgrounds {#transparent-link-backgrounds}
+</details>
 
-### Why it exists?
+<details id="transparent-link-backgrounds" class="rule" markdown="1">
+<summary>Transparent link backgrounds</summary>
 
 Some engines paint a background behind links. Clearing `background-color` keeps the link text on the page background. Full build only.
 
@@ -185,9 +193,10 @@ Some engines paint a background behind links. Clearing `background-color` keeps 
 }
 ```
 
-## Skip-ink on default links {#skip-ink-on-default-links}
+</details>
 
-### Why it exists?
+<details id="skip-ink-on-default-links" class="rule" markdown="1">
+<summary>Skip-ink on default links</summary>
 
 Underlines run through descenders such as g, y, and p. `text-decoration-skip-ink: auto` on links that have no class opens a gap at those letters. Links with a class keep the underline the component draws. Full build only.
 
@@ -197,9 +206,10 @@ Underlines run through descenders such as g, y, and p. `text-decoration-skip-ink
 }
 ```
 
-## Dotted abbreviation underlines {#dotted-abbreviation-underlines}
+</details>
 
-### Why it exists?
+<details id="dotted-abbreviation-underlines" class="rule" markdown="1">
+<summary>Dotted abbreviation underlines</summary>
 
 An `abbr` with a `title` has an expansion, and engines disagree on whether they show that. A dotted underline is the cue. Full build only.
 
@@ -209,9 +219,10 @@ An `abbr` with a `title` has an expansion, and engines disagree on whether they 
 }
 ```
 
-## Monospace sizing {#monospace-sizing}
+</details>
 
-### Why it exists?
+<details id="monospace-sizing" class="rule" markdown="1">
+<summary>Monospace sizing</summary>
 
 WebKit and others shrink `code`, `kbd`, `samp`, and `pre` below `1em` in some parents. Pinning a monospace family and `font-size: 1em` keeps inline code the same size as the surrounding text. Full build only.
 
@@ -222,9 +233,10 @@ WebKit and others shrink `code`, `kbd`, `samp`, and `pre` below `1em` in some pa
 }
 ```
 
-## Subscript and superscript offsets {#subscript-and-superscript-offsets}
+</details>
 
-### Why it exists?
+<details id="subscript-and-superscript-offsets" class="rule" markdown="1">
+<summary>Subscript and superscript offsets</summary>
 
 Default `sub` and `sup` enlarge the line box. A 75% font size, zero line-height, and a relative offset keep the line height of the parent steady. Full build only.
 
@@ -245,9 +257,10 @@ Default `sub` and `sup` enlarge the line box. A 75% font size, zero line-height,
 }
 ```
 
-## Inherited control typography {#inherited-control-typography}
+</details>
 
-### Why it exists?
+<details id="inherited-control-typography" class="rule" markdown="1">
+<summary>Inherited control typography</summary>
 
 Form controls use the browser's own font. `font: inherit` and `line-height: inherit` on buttons, inputs, selects, and textareas make them match the surrounding type. Full build only.
 
@@ -258,9 +271,10 @@ Form controls use the browser's own font. `font: inherit` and `line-height: inhe
 }
 ```
 
-## Borders on text fields {#borders-on-text-fields}
+</details>
 
-### Why it exists?
+<details id="borders-on-text-fields" class="rule" markdown="1">
+<summary>Borders on text fields</summary>
 
 Browsers give text fields different default borders. Text inputs and textareas get a consistent `1px` border in `currentColor`. Button, checkbox, color, file, hidden, image, radio, range, reset, and submit inputs then have that border cleared. Full build only.
 
@@ -285,9 +299,10 @@ Browsers give text fields different default borders. Text inputs and textareas g
 }
 ```
 
-## Button padding {#button-padding}
+</details>
 
-### Why it exists?
+<details id="button-padding" class="rule" markdown="1">
+<summary>Button padding</summary>
 
 Zero padding makes native buttons too small to hit comfortably. `button` and the button-like types get `1px 6px` of padding back. Full build only.
 
@@ -297,9 +312,10 @@ Zero padding makes native buttons too small to hit comfortably. `button` and the
 }
 ```
 
-## Pointer cursor on enabled buttons {#pointer-cursor-on-enabled-buttons}
+</details>
 
-### Why it exists?
+<details id="pointer-cursor-on-enabled-buttons" class="rule" markdown="1">
+<summary>Pointer cursor on enabled buttons</summary>
 
 Several browsers keep the arrow cursor on buttons. Enabled buttons, and enabled `button`, `reset`, and `submit` inputs, use `cursor: pointer`. Disabled controls stay on the default cursor. Full build only.
 
@@ -312,9 +328,10 @@ Several browsers keep the arrow cursor on buttons. Enabled buttons, and enabled 
 }
 ```
 
-## Vertical textarea resize {#vertical-textarea-resize}
+</details>
 
-### Why it exists?
+<details id="vertical-textarea-resize" class="rule" markdown="1">
+<summary>Vertical textarea resize</summary>
 
 The default resize handle lets a textarea grow sideways and overflow the layout. `resize: vertical` keeps the handle and limits growth to the vertical direction. Full build only.
 
@@ -326,9 +343,10 @@ The default resize handle lets a textarea grow sideways and overflow the layout.
 }
 ```
 
-## Placeholder contrast {#placeholder-contrast}
+</details>
 
-### Why it exists?
+<details id="placeholder-contrast" class="rule" markdown="1">
+<summary>Placeholder contrast</summary>
 
 Placeholder text is often a fixed gray that disappears on a dark field. Inheriting the field color at `opacity: 0.5` keeps the hint visible and tied to the text color. The selector is `::placeholder` itself, so `:where()` does not lower its specificity. Full build only.
 
@@ -339,9 +357,10 @@ Placeholder text is often a fixed gray that disappears on a dark field. Inheriti
 }
 ```
 
-## List indentation {#list-indentation}
+</details>
 
-### Why it exists?
+<details id="list-indentation" class="rule" markdown="1">
+<summary>List indentation</summary>
 
 Clearing padding on every element also removes the space that holds list markers. `ul`, `ol`, and `menu` get `padding-inline-start: 40px` so markers stay visible in either writing direction ([#382](https://github.com/ikrishg/reseter.css/issues/382)). Ships in the full build and in mini.
 
@@ -351,9 +370,10 @@ Clearing padding on every element also removes the space that holds list markers
 }
 ```
 
-## Unstyled semantic lists {#unstyled-semantic-lists}
+</details>
 
-### Why it exists?
+<details id="unstyled-semantic-lists" class="rule" markdown="1">
+<summary>Unstyled semantic lists</summary>
 
 Navigation and toolbars often use a list with `role="list"` and should render the items in a line of controls. Those lists drop the marker and the indent. Ships in the full build and in mini.
 
@@ -364,9 +384,10 @@ Navigation and toolbars often use a list with `role="list"` and should render th
 }
 ```
 
-## Responsive media {#responsive-media}
+</details>
 
-### Why it exists?
+<details id="responsive-media" class="rule" markdown="1">
+<summary>Responsive media</summary>
 
 `img`, `picture`, `video`, `canvas`, and `svg` are inline by default and can spill out of a narrow parent. They become blocks, cap their inline size at 100%, and the replaced elements keep `block-size: auto` so the aspect ratio holds ([#389](https://github.com/ikrishg/reseter.css/issues/389)). Ships in the full build and in mini.
 
@@ -381,9 +402,10 @@ Navigation and toolbars often use a list with `role="list"` and should render th
 }
 ```
 
-## Icon fill from current color {#icon-fill-from-current-color}
+</details>
 
-### Why it exists?
+<details id="icon-fill-from-current-color" class="rule" markdown="1">
+<summary>Icon fill from current color</summary>
 
 An inline SVG ignores the text color when it has no fill. SVGs without a `fill` attribute use `currentColor`, so icons follow the surrounding color. Full build only.
 
@@ -393,9 +415,10 @@ An inline SVG ignores the text color when it has no fill. SVGs without a `fill` 
 }
 ```
 
-## Open dialog layout {#open-dialog-layout}
+</details>
 
-### Why it exists?
+<details id="open-dialog-layout" class="rule" markdown="1">
+<summary>Open dialog layout</summary>
 
 An open `dialog` is sized and colored differently across engines. This rule centers it, paints it with `Canvas` and `CanvasText`, and fits the box to its content. A closed dialog is hidden by the unlayered rule below. Full build only.
 
@@ -413,9 +436,10 @@ An open `dialog` is sized and colored differently across engines. This rule cent
 }
 ```
 
-## Table color and indent {#table-color-and-indent}
+</details>
 
-### Why it exists?
+<details id="table-color-and-indent" class="rule" markdown="1">
+<summary>Table color and indent</summary>
 
 A table can inherit a text indent from an ancestor, and its border color may stay on the user-agent default. `text-indent: 0` and `border-color: inherit` follow the surrounding text. Full build only. Mini collapses table borders in its own rule, further down.
 
@@ -428,9 +452,10 @@ A table can inherit a text indent from an ancestor, and its border color may sta
 
 <span id="cascade"></span>
 
-## Hide closed dialogs {#hide-closed-dialogs}
+</details>
 
-### Why it exists?
+<details id="hide-closed-dialogs" class="rule" markdown="1">
+<summary>Hide closed dialogs</summary>
 
 A `dialog` without the `open` attribute has to stay off screen. This rule sets `display: none` on that state. It lives outside `@layer reset`, so an unlayered author style is what overrides it, and a rule inside the reset layer cannot reveal a closed dialog. Full build only.
 
@@ -440,9 +465,10 @@ A `dialog` without the `open` attribute has to stay off screen. This rule sets `
 }
 ```
 
-## The hidden attribute {#the-hidden-attribute}
+</details>
 
-### Why it exists?
+<details id="the-hidden-attribute" class="rule" markdown="1">
+<summary>The hidden attribute</summary>
 
 The `hidden` attribute has to win against a class that sets `display`. The selector is written without `:where()`, so its specificity is (0, 2, 0). `hidden="until-found"` is left alone so find-in-page can reveal it. This rule is also outside `@layer reset`. Full build only.
 
@@ -452,9 +478,10 @@ The `hidden` attribute has to win against a class that sets `display`. The selec
 }
 ```
 
-## Frameless iframes {#frameless-iframes}
+</details>
 
-### Why it exists?
+<details id="frameless-iframes" class="rule" markdown="1">
+<summary>Frameless iframes</summary>
 
 Browsers draw a border around `iframe`. Mini removes it. Mini only.
 
@@ -464,9 +491,10 @@ Browsers draw a border around `iframe`. Mini removes it. Mini only.
 }
 ```
 
-## Collapsed table borders {#collapsed-table-borders}
+</details>
 
-### Why it exists?
+<details id="collapsed-table-borders" class="rule" markdown="1">
+<summary>Collapsed table borders</summary>
 
 Separate table borders leave a gap between cells. Mini collapses the borders and clears the spacing. Mini only.
 
@@ -476,3 +504,19 @@ Separate table borders leave a gap between cells. Mini collapses the borders and
   border-spacing: 0;
 }
 ```
+
+</details>
+
+<script>
+(function () {
+  function openTarget() {
+    var id = location.hash.slice(1);
+    if (!id) return;
+    var el = document.getElementById(id);
+    if (el && el.tagName === "DETAILS") el.open = true;
+  }
+  openTarget();
+  window.addEventListener("hashchange", openTarget);
+})();
+</script>
+

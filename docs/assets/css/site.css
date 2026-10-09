@@ -159,38 +159,65 @@ main .highlight pre {
 .highlight .cm { color: #6e7781; font-style: italic; }
 .highlight .p { color: #24292f; }
 
-.toc {
-  margin: 0 0 2.5rem;
-  padding: 1rem 1.25rem 1.1rem;
+main details {
+  margin: 0 0 0.75rem;
+  padding: 0.65rem 1rem 0.75rem;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: #fafafa;
 }
 
-.toc__label {
-  margin: 0 0 0.6rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--muted);
+main details > summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style-position: outside;
 }
 
-.toc ol {
+main details > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+main details[open] > summary {
+  margin-bottom: 0.75rem;
+}
+
+main details.rule {
+  background: #fff;
+}
+
+main details.rule[open] {
+  padding-bottom: 1rem;
+}
+
+main details.toc {
+  margin: 0 0 2rem;
+}
+
+main details.toc ol {
   margin: 0;
   padding-inline-start: 1.25rem;
 }
 
-.toc li {
+main details.toc li {
   margin: 0.2rem 0;
 }
 
-.toc a {
+main details.toc a {
   text-decoration: none;
 }
 
-.toc a:hover {
+main details.toc a:hover {
   text-decoration: underline;
+}
+
+.impact-press-list ol {
+  margin: 0 0 2rem;
+  padding-inline-start: 1.35rem;
+}
+
+.impact-press-list li {
+  margin: 0.55rem 0;
 }
 
 main :not(pre) > code {
