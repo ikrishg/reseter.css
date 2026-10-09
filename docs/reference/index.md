@@ -262,7 +262,7 @@ Form controls use the browser's own font. `font: inherit` and `line-height: inhe
 
 ### Why it exists?
 
-The universal reset removes every border, so text fields disappear into the page. Text inputs and textareas get a `1px` border in `currentColor`. Button, checkbox, color, file, hidden, image, radio, range, reset, and submit inputs then have that border cleared. Full build only.
+Browsers give text fields different default borders. Text inputs and textareas get a consistent `1px` border in `currentColor`. Button, checkbox, color, file, hidden, image, radio, range, reset, and submit inputs then have that border cleared. Full build only.
 
 ```css
 :where(input, textarea) {
@@ -316,7 +316,7 @@ Several browsers keep the arrow cursor on buttons. Enabled buttons, and enabled 
 
 ### Why it exists?
 
-The default resize handle lets a textarea grow sideways and overflow the layout. `resize: vertical` keeps the handle and limits growth to the block axis. Full build only.
+The default resize handle lets a textarea grow sideways and overflow the layout. `resize: vertical` keeps the handle and limits growth to the vertical direction. Full build only.
 
 ```css
 :where(textarea) {
