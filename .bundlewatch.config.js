@@ -6,7 +6,7 @@ module.exports = {
     },
     {
       path: "dist/index.min.css",
-      maxSize: "1.05kb",
+      maxSize: "1000B",
     },
     {
       path: "dist/mini.css",
