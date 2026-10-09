@@ -1,0 +1,7 @@
+:where(dialog):not([open]) {
+  display: none;
+}
+
+[hidden]:not([hidden="until-found" i]) {
+  display: none;
+}

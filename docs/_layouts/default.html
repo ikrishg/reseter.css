@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include nav.html %}
+    <main id="main" class="container{% if page.page_class %} {{ page.page_class }}{% endif %}">
+      {% if page.title and page.url != '/' %}
+        <header class="page-header">
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}
+            <p class="lede">{{ page.description | replace: "__RESETER_VERSION__", site.reseter_version }}</p>
+          {% endif %}
+        </header>
+      {% endif %}
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

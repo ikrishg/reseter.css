@@ -1,0 +1,8 @@
+:where(ul, ol, menu) {
+  padding-inline-start: 40px;
+}
+
+:where(ul[role="list"], ol[role="list"]) {
+  list-style: none;
+  padding-inline-start: 0;
+}

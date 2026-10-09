@@ -1,0 +1,9 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+  {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
+</title>
+<meta name="description" content="{{ page.description | default: site.description | replace: "__RESETER_VERSION__", site.reseter_version }}">
+<link rel="stylesheet" href="{{ site.reseter_cdn }}/dist/index.min.css">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<link rel="icon" href="{{ '/assets/img/logo.svg' | relative_url }}" type="image/svg+xml">

@@ -2,12 +2,16 @@
   background-color: transparent;
 }
 
+:where(a:not([class])) {
+  text-decoration-skip-ink: auto;
+}
+
 :where(abbr[title]) {
   text-decoration: underline dotted;
 }
 
 :where(code, kbd, samp, pre) {
-  font-family: monospace, monospace;
+  font-family: ui-monospace, monospace;
   font-size: 1em;
 }
 
