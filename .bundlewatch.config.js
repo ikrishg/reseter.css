@@ -5,6 +5,7 @@ module.exports = {
       maxSize: "1.1kb",
     },
     {
+      // Exact 1000-byte Brotli ceiling for #397 (not "1kb" / 1024B).
       path: "dist/index.min.css",
       maxSize: "1000B",
     },
