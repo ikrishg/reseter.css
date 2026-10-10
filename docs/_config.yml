@@ -18,9 +18,9 @@ exclude:
   - README.md
 
 # Current release (package.json, npm, jsDelivr, and these docs)
-reseter_version: "3.0.0"
-reseter_published_version: "3.0.0"
-reseter_cdn: "https://cdn.jsdelivr.net/npm/reseter.css@3.0.0"
-reseter_cdn_mini: "https://cdn.jsdelivr.net/npm/reseter.css@3.0.0/dist/mini.min.css"
+reseter_version: "3.0.1"
+reseter_published_version: "3.0.1"
+reseter_cdn: "https://cdn.jsdelivr.net/npm/reseter.css@3.0.1"
+reseter_cdn_mini: "https://cdn.jsdelivr.net/npm/reseter.css@3.0.1/dist/mini.min.css"
 repo: "https://github.com/ikrishg/reseter.css"
 npm: "https://www.npmjs.com/package/reseter.css"
