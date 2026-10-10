@@ -30,10 +30,10 @@ npm install reseter.css
 ```
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css@3.0.0/dist/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css@3.0.1/dist/index.min.css">
 ```
 
-**Current release: 3.0.0** — reset audit ([#390](https://github.com/ikrishg/reseter.css/pull/390)): `@layer reset`, logical properties, and form/dialog fixes ([#382](https://github.com/ikrishg/reseter.css/issues/382)–[#389](https://github.com/ikrishg/reseter.css/issues/389)). Pin CDN URLs to `@3.0.0`. Full notes in [CHANGELOG](CHANGELOG.md#300-2026-10-07) and the [docs site](https://ikrishg.github.io/reseter.css/).
+**Current release: 3.0.1** — CI + sub-1 KB Brotli full min bundle ([#401](https://github.com/ikrishg/reseter.css/pull/401)); 3.0.0 reset audit ([#390](https://github.com/ikrishg/reseter.css/pull/390)). Pin CDN URLs to `@3.0.1`. Full notes in [CHANGELOG](CHANGELOG.md#301-2026-10-10) and the [docs site](https://ikrishg.github.io/reseter.css/).
 
 Load your CSS **after** reseter.css.
 

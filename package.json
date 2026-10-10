@@ -1,6 +1,6 @@
 {
   "name": "reseter.css",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "packageManager": "pnpm@10.15.0",
   "description": "The Modern CSS Reset 🚀",
   "main": "dist/index.min.css",
