@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.0.1 (2026-10-10)
+
+### Performance
+
+- Trim the `:root` system font stack so `dist/index.min.css` is **951 B** Brotli (was ~1008 B); set bundlewatch max to `1000B` ([#397](https://github.com/ikrishg/reseter.css/issues/397), [#401](https://github.com/ikrishg/reseter.css/pull/401)).
+
+### Chore
+
+- Add GitHub Actions CI (`pnpm install --frozen-lockfile` + `pnpm run build`) on pull requests and `main`, with Actions pinned to commit SHAs ([#396](https://github.com/ikrishg/reseter.css/issues/396), [#401](https://github.com/ikrishg/reseter.css/pull/401)).
+- Optimize showcase images via ImgBot ([#400](https://github.com/ikrishg/reseter.css/pull/400)).
+
 ## 3.0.0 (2026-10-07)
 
 ### Features
