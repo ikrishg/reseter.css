@@ -16,24 +16,21 @@
   <img alt="Showcase: consistent form controls across browsers" src=".github/assets/showcase.png">
 </p>
 
-Cross-browser normalization and sensible defaults in a **compact** stylesheet (~**1 KB Brotli** for the minified full build on current `main`; see bundlewatch). Opinionated where it helps (border-box, system fonts), careful where it matters (forms, `dialog`, `hidden=until-found`).
-
 ## Install
+
+### Through NPM
 
 ```bash
 pnpm add reseter.css
-```
-
-```bash
 # or
 npm install reseter.css
 ```
 
+### Through CDN
+
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css@3.0.1/dist/index.min.css">
 ```
-
-**Current release: 3.0.1** — CI + sub-1 KB Brotli full min bundle ([#401](https://github.com/ikrishg/reseter.css/pull/401)); 3.0.0 reset audit ([#390](https://github.com/ikrishg/reseter.css/pull/390)). Pin CDN URLs to `@3.0.1`. Full notes in [CHANGELOG](CHANGELOG.md#301-2026-10-10) and the [docs site](https://ikrishg.github.io/reseter.css/).
 
 Load your CSS **after** reseter.css.
 
@@ -45,26 +42,18 @@ Load your CSS **after** reseter.css.
 
 Topics include install/CDN, full vs mini, framework recipes, and a rule-by-rule reference.
 
-## Builds
-
-Supported entry points (see `package.json` `exports`):
+## Exports
 
 | Import / path | Purpose |
 | --- | --- |
 | `reseter.css` | Default full reset (`dist/index.min.css`) |
 | `reseter.css/mini` | Minimal subset |
-| `reseter.css/dist/index.min.css` | Explicit full min path |
-| `reseter.css/css/reseter.min.css` | Legacy alias (generated at build; same bytes as full min) |
 
 ## Develop
 
 ```bash
 pnpm install
 pnpm build
-```
-
-```bash
-# or: npm install && npm run build
 ```
 
 ## Community
@@ -77,6 +66,6 @@ Stargazers:
 
 [![GitHub Stars](https://img.shields.io/github/stars/ikrishg/reseter.css?style=for-the-badge&color=gold)](https://github.com/ikrishg/reseter.css/stargazers)
 
-[Discussions](https://github.com/ikrishg/reseter.css/discussions) · [Issues](https://github.com/ikrishg/reseter.css/issues) · [Contributing](CONTRIBUTING.md)
+[Issues](https://github.com/ikrishg/reseter.css/issues) · [Contributing](CONTRIBUTING.md)
 
 MIT © [Krish Gupta](https://github.com/ikrishg)
